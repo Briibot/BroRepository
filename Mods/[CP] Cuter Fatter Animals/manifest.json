@@ -1,0 +1,12 @@
+{
+    "Name": "Cuter Fatter Animals",
+    "Author": "IdentityPollution",
+    "Version": "2.0",
+    "Description": "replaces your animals with cuter fatter ones",
+    "UniqueID": "IdentityPollution.Chonkins",
+    "MinimumApiVersion": "2.5",
+    "UpdateKeys": ["Nexus:3640"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

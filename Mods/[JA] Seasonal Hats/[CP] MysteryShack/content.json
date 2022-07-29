@@ -1,0 +1,11 @@
+{
+  "Format": "1.0",
+  "Changes": [
+		{
+		  "LogName": "MysteryShack",
+          "Action": "Load",
+          "Target": "Buildings/houses",
+          "FromFile": "assets/houses.png",
+       },
+    ]
+}

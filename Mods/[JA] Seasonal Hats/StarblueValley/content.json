@@ -1,0 +1,731 @@
+//PINK OAK LEAVES ENABLED
+
+{
+	"Format": "1.0",
+	"Changes": [
+		{
+		"Action": "Load",
+		"Target": "spring_beach",
+		"FromFile": "assets/spring_beach.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "Maps/spring_beach",
+		"FromFile": "assets/spring_beach.png",
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage",
+		"Target": "spring_outdoorsTileSheet", //pink oak leaves (background)
+		"FromFile": "assets/spring_outdoorsTileSheet.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 96 }, 
+		"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 96 },
+		"Enabled": true
+		},
+		{
+		 "Action": "EditImage", //pink oak leaves (background)
+		"Target": "Maps/spring_outdoorsTileSheet",
+		"FromFile": "assets/spring_outdoorsTileSheet.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 96 }, 
+		"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 96 },
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage", //green oak leaves (background)
+		"Target": "spring_outdoorsTileSheet",
+		"FromFile": "assets/spring_outdoorsTileSheet_gr.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 96 }, 
+		"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 96 },
+		"Enabled": false
+		},
+		{
+		 "Action": "EditImage", //green oak leaves (background)
+		"Target": "Maps/spring_outdoorsTileSheet",
+		"FromFile": "assets/spring_outdoorsTileSheet_gr.png",
+        "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 96 }, 
+		"ToArea": { "X": 0, "Y": 0, "Width": 48, "Height": 96 },
+		"Enabled": false
+		},
+		{
+		"Action": "EditImage",
+		"Target": "spring_outdoorsTileSheet",
+		"FromFile": "assets/spring_outdoorsTileSheet.png",
+        "FromArea": { "X": 48, "Y": 0, "Width": 352, "Height": 96 }, 
+		"ToArea": { "X": 48, "Y": 0, "Width": 352, "Height": 96 },
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Maps/spring_outdoorsTileSheet",
+		"FromFile": "assets/spring_outdoorsTileSheet.png",
+        "FromArea": { "X": 48, "Y": 0, "Width": 352, "Height": 96 }, 
+		"ToArea": { "X": 48, "Y": 0, "Width": 352, "Height": 96 },
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage",
+		"Target": "spring_outdoorsTileSheet",
+		"FromFile": "assets/spring_outdoorsTileSheet.png",
+        "FromArea": { "X": 0, "Y": 96, "Width": 400, "Height": 1136 }, 
+		"ToArea": { "X": 0, "Y": 96, "Width": 400, "Height": 1136 },
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Maps/spring_outdoorsTileSheet",
+		"FromFile": "assets/spring_outdoorsTileSheet.png",
+        "FromArea": { "X": 0, "Y": 96, "Width": 400, "Height": 1136 }, 
+		"ToArea": { "X": 0, "Y": 96, "Width": 400, "Height": 1136 },
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage",
+		"Target": "spring_outdoorsTileSheet",
+		"FromFile": "assets/spring_outdoorsTileSheet.png",
+        "FromArea": { "X": 0, "Y": 1232, "Width": 80, "Height": 32 }, 
+		"ToArea": { "X": 0, "Y": 1232, "Width": 80, "Height": 32 },
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Maps/spring_outdoorsTileSheet",
+		"FromFile": "assets/spring_outdoorsTileSheet.png",
+        "FromArea": { "X": 0, "Y": 1232, "Width": 80, "Height": 32 }, 
+		"ToArea": { "X": 0, "Y": 1232, "Width": 80, "Height": 32 },
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage", 
+		"Target": "spring_outdoorsTileSheet",
+		"FromFile": "assets/spring_outdoorsTileSheet.png",
+        "FromArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 }, 
+		"ToArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 },
+		"Enabled": true  //disable this to use Eemie's mailbox
+		},
+		{
+		"Action": "EditImage", 
+		"Target": "Maps/spring_outdoorsTileSheet",
+		"FromFile": "assets/spring_outdoorsTileSheet.png",
+        "FromArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 }, 
+		"ToArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 },
+		"Enabled": true  //disable this to use Eemie's mailbox
+		},
+		{
+		"Action": "EditImage",
+		"Target": "spring_outdoorsTileSheet",
+		"FromFile": "assets/spring_outdoorsTileSheet.png",
+        "FromArea": { "X": 96, "Y": 1232, "Width": 304, "Height": 32 }, 
+		"ToArea": { "X": 96, "Y": 1232, "Width": 304, "Height": 32 },
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Maps/spring_outdoorsTileSheet",
+		"FromFile": "assets/spring_outdoorsTileSheet.png",
+        "FromArea": { "X": 96, "Y": 1232, "Width": 304, "Height": 32 }, 
+		"ToArea": { "X": 96, "Y": 1232, "Width": 304, "Height": 32 },
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "spring_town",
+		"FromFile": "assets/spring_town.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "Maps/spring_town",
+		"FromFile": "assets/spring_town.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "summer_beach",
+		"FromFile": "assets/summer_beach.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "Maps/summer_beach",
+		"FromFile": "assets/summer_beach.png",
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage",
+		"Target": "summer_outdoorsTileSheet",
+		"FromFile": "assets/summer_outdoorsTileSheet.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 400, "Height": 1232 }, 
+		"ToArea": { "X": 0, "Y": 0, "Width": 400, "Height": 1232 },
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Maps/summer_outdoorsTileSheet",
+		"FromFile": "assets/summer_outdoorsTileSheet.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 400, "Height": 1232 }, 
+		"ToArea": { "X": 0, "Y": 0, "Width": 400, "Height": 1232 },
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage",
+		"Target": "summer_outdoorsTileSheet",
+		"FromFile": "assets/summer_outdoorsTileSheet.png",
+        "FromArea": { "X": 0, "Y": 1232, "Width": 80, "Height": 32 }, 
+		"ToArea": { "X": 0, "Y": 1232, "Width": 80, "Height": 32 },
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Maps/summer_outdoorsTileSheet",
+		"FromFile": "assets/summer_outdoorsTileSheet.png",
+        "FromArea": { "X": 0, "Y": 1232, "Width": 80, "Height": 32 }, 
+		"ToArea": { "X": 0, "Y": 1232, "Width": 80, "Height": 32 },
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage", 
+		"Target": "summer_outdoorsTileSheet",
+		"FromFile": "assets/summer_outdoorsTileSheet.png",
+        "FromArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 }, 
+		"ToArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 },
+		"Enabled": true //disable this to use Eemie's mailbox
+		},
+				{
+		"Action": "EditImage", 
+		"Target": "Maps/summer_outdoorsTileSheet",
+		"FromFile": "assets/summer_outdoorsTileSheet.png",
+        "FromArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 }, 
+		"ToArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 },
+		"Enabled": true //disable this to use Eemie's mailbox
+		},
+				{
+		"Action": "EditImage",
+		"Target": "summer_outdoorsTileSheet",
+		"FromFile": "assets/summer_outdoorsTileSheet.png",
+        "FromArea": { "X": 96, "Y": 1232, "Width": 304, "Height": 32 }, 
+		"ToArea": { "X": 96, "Y": 1232, "Width": 304, "Height": 32 },
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Maps/summer_outdoorsTileSheet",
+		"FromFile": "assets/summer_outdoorsTileSheet.png",
+        "FromArea": { "X": 96, "Y": 1232, "Width": 304, "Height": 32 }, 
+		"ToArea": { "X": 96, "Y": 1232, "Width": 304, "Height": 32 },
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "summer_town",
+		"FromFile": "assets/summer_town.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "Maps/summer_town",
+		"FromFile": "assets/summer_town.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "fall_beach",
+		"FromFile": "assets/fall_beach.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "Maps/fall_beach",
+		"FromFile": "assets/fall_beach.png",
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage",
+		"Target": "fall_outdoorsTileSheet",
+		"FromFile": "assets/fall_outdoorsTileSheet.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 400, "Height": 1232 }, 
+		"ToArea": { "X": 0, "Y": 0, "Width": 400, "Height": 1232 },
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Maps/fall_outdoorsTileSheet",
+		"FromFile": "assets/fall_outdoorsTileSheet.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 400, "Height": 1232 }, 
+		"ToArea": { "X": 0, "Y": 0, "Width": 400, "Height": 1232 },
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage",
+		"Target": "fall_outdoorsTileSheet",
+		"FromFile": "assets/fall_outdoorsTileSheet.png",
+        "FromArea": { "X": 0, "Y": 1232, "Width": 80, "Height": 32 }, 
+		"ToArea": { "X": 0, "Y": 1232, "Width": 80, "Height": 32 },
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Maps/fall_outdoorsTileSheet",
+		"FromFile": "assets/fall_outdoorsTileSheet.png",
+        "FromArea": { "X": 0, "Y": 1232, "Width": 80, "Height": 32 }, 
+		"ToArea": { "X": 0, "Y": 1232, "Width": 80, "Height": 32 },
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage", 
+		"Target": "fall_outdoorsTileSheet",
+		"FromFile": "assets/fall_outdoorsTileSheet.png",
+        "FromArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 }, 
+		"ToArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 },
+		"Enabled": true   //disable this to use Eemie's mailbox
+		},
+				{
+		"Action": "EditImage",
+		"Target": "Maps/fall_outdoorsTileSheet",
+		"FromFile": "assets/fall_outdoorsTileSheet.png",
+        "FromArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 }, 
+		"ToArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 },
+		"Enabled": true  //disable this to use Eemie's mailbox
+		},
+				{
+		"Action": "EditImage",
+		"Target": "fall_outdoorsTileSheet",
+		"FromFile": "assets/fall_outdoorsTileSheet.png",
+        "FromArea": { "X": 96, "Y": 1232, "Width": 304, "Height": 32 }, 
+		"ToArea": { "X": 96, "Y": 1232, "Width": 304, "Height": 32 },
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Maps/fall_outdoorsTileSheet",
+		"FromFile": "assets/fall_outdoorsTileSheet.png",
+        "FromArea": { "X": 96, "Y": 1232, "Width": 304, "Height": 32 }, 
+		"ToArea": { "X": 96, "Y": 1232, "Width": 304, "Height": 32 },
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "fall_town",
+		"FromFile": "assets/fall_town.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "Maps/fall_town",
+		"FromFile": "assets/fall_town.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "winter_beach",
+		"FromFile": "assets/winter_beach.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "Maps/winter_beach",
+		"FromFile": "assets/winter_beach.png",
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage",
+		"Target": "winter_outdoorsTileSheet",
+		"FromFile": "assets/winter_outdoorsTileSheet.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 400, "Height": 1232 }, 
+		"ToArea": { "X": 0, "Y": 0, "Width": 400, "Height": 1232 },
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Maps/winter_outdoorsTileSheet",
+		"FromFile": "assets/winter_outdoorsTileSheet.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 400, "Height": 1232 }, 
+		"ToArea": { "X": 0, "Y": 0, "Width": 400, "Height": 1232 },
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage",
+		"Target": "winter_outdoorsTileSheet",
+		"FromFile": "assets/winter_outdoorsTileSheet.png",
+        "FromArea": { "X": 0, "Y": 1232, "Width": 80, "Height": 32 }, 
+		"ToArea": { "X": 0, "Y": 1232, "Width": 80, "Height": 32 },
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Maps/winter_outdoorsTileSheet",
+		"FromFile": "assets/winter_outdoorsTileSheet.png",
+        "FromArea": { "X": 0, "Y": 1232, "Width": 80, "Height": 32 }, 
+		"ToArea": { "X": 0, "Y": 1232, "Width": 80, "Height": 32 },
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage", 
+		"Target": "winter_outdoorsTileSheet",
+		"FromFile": "assets/winter_outdoorsTileSheet.png",
+        "FromArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 }, 
+		"ToArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 },
+		"Enabled": true //disable this to use Eemie's mailbox
+		},
+		{
+		"Action": "EditImage", 
+		"Target": "Maps/winter_outdoorsTileSheet",
+		"FromFile": "assets/winter_outdoorsTileSheet.png",
+        "FromArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 }, 
+		"ToArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 },
+		"Enabled": true  //disable this to use Eemie's mailbox
+		},
+		{
+		"Action": "EditImage",
+		"Target": "winter_outdoorsTileSheet",
+		"FromFile": "assets/winter_outdoorsTileSheet.png",
+        "FromArea": { "X": 96, "Y": 1232, "Width": 304, "Height": 32 }, 
+		"ToArea": { "X": 96, "Y": 1232, "Width": 304, "Height": 32 },
+		"Enabled": true
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Maps/winter_outdoorsTileSheet",
+		"FromFile": "assets/winter_outdoorsTileSheet.png",
+        "FromArea": { "X": 96, "Y": 1232, "Width": 304, "Height": 32 }, 
+		"ToArea": { "X": 96, "Y": 1232, "Width": 304, "Height": 32 },
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "winter_town",
+		"FromFile": "assets/winter_town.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "Maps/winter_town",
+		"FromFile": "assets/winter_town.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "DesertTiles",
+		"FromFile": "assets/DesertTiles.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "Maps/DesertTiles",
+		"FromFile": "assets/DesertTiles.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "LooseSprites/map",
+		"FromFile": "assets/map.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/hoeDirt",
+		"FromFile": "assets/hoeDirt.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/hoeDirtDark",
+		"FromFile": "assets/hoeDirtDark.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/hoeDirtSnow",
+		"FromFile": "assets/hoeDirtSnow.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/tree_palm",
+		"FromFile": "assets/tree_palm.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load", //pink oak leaves
+		"Target": "TerrainFeatures/tree1_spring", 
+		"FromFile": "assets/tree1_spring_pk.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load", //green oak leaves
+		"Target": "TerrainFeatures/tree1_spring",
+		"FromFile": "assets/tree1_spring_gr.png",
+		"Enabled": false
+		},
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/tree1_summer",
+		"FromFile": "assets/tree1_summer.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/tree1_fall",
+		"FromFile": "assets/tree1_fall.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/tree1_winter",
+		"FromFile": "assets/tree1_winter.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/tree2_spring",
+		"FromFile": "assets/tree2_spring.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/tree2_summer",
+		"FromFile": "assets/tree2_summer.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/tree2_fall",
+		"FromFile": "assets/tree2_fall.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/tree2_winter",
+		"FromFile": "assets/tree2_winter.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/tree3_spring",
+		"FromFile": "assets/tree3_spring.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/tree3_fall",
+		"FromFile": "assets/tree3_fall.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/tree3_winter",
+		"FromFile": "assets/tree3_winter.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "TileSheets/bushes",
+		"FromFile": "assets/bushes.png",
+		"Enabled": true
+		},
+		{
+         "Action": "EditImage", //cursors: shipping box top
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Cursors.png",
+         "FromArea": { "X": 128, "Y": 224, "Width": 397, "Height": 32 }, 
+		 "ToArea": { "X": 128, "Y": 224, "Width": 397, "Height": 32 },
+		 "Enabled": true
+		},
+		{
+         "Action": "EditImage", //cursors: shipping box body
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Cursors.png",
+         "FromArea": { "X": 526, "Y": 224, "Width": 100, "Height": 22 },
+         "ToArea": { "X": 526, "Y": 224, "Width": 100, "Height": 22 },
+		 "Enabled": true
+		},
+		{
+        "Action": "EditImage", 
+         "Target": "LooseSprites/Cursors", //Robin's construction
+         "FromFile": "assets/Cursors.png",
+         "FromArea": { "X": 351, "Y": 256, "Width": 49, "Height": 85 },
+         "ToArea": { "X": 351, "Y": 256, "Width": 49, "Height": 85 },
+		 "Enabled": true
+		},
+				{
+         "Action": "EditImage", 
+         "Target": "LooseSprites/Cursors", //Robin's construction
+         "FromFile": "assets/Cursors.png",
+         "FromArea": { "X": 400, "Y": 256, "Width": 32, "Height": 49 },
+         "ToArea": { "X": 400, "Y": 256, "Width": 32, "Height": 49 },
+		 "Enabled": true
+		},
+				{
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors", //train
+         "FromFile": "assets/Cursors.png", 
+         "FromArea": { "X": 448, "Y": 448, "Width": 128, "Height": 64 },
+         "ToArea": { "X": 448, "Y": 448, "Width": 128, "Height": 64 },
+		 "Enabled": true
+		},
+				{
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors", //train
+         "FromFile": "assets/Cursors.png", 
+         "FromArea": { "X": 192, "Y": 512, "Width": 256, "Height": 64 },
+         "ToArea": { "X": 192, "Y": 512, "Width": 256, "Height": 64 },
+		 "Enabled": true
+		},
+		{
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors", //train
+         "FromFile": "assets/Cursors.png",
+         "FromArea": { "X": 448, "Y": 512, "Width": 256, "Height": 224 },
+         "ToArea": { "X": 448, "Y": 512, "Width": 256, "Height": 224 },
+		 "Enabled": true
+		},
+		{
+         "Action": "EditImage", //fall festival spinner console
+         "Target": "LooseSprites/Cursors", 
+         "FromFile": "assets/Cursors.png",
+         "FromArea": { "X": 128, "Y": 1184, "Width": 160, "Height": 112 },
+         "ToArea": { "X": 128, "Y": 1184, "Width": 160, "Height": 112 },
+		 "Enabled": true
+		},
+		{
+         "Action": "EditImage", //petals
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Cursors.png",
+         "FromArea": { "X": 352, "Y": 1184, "Width": 176, "Height": 48 },
+         "ToArea": { "X": 352, "Y": 1184, "Width": 176, "Height": 48 },
+		 "Enabled": true
+		},
+		{
+         "Action": "EditImage", //boulder blocking mine
+         "Target": "LooseSprites/Cursors", 
+         "FromFile": "assets/Cursors.png",
+         "FromArea": { "X": 646, "Y": 1218, "Width": 49, "Height": 80 },
+         "ToArea": { "X": 646, "Y": 1218, "Width": 49, "Height": 80 },
+		 "Enabled": true
+		},
+		{
+         "Action": "EditImage", //bus
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Cursors.png",
+         "FromArea": { "X": 288, "Y": 1247, "Width": 96, "Height": 102 },
+         "ToArea": { "X": 288, "Y": 1247, "Width": 96, "Height": 102 },
+		 "Enabled": true
+		},
+		{
+         "Action": "EditImage", //bus
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Cursors.png",
+         "FromArea": { "X": 384, "Y": 1247, "Width": 32, "Height": 83 },
+         "ToArea": { "X": 384, "Y": 1247, "Width": 32, "Height": 83 },
+		 "Enabled": true
+		},
+		{
+         "Action": "EditImage", //joja warehouse
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Cursors.png",
+         "FromArea": { "X": 424, "Y": 1275, "Width": 174, "Height": 101 },
+         "ToArea": { "X": 424, "Y": 1275, "Width": 174, "Height": 101 },
+		 "Enabled": true
+		},
+		{
+         "Action": "EditImage", //river boulders
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Cursors.png",
+         "FromArea": { "X": 439, "Y": 1385, "Width": 78, "Height": 48 },
+         "ToArea": { "X": 439, "Y": 1385, "Width": 78, "Height": 48 },
+		 "Enabled": true
+		},
+				{
+         "Action": "EditImage", //boulders blocking spa in summer
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Cursors.png",
+         "FromArea": { "X": 640, "Y": 1453, "Width": 64, "Height": 80 },
+         "ToArea": { "X": 640, "Y": 1453, "Width": 64, "Height": 80 },
+		 "Enabled": true
+		},
+		{
+         "Action": "EditImage", //joja roof winter
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Cursors.png",
+         "FromArea": { "X": 66, "Y": 1678, "Width": 174, "Height": 25 },
+         "ToArea": { "X": 66, "Y": 1678, "Width": 174, "Height": 25 },
+		 "Enabled": true
+		},
+		{
+         "Action": "EditImage", //Seb garage
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Cursors.png",
+         "FromArea": { "X": 276, "Y": 1843, "Width": 48, "Height": 42 },
+         "ToArea": { "X": 276, "Y": 1843, "Width": 48, "Height": 42 },
+		 "Enabled": true
+		},
+		{
+         "Action": "EditImage", //Seb bike
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Cursors.png",
+         "FromArea": { "X": 405, "Y": 1854, "Width": 47, "Height": 33 },
+         "ToArea": { "X": 405, "Y": 1854, "Width": 47, "Height": 33 },
+		 "Enabled": true
+		},
+		{
+         "Action": "EditImage", // Elliott boat
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Cursors.png",
+         "FromArea": { "X": 461, "Y": 1843, "Width": 64, "Height": 51 },
+         "ToArea": { "X": 461, "Y": 1843, "Width": 64, "Height": 51 },
+		 "Enabled": true
+		},
+		{
+         "Action": "EditImage", //hats
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Cursors.png",
+         "FromArea": { "X": 600, "Y": 1957, "Width": 64, "Height": 32 },
+         "ToArea": { "X": 600, "Y": 1957, "Width": 64, "Height": 32 },
+		 "Enabled": true
+		},
+		{
+         "Action": "EditImage", //boulders blocking spa spring
+         "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/Cursors.png",
+         "FromArea": { "X": 640, "Y": 2176, "Width": 64, "Height": 80 },
+         "ToArea": { "X": 640, "Y": 2176, "Width": 64, "Height": 80 },
+		 "Enabled": true
+		},
+{
+         "Action": "EditImage", //stick debris
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": { "X": 96, "Y": 192, "Width": 32, "Height": 16 },
+         "ToArea": { "X": 96, "Y": 192, "Width": 32, "Height": 16 },
+		 "Enabled": true
+		},
+		{
+         "Action": "EditImage", //log debris
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": { "X": 0, "Y": 400, "Width": 64, "Height": 32 },
+         "ToArea": { "X": 0, "Y": 400, "Width": 64, "Height": 32 },
+		 "Enabled": true
+		},
+		{
+         "Action": "EditImage", //weed debris
+         "Target": "Maps/springobjects",
+         "FromFile": "assets/springobjects.png",
+         "FromArea": { "X": 32, "Y": 448, "Width": 96, "Height": 16 },
+         "ToArea": { "X": 32, "Y": 448, "Width": 96, "Height": 16 },
+		 "Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "Festivals",
+		"FromFile": "assets/Festivals.png",
+		"Enabled": true
+		},
+		{
+		"Action": "Load",
+		"Target": "Maps/Festivals",
+		"FromFile": "assets/Festivals.png",
+		"Enabled": true
+		},
+	]
+}

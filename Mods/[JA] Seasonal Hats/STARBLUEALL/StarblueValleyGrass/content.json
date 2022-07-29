@@ -1,0 +1,11 @@
+{
+	"Format": "1.0",
+	"Changes": [
+		{
+		"Action": "Load",
+		"Target": "TerrainFeatures/grass",
+		"FromFile": "assets/grass.png",
+		"Enabled": true
+		},
+	]
+}

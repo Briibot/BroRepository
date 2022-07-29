@@ -1,0 +1,82 @@
+{
+	"Format": "1.3",
+	"ConfigSchema":
+	{
+		"StoneFloor": { "AllowValues": "true, false" },
+		"CrystalFloor": { "AllowValues": "true, false" },
+		"StrawFloor": { "AllowValues": "true, false" },
+		"GravelPath": { "AllowValues": "true, false" },
+		"WoodPath": { "AllowValues": "true, false" },
+		"CrystalPath": { "AllowValues": "true, false" },
+		"CobblestonePath": { "AllowValues": "true, false" },
+		"SteppingStonePath": { "AllowValues": "true, false" }
+	},
+	"Changes": [
+		// New Paths Replacements
+		{
+			"Action": "EditImage",
+			"Target": "TerrainFeatures/Flooring",
+			"FromFile": "assets/flooring.png",
+			"FromArea": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 64, "Y": 0, "Width": 64, "Height": 64 },
+			"When": { "StoneFloor": "true" }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TerrainFeatures/Flooring",
+			"FromFile": "assets/flooring.png",
+			"FromArea": { "X": 192, "Y": 0, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 192, "Y": 0, "Width": 64, "Height": 64 },
+			"When": { "CrystalFloor": "true" }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TerrainFeatures/Flooring",
+			"FromFile": "assets/flooring.png",
+			"FromArea": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 0, "Y": 64, "Width": 64, "Height": 64 },
+			"When": { "StrawFloor": "true" }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TerrainFeatures/Flooring",
+			"FromFile": "assets/flooring.png",
+			"FromArea": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+			"When": { "GravelPath": "true" }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TerrainFeatures/Flooring",
+			"FromFile": "assets/flooring.png",
+			"FromArea": { "X": 128, "Y": 64, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 128, "Y": 64, "Width": 64, "Height": 64 },
+			"When": { "WoodPath": "true" }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TerrainFeatures/Flooring",
+			"FromFile": "assets/flooring.png",
+			"FromArea": { "X": 192, "Y": 64, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 192, "Y": 64, "Width": 64, "Height": 64 },
+			"When": { "CrystalPath": "true" }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TerrainFeatures/Flooring",
+			"FromFile": "assets/flooring.png",
+			"FromArea": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+			"When": { "CobblestonePath": "true" }
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TerrainFeatures/Flooring",
+			"FromFile": "assets/flooring.png",
+			"FromArea": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+			"ToArea": { "X": 64, "Y": 64, "Width": 64, "Height": 64 },
+			"When": { "SteppingStonePath": "true" }
+		}
+ 
+	]
+}

@@ -1,0 +1,12 @@
+{
+   "Name": "BFAV Crows",
+   "Author": "stardewforest",
+   "Version": "1.0",
+   "Description": "Adds crows as coop animals using BFAV.",
+   "UniqueID": "stardewforest.BFAVcrows",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "3737" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

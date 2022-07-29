@@ -1,0 +1,243 @@
+{
+    "Format": "1.6",
+    "ConfigSchema": {
+        "replace void": {
+            "AllowValues": "true, false"
+        },
+        "replace blue": {
+            "AllowValues": "true, false"
+        },
+        "replace brown": {
+            "AllowValues": "true, false"
+        },
+        "replace white": {
+            "AllowValues": "true, false"
+		},
+        "replace B-Cow": {
+            "AllowValues": "true, false"
+		},
+        "replace W-Cow": {
+            "AllowValues": "true, false"
+		},
+        "replace Sheep": {
+            "AllowValues": "true, false"
+		},
+        "replace Pig": {
+            "AllowValues": "true, false"
+		},
+        "replace Rabbit": {
+            "AllowValues": "true, false"
+		},
+        "replace Dino": {
+            "AllowValues": "true, false"
+        },
+        "replace objects": {
+            "AllowValues": "true, false"
+        },
+        "variant": {
+            "AllowValues": "nowattle, wattle",
+            "Default": "nowattle"
+        }
+    },
+    "Changes": [
+        //chicken sprites
+        {
+            "Action": "Load",
+            "Target": "Animals/Blue Chicken",
+            "FromFile": "assets/chonkin_blue_{{variant}}.png",
+            "When": {
+                "replace blue": "true"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Animals/Brown Chicken",
+            "FromFile": "assets/chonkin_brown_{{variant}}.png",
+            "When": {
+                "replace brown": "true"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Animals/Void Chicken",
+            "FromFile": "assets/chonkin_void_{{variant}}.png",
+            "When": {
+                "replace void": "true"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Animals/White Chicken",
+            "FromFile": "assets/chonkin_white_{{variant}}.png",
+            "When": {
+                "replace white": "true"
+            }
+        },
+		//cows sprites
+		{
+            "Action": "Load",
+            "Target": "Animals/Brown Cow",
+            "FromFile": "assets/Brown Cow.xnb",
+            "When": {
+                "replace B-Cow": "true"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Animals/BabyBrown Cow",
+            "FromFile": "assets/Baby Brown Cow.xnb",
+            "When": {
+                "replace B-Cow": "true"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Animals/White Cow",
+            "FromFile": "assets/White Cow.xnb",
+            "When": {
+                "replace W-Cow": "true"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Animals/BabyWhite Cow",
+            "FromFile": "assets/Baby White Cow.xnb",
+            "When": {
+                "replace W-Cow": "true"
+            }
+        },
+		// pigs sprites
+		{
+            "Action": "Load",
+            "Target": "Animals/Pig",
+            "FromFile": "assets/Pig.xnb",
+            "When": {
+                "replace Pig": "true"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Animals/BabyPig",
+            "FromFile": "assets/Baby Pig.xnb",
+            "When": {
+                "replace Pig": "true"
+            }
+        },
+		//sheep sprites
+        {
+            "Action": "Load",
+            "Target": "Animals/Sheep",
+            "FromFile": "assets/Sheep.xnb",
+            "When": {
+                "replace Sheep": "true"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Animals/BabySheep",
+            "FromFile": "assets/Baby Sheep.xnb",
+            "When": {
+                "replace Sheep": "true"
+            }
+        },
+		{
+            "Action": "Load",
+            "Target": "Animals/ShearedSheep",
+            "FromFile": "assets/Sheared Sheep.xnb",
+            "When": {
+                "replace Sheep": "true"
+            }
+        },
+		//rabbits sprites
+		{
+            "Action": "Load",
+            "Target": "Animals/Rabbit",
+            "FromFile": "assets/Rabbit.xnb",
+            "When": {
+                "replace Rabbit": "true"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Animals/BabyRabbit",
+            "FromFile": "assets/Baby Rabbit.xnb",
+            "When": {
+                "replace Rabbit": "true"
+            }
+        },
+		//dinosaur sprites
+        {
+            "Action": "Load",
+            "Target": "Animals/Dinosaur",
+            "FromFile": "assets/Dinosaur.xnb",
+            "When": {
+                "replace Dino": "true"
+            }
+        },
+
+        //objects
+            //mayo
+        {
+            "Action": "EditImage",
+            "Target": "Maps/springobjects",
+            "FromFile": "assets/objects.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 62,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 273,
+                "Y": 192,
+                "Width": 62,
+                "Height": 16
+            },
+            "When": {
+                "replace objects": "true"
+            }
+        },
+            //small milk
+        {
+            "Action": "EditImage",
+            "Target": "Maps/springobjects",
+            "FromFile": "assets/objects.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 256,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            },
+            "When": {
+                "replace objects": "true"
+            }
+        },
+            //large milk
+        {
+            "Action": "EditImage",
+            "Target": "Maps/springobjects",
+            "FromFile": "assets/objects.png",
+            "FromArea": {
+                "X": 16,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 288,
+                "Y": 112,
+                "Width": 16,
+                "Height": 16
+            },
+            "When": {
+                "replace objects": "true"
+            }
+        }
+    ]
+}

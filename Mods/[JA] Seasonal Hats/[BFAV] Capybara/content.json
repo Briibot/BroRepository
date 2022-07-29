@@ -1,0 +1,36 @@
+// Capybara for Stardew!
+{
+ "Format": "1.6",
+ "Changes": [
+
+//Capybara
+     {
+     "Action": "EditData",
+     "Target": "Data/FarmAnimals",
+     "Entries": {
+     	"Capybara": "1/4/591/595/pig/24/64/84/64/24/64/84/64/1/true/Barn/32/32/32/32/15/5/Shears/644/8000/Capybara/Barn",
+       }
+     },
+// sprites 
+    {
+       "Action": "Load",
+       "Target": "Animals/Capybara",
+       "FromFile": "assets/Capybara.png"
+     },
+
+     {
+       "Action": "Load",
+       "Target": "Animals/BabyCapybara",
+       "FromFile": "assets/BabyCapybara.png"
+     },
+	 
+     {
+       "Action": "Load",
+       "Target": "Animals/ShearedCapybara",
+       "FromFile": "assets/ShearedCapybara.png"
+     },
+
+
+
+]
+}

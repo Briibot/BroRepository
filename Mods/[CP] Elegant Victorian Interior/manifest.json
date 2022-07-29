@@ -1,0 +1,11 @@
+{
+   "Name": "Elegant Victorian Interior",
+   "Author": "mioudew",
+   "Description": "Mi's Elegant Victorian Interior to match Eemie's Interior.",
+   "Version": "1.0.4",
+   "UniqueID": "mi.elegant",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+   "UpdateKeys": [],
+}

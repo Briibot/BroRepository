@@ -1,0 +1,68 @@
+{
+	"Format": "1.3",
+	"Changes": [
+		//Default
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/Default.png",
+			"ToArea": { "X": 0, "Y": 32, "Width": 16, "Height": 32 }
+		},
+		//Rare1
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/Rare1.png",
+			"ToArea": { "X": 96, "Y": 416, "Width": 16, "Height": 32 }
+		},
+		//Rare2
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/Rare2.png",
+			"ToArea": { "X": 16, "Y": 448, "Width": 16, "Height": 32 }
+		},
+		//Rare3
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/Rare3.png",
+			"ToArea": { "X": 96, "Y": 480, "Width": 16, "Height": 32 }
+		},
+		//Rare4
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/Rare4.png",
+			"ToArea": { "X": 0, "Y": 544, "Width": 16, "Height": 32 }
+		},
+		//Rare5
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/Rare5.png",
+			"ToArea": { "X": 16, "Y": 544, "Width": 16, "Height": 32 }
+		},
+		//Rare6
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/Rare6.png",
+			"ToArea": { "X": 32, "Y": 544, "Width": 16, "Height": 32 }
+		},
+		//Rare7
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/Rare7.png",
+			"ToArea": { "X": 48, "Y": 544, "Width": 16, "Height": 32 }
+		},
+		//Rare8
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/Rare8.png",
+			"ToArea": { "X": 64, "Y": 544, "Width": 16, "Height": 32 }
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+  "replace void": "true",
+  "replace blue": "true",
+  "replace brown": "true",
+  "replace white": "true",
+  "replace B-Cow": "true",
+  "replace W-Cow": "true",
+  "replace Sheep": "true",
+  "replace Pig": "true",
+  "replace Rabbit": "true",
+  "replace Dino": "true",
+  "replace objects": "true",
+  "variant": "nowattle"
+}

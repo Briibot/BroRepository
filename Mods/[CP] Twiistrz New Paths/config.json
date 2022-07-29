@@ -1,0 +1,10 @@
+{
+  "StoneFloor": "true",
+  "CrystalFloor": "true",
+  "StrawFloor": "true",
+  "GravelPath": "true",
+  "WoodPath": "true",
+  "CrystalPath": "true",
+  "CobblestonePath": "true",
+  "SteppingStonePath": "true"
+}

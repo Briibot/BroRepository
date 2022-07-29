@@ -1,0 +1,37 @@
+{
+  "DisableToolDeliveryService": false,
+  "DisableToolShipmentService": false,
+  "ToolShipmentServiceFee": 0,
+  "DisableQuestService": false,
+  "QuestServiceFee": 0,
+  "DisableGiftService": false,
+  "GiftServiceFee": 0,
+  "GiftChoicePageSize": 5,
+  "EnableJealousyFromMailedGifts": false,
+  "EnableGiftToNpcWithMaxFriendship": false,
+  "ShowDialogOnItemDelivery": false,
+  "DisablePerPlayerConfig": false,
+  "PlayerRecoveryConfig": {
+    "4213471216908564505": {
+      "PlayerName": "aa",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": false,
+      "RecoverAllItems": false,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
+    },
+    "1307441501905468551": {
+      "PlayerName": "q",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": false,
+      "RecoverAllItems": false,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
+    }
+  },
+  "DisableRecoveryConfigInGameChanges": false,
+  "EnableRecoveryService": false,
+  "RecoverAllItems": false,
+  "RecoverForFree": false,
+  "DisableClearLostItemsOnRandomRecovery": false
+}

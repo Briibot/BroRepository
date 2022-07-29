@@ -1,0 +1,12 @@
+{
+    "Name": "Starblue Valley Grass",
+	"Author": "Lita",
+	"Version": "1.1.0",
+	"UniqueID": "Lita.StarblueValleyGrass",
+	"MinimumApiVersion": "2.5.2",
+	"UpdateKeys": [ "Nexus:1869" ],
+    "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "1.1.0"
+	}
+}

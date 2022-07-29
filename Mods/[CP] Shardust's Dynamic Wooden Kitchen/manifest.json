@@ -1,0 +1,12 @@
+{
+   "Name": "Shardust's Dynamic Wooden Kitchen",
+   "Author": "Shardust",
+   "Version": "1.0.0",
+   "Description": "Shardust's Dynamic Wooden Kitchen",
+   "UniqueID": "Shardust.Dynamic.Wooden.Kitchen",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:3751" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

@@ -1,0 +1,12 @@
+{
+   "Name": "Hojichas' Walls and Floors",
+   "Author": "hojichas",
+   "Version": "1.1.0",
+   "Description": "A simple replacement for wallpaper and flooring",
+   "UniqueID": "hojichas.wallfloors",
+   "MinimumApiVersion": "",
+   "UpdateKeys": [ "Nexus:912" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

@@ -1,0 +1,51 @@
+{
+  "Format": "1.7",
+  
+  "ConfigSchema": {
+    "Horse": {"AllowValues": "Andalusian, AppaloosaGrey, AppaloosaLGrey, AppaloosaPale, AppaloosaBlonde, AppaloosaVanilla, AppaloosaLBrown, AppaloosaBrown, AppaloosaDBrown, AppaloosaBlack, BlackForest, BlackShire, BrownShire, Buckskin, Carthusian, Chestnut, ClevelandBay, Clydesdale, Fjord, Haflinger, Highland, Konik, Marwari, Mustang, Palomino, PintoGrey, PintoLGrey, PintoPale, PintoBlonde, PintoVanilla, PintoLBrown, PintoBrown, PintoDBrown, PintoBlack, PrismaticBlack, PrismaticWhite, RoanBay, RoanBlue, RoanStrawberry, SilverBay, SilverRocky, SolidGrey, SolidLGrey, SolidWhite, SolidPale, SolidBlonde, SolidVanilla, SolidLBrown, SolidBrown, SolidDBrown, SolidBlack, Vanilla, False",
+	"Default": "SilverBay"},
+
+	"Has Saddle": {"AllowValues": "True, False",
+	"Default": "False"},
+	
+	"Saddle Color": {"AllowValues": "Vanilla, Brown, Black, Grey, White, Winter, LightPurple, Purple, LightPink, Pink, Red, Orange, Yellow, Lime, Sage, Green, Teal, Turquoise, Blue, LightBlue",
+	"Default": "Blue"},
+	
+	"Menu Icon": {"AllowValues": "True, False",
+	"Default": "True"},
+	},
+	
+  "Changes": [
+       // Horse
+       {
+          "Action": "Load",
+          "Target": "Animals/Horse",
+          "FromFile": "assets/{{Horse}}.png",
+		  "Horse": "Andalusian, AppaloosaGrey, AppaloosaLGrey, AppaloosaPale, AppaloosaBlonde, AppaloosaVanilla, AppaloosaLBrown, AppaloosaBrown, AppaloosaDBrown, AppaloosaBlack, BlackForest, BlackShire, BrownShire, Buckskin, Carthusian, Chestnut, ClevelandBay, Clydesdale, Fjord, Haflinger, Highland, Konik, Marwari, Mustang, Palomino, PintoGrey, PintoLGrey, PintoPale, PintoBlonde, PintoVanilla, PintoLBrown, PintoBrown, PintoDBrown, PintoBlack, PrismaticBlack, PrismaticWhite, RoanBay, RoanBlue, RoanStrawberry, SilverBay, SilverRocky, SolidGrey, SolidLGrey, SolidWhite, SolidPale, SolidBlonde, SolidVanilla, SolidLBrown, SolidBrown, SolidDBrown, SolidBlack, Vanilla",
+       },
+	   
+	   // Saddle
+       {
+          "Action": "EditImage",
+          "Target": "Animals/Horse",
+          "FromFile": "assets/Saddles/{{Saddle Color}}.png",
+		  "Patchmode": "Overlay",
+		  "When": {
+		  "Has Saddle": "True",
+		  }
+       },
+	   
+	   // Horse Head
+       {
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/{{Horse}}.png",
+          "FromArea": { "X": 156, "Y": 95, "Width": 16, "Height": 16 }, 
+          "ToArea": { "X": 192, "Y": 192, "Width": 16, "Height": 16 },
+          "Patchmode": "Replace",
+		  "When": {
+		  "Menu Icon": "True",
+		  }
+       },
+    ]
+}

@@ -1,0 +1,14 @@
+{
+   "Name": "[BFAV] Capybara",
+   "Author": "stardewforest",
+   "Version": "1.0",
+   "Description": "Spice up your life! Add capybaras to your capybarna!",
+   "UniqueID": "IDP.Capybara",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:1111" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+	  
+   }
+   
+}

@@ -1,0 +1,11 @@
+{
+	"Name": "Unofficial New Paths for ContentPatcher",
+	"Author": "Twiistrz",
+	"Version": "1.0.0",
+	"Description": "An unofficial port of Eemie's New Paths to ContentPatcher",
+	"UniqueID": "Twiistrz.ENP1",
+	"MinimumApiVersion": "2.5",
+	"ContentPackFor":{
+		"UniqueID": "Pathoschild.ContentPatcher"
+	}
+}

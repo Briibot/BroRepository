@@ -1,0 +1,12 @@
+{
+  "Name": "Blacksmith Furniture",
+  "Author": "Spotteddotted",
+  "Version": "1.0.0",
+  "Description": "Adds new furniture to game",
+  "UniqueID": "Platonymous.CustomFurniture.BlacksmithFurniture",
+  "UpdateKeys": ["Nexus:3386"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.8.6"
+  }
+}
