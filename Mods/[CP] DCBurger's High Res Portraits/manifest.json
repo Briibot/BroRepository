@@ -1,0 +1,17 @@
+{
+  "Name": "DCBurger's High Res Portrait Mod", // https://www.nexusmods.com/stardewvalley/mods/4745
+  "Author": "DCBurger",
+  "Version": "1.5.2",
+  "Description": "69 high-resolution portraits for all villagers",
+  "UniqueID": "DCBurger.DCBurgersHighResPortraitMod",
+ "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:4745" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+   "Dependencies": [
+      {
+           "UniqueID": "Platonymous.Toolkit",
+      }
+	],
+}

@@ -1,0 +1,391 @@
+{
+   "Format": "1.19.0",
+
+    "ConfigSchema": {
+    "Elliott": {"AllowValues": "wrinkles, nowrinkles, False",
+	"Default": "wrinkles"},
+    "Elliott_Beach": {"AllowValues": "wrinkles, nowrinkles, False",
+	"Default": "wrinkles"},
+    "Harvey": {"AllowValues": "beardglasseswrinkles, beardwrinkles, glasseswrinkles, wrinkles, glasses, none, False",
+	"Default": "beardglasseswrinkles"},
+    "Harvey_Beach": {"AllowValues": "beardglasseswrinkles, beardwrinkles, glasseswrinkles, wrinkles, glasses, none, False",
+	"Default": "beardglasseswrinkles"},
+    "Krobus": {"AllowValues": "none, mustache, False",
+	"Default": "none"},
+    "Krobus_Trenchcoat": {"AllowValues": "none, mustache, False",
+	"Default": "none"},
+    "Maru": {"AllowValues": "glasses, none, False",
+	"Default": "glasses"},
+    "Maru_Hospital": {"AllowValues": "glasses, none, False",
+	"Default": "glasses"},
+	},
+	
+
+   "Changes": [
+       // optional
+       {
+          "Action": "EditImage",
+          "Target": "Portraits/Elliott",
+          "FromFile": "assets/Elliott/{{Elliott}}.png",
+		  "When": {
+		  "Elliott": "wrinkles, nowrinkles",
+		      }
+		      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Elliott_Beach",
+          "FromFile": "assets/Elliott_Beach/{{Elliott_Beach}}.png",
+		  "When": {
+		  "Elliott_Beach": "wrinkles, nowrinkles",
+	      }
+	      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Harvey",
+          "FromFile": "assets/Harvey/{{Harvey}}.png",
+		  "When": {
+		  "Harvey": "beardglasseswrinkles, beardwrinkles, glasseswrinkles, wrinkles, glasses, none",
+	      }
+	      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Harvey_Beach",
+          "FromFile": "assets/Harvey_Beach/{{Harvey_Beach}}.png",
+		  "When": {
+		  "Harvey_Beach": "beardglasseswrinkles, beardwrinkles, glasseswrinkles, wrinkles, glasses, none",
+	      }
+	      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Krobus",
+          "FromFile": "assets/Krobus/{{Krobus}}.png",
+		  "When": {
+		  "Krobus": "none, mustache",
+	      }
+	      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Krobus_Trenchcoat",
+          "FromFile": "assets/Krobus_Trenchcoat/{{Krobus_Trenchcoat}}.png",
+		  "When": {
+		  "Krobus_Trenchcoat": "none, mustache",
+	      }
+	      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Maru",
+          "FromFile": "assets/Maru/{{Maru}}.png",
+		  "When": {
+		  "Maru": "glasses, none",
+	      }
+	      },
+      {
+          "Action": "EditImage",
+          "Target": "Portraits/Maru_Hospital",
+          "FromFile": "assets/Maru_Hospital/{{Maru_Hospital}}.png",
+		  "When": {
+		  "Maru_Hospital": "glasses, none",
+	      }
+	      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Abigail",
+         "FromFile": "assets/Abigail.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Abigail_Beach",
+         "FromFile": "assets/Abigail_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Alex",
+         "FromFile": "assets/Alex.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Alex_Beach",
+         "FromFile": "assets/Alex_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Bear",
+         "FromFile": "assets/Bear.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Birdie",
+         "FromFile": "assets/Birdie.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Bouncer",
+         "FromFile": "assets/Bouncer.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Caroline",
+         "FromFile": "assets/Caroline.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Caroline_Beach",
+         "FromFile": "assets/Caroline_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Clint",
+         "FromFile": "assets/Clint.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Clint_Beach",
+         "FromFile": "assets/Clint_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Demetrius",
+         "FromFile": "assets/Demetrius.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Dobson",
+         "FromFile": "assets/Dobson.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Dwarf",
+         "FromFile": "assets/Dwarf.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Emily",
+         "FromFile": "assets/Emily.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Emily_Beach",
+         "FromFile": "assets/Emily_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Evelyn",
+         "FromFile": "assets/Evelyn.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/George",
+         "FromFile": "assets/George.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Gil",
+         "FromFile": "assets/Gil.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Governor",
+         "FromFile": "assets/Governor.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Grandpa",
+         "FromFile": "assets/Grandpa.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Gunther",
+         "FromFile": "assets/Gunther.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Gus",
+         "FromFile": "assets/Gus.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Haley",
+         "FromFile": "assets/Haley.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Haley_Beach",
+         "FromFile": "assets/Haley_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Henchman",
+         "FromFile": "assets/Henchman.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Jas",
+         "FromFile": "assets/Jas.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Jodi",
+         "FromFile": "assets/Jodi.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Jodi_Beach",
+         "FromFile": "assets/Jodi_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Kent",
+         "FromFile": "assets/Kent.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Leah",
+         "FromFile": "assets/Leah.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Leah_Beach",
+         "FromFile": "assets/Leah_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Lewis",
+         "FromFile": "assets/Lewis.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Linus",
+         "FromFile": "assets/Linus.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Marlon",
+         "FromFile": "assets/Marlon.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Marnie",
+         "FromFile": "assets/Marnie.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Marnie_Beach",
+         "FromFile": "assets/Marnie_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Maru_Beach",
+         "FromFile": "assets/Maru_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Morris",
+         "FromFile": "assets/Morris.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/MrQi",
+         "FromFile": "assets/MrQi.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Pam",
+         "FromFile": "assets/Pam.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Pam_Beach",
+         "FromFile": "assets/Pam_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/ParrotBoy",
+         "FromFile": "assets/ParrotBoy.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Penny",
+         "FromFile": "assets/Penny.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Penny_Beach",
+         "FromFile": "assets/Penny_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Pierre",
+         "FromFile": "assets/Pierre.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Pierre_Beach",
+         "FromFile": "assets/Pierre_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Robin",
+         "FromFile": "assets/Robin.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Robin_Beach",
+         "FromFile": "assets/Robin_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/SafariGuy",
+         "FromFile": "assets/SafariGuy.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Sam",
+         "FromFile": "assets/Sam.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Sam_Beach",
+         "FromFile": "assets/Sam_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Sandy",
+         "FromFile": "assets/Sandy.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Sebastian",
+         "FromFile": "assets/Sebastian.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Sebastian_Beach",
+         "FromFile": "assets/Sebastian_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Shane",
+         "FromFile": "assets/Shane.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Shane_Beach",
+         "FromFile": "assets/Shane_Beach.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Vincent",
+         "FromFile": "assets/Vincent.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Willy",
+         "FromFile": "assets/Willy.png",
+      },
+      {
+         "Action": "EditImage",
+         "Target": "Portraits/Wizard",
+         "FromFile": "assets/Wizard.png",
+       },
+    ]
+}
