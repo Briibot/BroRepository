@@ -1,0 +1,29 @@
+{
+  "PregnancyData": [],
+  "AnimalData": [],
+  "AnimalContestData": [
+    {
+      "EventId": 657202226,
+      "_date": "26 fall Y2",
+      "Contenders": [
+        "Marnie",
+        "Jas",
+        "Shane"
+      ],
+      "VincentAnimal": "Frog",
+      "MarnieAnimal": "Sheep",
+      "PlayerAnimal": "Brown Cow",
+      "Winner": "Farmer",
+      "ParticipantId": 104155767481440015,
+      "FarmAnimalScore": {
+        "FriendshipPoints": 5,
+        "MonthsOld": 3,
+        "AgePoints": 3,
+        "TreatVariatyPoints": 3,
+        "TreatAveragePoints": 1,
+        "ParentWinnerPoints": 0,
+        "TotalPoints": 12
+      }
+    }
+  ]
+}
