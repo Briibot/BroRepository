@@ -1,0 +1,1406 @@
+// I dont know what I'm doing
+// This is all guess work
+
+
+{
+    "Format": "1.22.0",
+    "DynamicTokens": [
+
+        // Standard Dynamic Tokens
+
+        {
+            "Name": "IndoorVariant", // Indoors
+            "Value": "_Indoor",
+            "When":
+            {
+                "IsOutdoors": "false"
+            }
+        },
+        {
+            "Name": "IndoorVariant", // Outdoors
+            "Value": "_Outdoor",
+            "When":
+            {
+                "IsOutdoors": "true"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "FlowerDance",
+            "When":
+            {
+                "DayEvent": "flower dance",
+                "LocationName": "Forest, temp"
+            }
+        },
+        {
+            "Name": "Festival",
+            "Value": "SpiritsEve",
+            "When":
+            {
+                "DayEvent": "spirit's eve",
+                "LocationName": "town, temp"
+            }
+        },
+
+    ],
+
+    "ConfigSchema":
+    {
+
+        "HarveyFacialHair":
+        {
+            "AllowValues": "True, False",
+            "Default": "True"
+        },
+        "NoNose":
+        {
+            "AllowValues": "True, False",
+            "Default": "True"
+        },
+        "FestivalOutfits":
+        {
+            "AllowValues": "True, False",
+            "Default": "True"
+        },
+        "ExtraOutfits":
+        {
+            "AllowValues": "True, False",
+            "Default": "True"
+        },
+        "MaruGlasses":
+        {
+            "AllowValues": "True, False",
+            "Default": "True"
+        },
+        "FarmerBase":
+        {
+            "AllowValues": "True, False",
+            "Default": "True"
+        },		
+		"SeasonalFarmerBases":
+        {
+            "AllowValues": "True, False",
+            "Default": "False"
+        },
+		"ShirtSpring":
+        {
+            "AllowValues": "ColdWeather, WarmWeather, False",
+            "Default": "WarmWeather"
+        },
+		"ShirtSummer":
+        {
+            "AllowValues": "ColdWeather, WarmWeather, False",
+            "Default": "WarmWeather"
+        },
+		"ShirtFall":
+        {
+            "AllowValues": "ColdWeather, WarmWeather, False",
+            "Default": "ColdWeather"
+        },
+		"ShirtWinter":
+        {
+            "AllowValues": "ColdWeather, WarmWeather, False",
+            "Default": "ColdWeather"
+        },
+		"ShoesSpring":
+        {
+            "AllowValues": "ColdWeather, WarmWeather, False",
+            "Default": "ColdWeather"
+        },
+		"ShoesSummer":
+        {
+            "AllowValues": "ColdWeather, WarmWeather, False",
+            "Default": "WarmWeather"
+        },
+		"ShoesFall":
+        {
+            "AllowValues": "ColdWeather, WarmWeather, False",
+            "Default": "WarmWeather"
+        },
+		"ShoesWinter":
+        {
+            "AllowValues": "ColdWeather, WarmWeather, False",
+            "Default": "ColdWeather"
+        },
+		"IslandSummerClothes":
+        {
+            "AllowValues": "True, False",
+            "Default": "True"
+        },			
+    },
+
+    "Changes": [
+
+        // Regular Characters Portrait
+
+        {
+            "LogName": "Portraits - Seasonal",
+            "Action": "EditImage",
+            "Target": "Portraits/Abigail, Portraits/Alex, Portraits/Caroline, Portraits/Clint, Portraits/Demetrius, Portraits/Elliott, Portraits/Emily, Portraits/Evelyn, Portraits/George, Portraits/Gil, Portraits/Gus, Portraits/Haley, Portraits/Harvey, Portraits/Jas, Portraits/Jodi, Portraits/Kent, Portraits/Leah, Portraits/Lewis, Portraits/Linus, Portraits/Marnie, Portraits/Maru, Portraits/Pam, Portraits/ParrotBoy, Portraits/Penny, Portraits/Pierre, Portraits/Robin, Portraits/Sam, Portraits/Sandy, Portraits/Sebastian, Portraits/Shane, Portraits/Vincent, Portraits/Willy, Portraits/Wizard,",
+            "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{Season}}.png",
+            "Update": "OnLocationChange",    		  
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }
+        },
+        {
+            "LogName": "Portraits - Indoor Variant",
+            "Action": "EditImage",
+            "Target": "Portraits/Abigail, Portraits/Alex, Portraits/Caroline, Portraits/Clint, Portraits/Demetrius, Portraits/Elliott, Portraits/Emily, Portraits/Evelyn, Portraits/George, Portraits/Gus, Portraits/Haley, Portraits/Harvey, Portraits/Jas, Portraits/Jodi, Portraits/Kent, Portraits/Leah, Portraits/Lewis, Portraits/Linus, Portraits/Marnie, Portraits/Maru, Portraits/Pam, Portraits/ParrotBoy, Portraits/Penny, Portraits/Pierre, Portraits/Robin, Portraits/Sam, Portraits/Sandy, Portraits/Sebastian, Portraits/Shane, Portraits/Vincent, Portraits/Willy, Portraits/Wizard,",
+            "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{Season}}{{IndoorVariant}}.png",
+            "Update": "OnLocationChange", 
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }
+        },
+
+
+        // Regular Characters Sprites
+
+        {
+            "LogName": "Characters - Seasonal",
+            "Action": "EditImage",
+            "Target": "Characters/Abigail, Characters/Alex, Characters/Caroline, Characters/Clint, Characters/Demetrius, Characters/Elliott, Characters/Emily, Characters/Evelyn, Characters/George, Characters/Gus, Characters/Harvey, Characters/Haley, Characters/Jas, Characters/Jodi, Characters/KrobusRaven, Characters/Kent, Characters/Leah, Characters/Lewis, Characters/Linus, Characters/Marnie, Characters/Marcello, Characters/Maru_Hospital, Characters/Maru, Characters/Pam, Characters/ParrotBoy, Characters/Penny, Characters/Pierre, Characters/Robin, Characters/Sam, Characters/Sandy, Characters/Sebastian, Characters/Shane, Characters/Shane_JojaMart, Characters/Vincent, Characters/Willy, Characters/Wizard,",
+            "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{Season}}.png",
+            "Update": "OnLocationChange", 
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }
+        },
+        {
+            "LogName": "Characters - Indoor Variant",
+            "Action": "EditImage",
+            "Target": "Characters/Abigail, Characters/Alex, Characters/Caroline, Characters/Clint, Characters/Demetrius, Characters/Elliott, Characters/Emily, Characters/Evelyn, Characters/George, Characters/Gus, Characters/Harvey, Characters/Haley, Characters/Jas, Characters/Jodi, Characters/Kent, Characters/Leah, Characters/Lewis, Characters/Linus, Characters/Marnie, Characters/Marcello, Characters/Maru_Hospital, Characters/Maru, Characters/Pam, Characters/ParrotBoy, Characters/Penny, Characters/Pierre, Characters/Robin, Characters/Sam, Characters/Sandy, Characters/Sebastian, Characters/Shane, Characters/Shane_JojaMart, Characters/Vincent, Characters/Willy, Characters/Wizard,",
+            "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{Season}}{{IndoorVariant}}.png",
+            "Update": "OnLocationChange", 
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }
+
+        },
+		
+//Maru glasses
+        {        
+			"LogName": "Maru glasses",
+            "Action": "EditImage",
+            "Target": "Characters/Maru",
+            "Update": "OnLocationChange",			
+            "FromFile": "assets/characters/Maru/Maru_clear.png",
+			"When": {
+			"MaruGlasses": "false",
+			}, 
+			"PatchMode": "Overlay", 
+		},
+
+        {        
+			"LogName": "Maru glasses hospital",
+            "Action": "EditImage",
+            "Target": "Characters/Maru_Hospital",
+            "Update": "OnLocationChange",	
+            "FromFile": "assets/characters/Maru_Hospital/Maru_Hospital_clear.png",
+			"When": {
+			"MaruGlasses": "false",	
+			}, 
+			"PatchMode": "Overlay", 
+		}, 
+		
+
+        // Festivals
+
+        {
+            "LogName": "Festival Character Sprites",
+            "Action": "EditImage",
+            "Target": "Characters/Abigail, Characters/Alex, Characters/Caroline, Characters/Clint, Characters/Demetrius, Characters/Elliott, Characters/Emily, Characters/Evelyn, Characters/George, Characters/Gus, Characters/Harvey, Characters/Haley, Characters/Jas, Characters/Jodi, Characters/Kent, Characters/Leah, Characters/Lewis, Characters/Linus, Characters/Marnie, Characters/Marcello, Characters/Maru_Hospital, Characters/Maru, Characters/Pam, Characters/ParrotBoy, Characters/Penny, Characters/Pierre, Characters/Robin, Characters/Sam, Characters/Sandy, Characters/Sebastian, Characters/Shane, Characters/Shane_JojaMart, Characters/Vincent, Characters/Willy, Characters/Wizard,",
+            "FromFile": "assets/Characters/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
+            "Update": "OnLocationChange",
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "FestivalOutfits": "True",
+            },
+        },
+        {
+            "LogName": "Festival Character Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Abigail, Portraits/Alex, Portraits/Caroline, Portraits/Clint, Portraits/Demetrius, Portraits/Elliott, Portraits/Emily, Portraits/Evelyn, Portraits/George, Portraits/Gil, Portraits/Gus, Portraits/Haley, Portraits/Harvey, Portraits/Jas, Portraits/Jodi, Portraits/Kent, Portraits/Leah, Portraits/Lewis, Portraits/Linus, Portraits/Marnie, Portraits/Maru, Portraits/Pam, Portraits/ParrotBoy, Portraits/Penny, Portraits/Pierre, Portraits/Robin, Portraits/Sam, Portraits/Sandy, Portraits/Sebastian, Portraits/Shane, Portraits/Vincent, Portraits/Willy, Portraits/Wizard,",
+            "FromFile": "assets/Portraits/Festivals/{{Festival}}/{{TargetWithoutPath}}_{{Festival}}.png",
+            "Update": "OnLocationChange",
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "FestivalOutfits": "True",
+            },
+        },
+
+        // Characters Extra
+
+        {
+            "LogName": "Miscellaneous Characters",
+            "Action": "EditImage",
+            "Target": "Characters/Bouncer, Characters/Birdie, Characters/ClothesTherapyCharacters, Characters/Dwarf, Characters/Governor, Characters/Henchman, Characters/Krobus, Characters/LeahExFemale, Characters/LeahExMale, Characters/Marcello, Characters/Mariner, Characters/Maru_Hospital, Characters/MrQi, Characters/SafariGuy",
+            "FromFile": "assets/Characters/{{TargetWithoutPath}}.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }        
+		},
+
+        // Portraits Extra
+
+        {
+            "LogName": "Miscellaneous Portraits",
+            "Action": "EditImage",
+            "Target": "Portraits/Bouncer, Portraits/Birdie, Portraits/Grandpa, Portraits/Krobus, Portraits/Maru_Hospital, Portraits/MrQi",
+            "FromFile": "assets/Portraits/{{TargetWithoutPath}}.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }
+        },
+
+		// Aerobics Portraits
+
+       {
+            "LogName": "Aerobics",
+            "Action": "EditImage",
+            "Target": "Portraits/Jodi, Portraits/Marnie, Portraits/Caroline, Portraits/Robin, Portraits/Emily, Portraits/Harvey",
+            "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_Aerobics.png",
+            "Update": "OnLocationChange",
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "DayOfWeek": "Tuesday",
+                "LocationName": "SeedShop",
+                "ExtraOutfits": "True",
+                "Weather": "sun, wind, snow",
+            }
+        },
+
+		// Aerobics Sprites
+
+       {
+            "LogName": "Aerobics",
+            "Action": "EditImage",
+            "Target": "Characters/Jodi, Characters/Marnie, Characters/Caroline, Characters/Robin, Characters/Emily, Characters/Harvey",
+            "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_Aerobics.png",
+            "Update": "OnLocationChange",
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "DayOfWeek": "Tuesday",
+                "LocationName": "SeedShop",
+                "ExtraOutfits": "True",
+                "Weather": "sun, wind, snow",
+            }
+        },
+		
+		// Aerobics Portraits Harvey Event
+
+       {
+            "LogName": "Aerobics Harvey Event",
+            "Action": "EditImage",
+            "Target": "Portraits/Jodi, Portraits/Marnie, Portraits/Caroline, Portraits/Robin, Portraits/Emily, Portraits/Harvey",
+            "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_Aerobics.png",
+            "Update": "OnLocationChange",
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Time": "{{Range: 1100, 1500}}",
+				"Hearts:Harvey": "{{range: 6, 14}}",
+                "LocationName": "SeedShop",
+                "ExtraOutfits": "True",
+                "HasSeenEvent: currentPlayer |contains=58": false,
+            }
+        },
+
+		// Aerobics Sprites Harvey Event
+
+       {
+            "LogName": "Aerobics",
+            "Action": "EditImage",
+            "Target": "Characters/Jodi, Characters/Marnie, Characters/Caroline, Characters/Leah, Characters/Pam, Characters/Robin, Characters/Emily, Characters/Harvey",
+            "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_Aerobics.png",
+            "Update": "OnLocationChange",
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "Time": "{{Range: 1100, 1500}}",
+				"Hearts:Harvey": "{{range: 6, 14}}",
+                "LocationName": "SeedShop",
+                "ExtraOutfits": "True",
+                "HasSeenEvent: currentPlayer |contains=58": false,
+            }
+        },
+		
+        // Harvey Portraits and Labcoat
+
+ 
+
+        {
+            "LogName": "Harvey - Labcoat",
+            "Action": "EditImage",
+            "Target": "Portraits/Harvey",
+            "Update": "OnLocationChange",
+            "FromFile": "assets/Portraits/Harvey/Harvey_Doctor.png",
+            "Update": "OnLocationChange",
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,			
+                "HarveyFacialHair": "True, False",
+                "LocationName": "Hospital",
+				"ExtraOutfits": "True",
+            },
+        },
+        {
+            "LogName": "Harvey Sprite - Labcoat",
+            "Action": "EditImage",
+            "Target": "Characters/Harvey",
+            "Update": "OnLocationChange",
+            "FromFile": "assets/Characters/Harvey/Harvey_Doctor.png",
+            "Update": "OnLocationChange",
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "LocationName": "Hospital",
+				"ExtraOutfits": "True",
+            },
+        },
+
+
+		
+// Penny Heart Event
+		{
+            "LogName": "Penny - Bathouse heart event",
+            "Action": "EditImage",
+            "Target": "characters/Penny",
+            "Update": "OnLocationChange",
+			"FromFile": "assets/characters/Penny/Penny_Event.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true, 
+                "LocationName": "BathHouse_Pool",
+            },
+        },
+
+//Harvey Mustache 
+		{
+            "LogName": "Harvey - Mustache Overlay",
+            "Action": "EditImage",
+            "Target": "Portraits/Harvey",
+            "FromFile": "assets/{{Target}}/MustacheOverlay.png",
+            "Update": "OnLocationChange",
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "HarveyFacialHair": "True",
+            },
+            "PatchMode": "Overlay"
+        },
+// Work Outfits 
+// Shane Joja Portrait
+		{
+            "LogName": "Shane - Joja Portrait",
+            "Action": "EditImage",
+            "Target": "Portraits/Shane",
+            "FromFile": "assets/Portraits/Shane/Shane_Joja.png",
+            "Update": "OnLocationChange",
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "HasSeenEvent: currentPlayer |contains=191393": false,
+                "LocationName": "JojaMart",
+				"ExtraOutfits": "True",
+            },
+        },
+// Sam Joja/Museum 
+		{
+            "LogName": "Sam - Work Portrait Joja",
+            "Action": "EditImage",
+            "Target": "Portraits/Sam",
+            "Update": "OnLocationChange",
+			"FromFile": "assets/Portraits/Sam/Sam_Work.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "HasSeenEvent: currentPlayer |contains=191393": false,
+                "LocationName": "JojaMart",
+				"ExtraOutfits": "True",
+				"DayOfWeek": "Monday, Wednesday,"				
+            },
+        },	
+
+		{
+            "LogName": "Sam - Work Portrait Museum",
+            "Action": "EditImage",
+            "Target": "Portraits/Sam",
+            "Update": "OnLocationChange",
+			"FromFile": "assets/Portraits/Sam/Sam_Work.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "HasSeenEvent: currentPlayer |contains=191393": true,
+                "LocationName": "ArchaeologyHouse",
+				"ExtraOutfits": "True",
+				"DayOfWeek": "Monday, Wednesday,"
+            },
+        },	
+
+		{
+            "LogName": "Sam - Work Sprite Joja",
+            "Action": "EditImage",
+            "Target": "characters/Sam",
+            "Update": "OnLocationChange",
+			"FromFile": "assets/characters/Sam/Sam_Work.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true, 
+                "HasSeenEvent: currentPlayer |contains=191393": false,
+                "LocationName": "JojaMart",
+				"ExtraOutfits": "True",
+				"DayOfWeek": "Monday, Wednesday,"
+            },
+        },
+
+		{
+            "LogName": "Sam - Work Sprite Museum",
+            "Action": "EditImage",
+            "Target": "characters/Sam",
+            "Update": "OnLocationChange",
+			"FromFile": "assets/characters/Sam/Sam_Work.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "HasSeenEvent: currentPlayer |contains=191393": true,
+                "LocationName": "ArchaeologyHouse",
+				"ExtraOutfits": "True",
+				"DayOfWeek": "Monday, Wednesday,"
+            },
+        },		
+
+// Clint Blacksmith
+
+		{
+            "LogName": "Clint - Work Portrait Blacksmith Extra",
+            "Action": "EditImage",
+            "Target": "Portraits/Clint",
+            "Update": "OnLocationChange",
+			"FromFile": "assets/Portraits/Clint/Clint_{{Season}}_Work.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "LocationName": "Blacksmith",
+				"ExtraOutfits": "True",
+            },
+        },	
+
+		{
+            "LogName": "Clint - Work Sprite Blacksmith Extra",
+            "Action": "EditImage",
+            "Target": "Characters/Clint",
+            "Update": "OnLocationChange",
+			"FromFile": "assets/Characters/Clint/Clint_{{Season}}_Work.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "LocationName": "Blacksmith",
+				"ExtraOutfits": "True",
+            },
+        },	
+		
+		{
+            "LogName": "Clint - Work Portrait Blacksmith",
+            "Action": "EditImage",
+            "Target": "Portraits/Clint",
+            "Update": "OnLocationChange",
+			"FromFile": "assets/Portraits/Clint/Clint_{{Season}}_Work.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+				"ExtraOutfits": "False",
+            },
+        },	
+
+		{
+            "LogName": "Clint - Work Sprite Blacksmith Extra",
+            "Action": "EditImage",
+            "Target": "Characters/Clint",
+            "Update": "OnLocationChange",
+			"FromFile": "assets/Characters/Clint/Clint_{{Season}}_Work.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+				"ExtraOutfits": "False",
+            },
+        },	
+		
+        //SVE sensitive Characters and Portraits
+		
+        {
+            "LogName": "SVE Sensitive - Portraits",
+            "Action": "EditImage",
+            "Update": "OnLocationChange", 
+            "Target": "Portraits/Marlon, Portraits/Gunther, Portraits/Morris",
+            "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{Season}}.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,	
+            }
+        },
+        {
+            "LogName": "SVE Sensitive - Characters",
+            "Action": "EditImage",
+            "Update": "OnLocationChange", 
+            "Target": "Characters/Marlon, Characters/Gunther, Characters/Morris",
+            "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{Season}}.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,	
+            }
+        },
+
+	   
+	   {
+            "LogName": "Morris - Nose Variant",
+            "Action": "EditImage",
+            "Update": "OnLocationChange", 
+			"Target": "Characters/Morris",
+            "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_nose.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,	
+				"NoNose": "false",			
+            },
+            "PatchMode": "Overlay"
+        },
+		
+
+
+		// Native Beach Portraits
+
+        {
+            "LogName": "Portraits - Beach native",
+            "Action": "EditImage",
+            "Target": "Portraits/Abigail_Beach, Portraits/Alex_Beach, Portraits/Caroline_Beach, Portraits/Clint_Beach, Portraits/Elliott_Beach, Portraits/Emily_Beach, Portraits/Haley_Beach, Portraits/Harvey_Beach, Portraits/Jodi_Beach, Portraits/Leah_Beach, Portraits/Marnie_Beach, Portraits/Maru_Beach, Portraits/Pam_Beach, Portraits/Penny_Beach, Portraits/Pierre_Beach, Portraits/Robin_Beach, Portraits/Sam_Beach, Portraits/Sebastian_Beach, Portraits/Shane_Beach",
+            "FromFile": "assets/Portraits/Beach/{{TargetWithoutPath}}.png",
+            "Update": "OnLocationChange",    		  
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }
+        },
+		
+		// Beach Harvey Mustache
+
+		{
+            "LogName": "Harvey - Mustache Overlay Beach",
+            "Action": "EditImage",
+            "Target": "Portraits/Harvey_Beach",
+            "FromFile": "assets/Portraits/Beach/Harvey_Beach_MustacheOverlay.png",
+            "Update": "OnLocationChange",
+			"When":
+            {
+                "HasFile:{{FromFile}}": true,
+                "HarveyFacialHair": "True",
+            },
+            "PatchMode": "Overlay"
+        },
+		
+		// Native Beach Characters 
+
+        {
+            "LogName": "Characters - Beach native",
+            "Action": "EditImage",
+            "Target": "Characters/Abigail_Beach, Characters/Alex_Beach, Characters/Caroline_Beach, Characters/Clint_Beach, Characters/Demetrius_Beach, Characters/Elliott_Beach, Characters/Emily_Beach, Characters/Haley_Beach, Characters/Harvey_Beach, Characters/Jodi_Beach, Characters/Leah_Beach, Characters/Lewis_Beach, Characters/Marnie_Beach, Characters/Maru_Beach, Characters/Pam_Beach, Characters/Penny_Beach, Characters/Pierre_Beach, Characters/Robin_Beach, Characters/Sam_Beach, Characters/Sebastian_Beach, Characters/Shane_Beach",
+            "FromFile": "assets/Characters/Beach/{{TargetWithoutPath}}.png",
+            "Update": "OnLocationChange",    		  
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+            }
+        },
+
+		//  Beach Portraits Addon
+
+        {
+            "LogName": "Portraits - Beach addon",
+            "Action": "EditImage",
+            "Target": "Portraits/Demetrius, Portraits/Evelyn, Portraits/Gus, Portraits/Jas, Portraits/Kent, Portraits/Lewis, Portraits/Vincent,",
+            "FromFile": "assets/Portraits/Beach/Adds/{{TargetWithoutPath}}_Beach.png",
+            "Update": "OnTimeChange, OnLocationChange",    		  
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+				"LocationName": "IslandSouth, IslandWest, IslandEast, IslandNorth",
+				"Time": "{{Range: 1130, 1820}}",
+            }
+        },
+		
+		//  Beach Characters Addon
+
+        {
+            "LogName": "Characters - Characters addon",
+            "Action": "EditImage",
+            "Target": "Characters/Evelyn, Characters/Gus, Characters/Jas, Characters/Kent, Characters/Vincent, Characters/Lewis",
+            "FromFile": "assets/Characters/Beach/Adds/{{TargetWithoutPath}}_Beach.png",
+            "Update": "OnTimeChange, OnLocationChange",    		  
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+				"LocationName": "IslandSouth, IslandWest, IslandEast, IslandNorth",
+				"Time": "{{Range: 1130, 1820}}",
+            }
+        },
+		
+		// Beach Nose Overlay
+
+        {
+            "LogName": "Beach - Nose Overlay",
+            "Action": "EditImage",
+            "Target": "Characters/Abigail_Beach, Characters/Alex_Beach, Characters/Caroline_Beach, Characters/Clint_Beach, Characters/Demetrius_Beach, Characters/Elliott_Beach, Characters/Emily_Beach, Characters/Haley_Beach, Characters/Harvey_Beach, Characters/Jodi_Beach, Characters/Leah_Beach, Characters/Lewis_Beach, Characters/Marnie_Beach, Characters/Maru_Beach, Characters/Pam_Beach, Characters/Penny_Beach, Characters/Pierre_Beach, Characters/Robin_Beach, Characters/Sam_Beach, Characters/Sebastian_Beach, Characters/Shane_Beach",
+            "FromFile": "assets/Characters/Beach/{{TargetWithoutPath}}_nose.png",
+            "Update": "OnLocationChange",    		  
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+				"NoNose": "false",
+            },
+            "PatchMode": "Overlay"
+        },
+		
+		// Nose Variant
+		
+        {
+            "LogName": "Nose Variant",
+            "Action": "EditImage",
+            "Update": "OnLocationChange",
+            "Target": "Characters/Abigail, Characters/Alex, Characters/Birdie, Characters/Caroline, Characters/Clint, Characters/Demetrius, Characters/Elliott, Characters/Emily, Characters/Evelyn, Characters/George, Characters/Gus, Characters/Harvey, Characters/Haley, Characters/Jas, Characters/Jodi, Characters/Kent, Characters/KrobusRaven, Characters/Leah, Characters/Lewis, Characters/Linus, Characters/Marnie, Characters/Marcello, Characters/Maru_Hospital, Characters/Maru, Characters/Pam, Characters/ParrotBoy, Characters/Penny, Characters/Pierre, Characters/Robin, Characters/SafariGuy, Characters/Sam, Characters/Sandy, Characters/Sebastian, Characters/Shane, Characters/Shane_JojaMart, Characters/Vincent, Characters/Willy, Characters/Wizard,",
+            "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_nose.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+				"NoNose": "false",
+            },
+            "PatchMode": "Overlay"
+        },
+
+		// Nose SpiritsEve
+		
+        {
+            "LogName": "Nose Variant SpiritsEve",
+            "Action": "EditImage",
+            "Update": "OnLocationChange",
+            "Target": "Characters/Demetrius, Characters/Emily, Characters/Pam, Characters/Penny,",         
+		    "FromFile": "assets/Characters/Festivals/SpiritsEve/{{TargetWithoutPath}}_SpiritsEve_nose.png",
+            "When":
+            {
+                "HasFile:{{FromFile}}": true,
+				"NoNose": "false",
+				"FestivalOutfits": "True",
+				"DayEvent": "spirit's eve",				
+            },
+            "PatchMode": "Overlay"
+        },
+        // Farmer
+
+      {  "LogName": "Farmer base changes",
+		 "Action": "EditImage",
+         "Update": "OnLocationChange",
+		 "Target": "characters/farmer/farmer_base, characters/farmer/farmer_base_bald, characters/farmer/farmer_girl_base, characters/farmer/farmer_girl_base_bald",
+         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672 },
+         "ToArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672  },		 
+		 "When": {"FarmerBase": "True" }},
+		 
+      {  "LogName": "Farmer changes shoes spring",
+		 "Action": "EditImage",
+         "Update": "OnLocationChange",
+		 "Target": "characters/farmer/farmer_base, characters/farmer/farmer_base_bald, characters/farmer/farmer_girl_base, characters/farmer/farmer_girl_base_bald",
+         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_{{ShoesSpring}}.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672 },
+         "ToArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672  },		 
+		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "HasFile:{{FromFile}}": true,"Season": "spring" }},
+
+      {  "LogName": "Farmer changes shoes summer",
+		 "Action": "EditImage",
+         "Update": "OnLocationChange",
+		 "Target": "characters/farmer/farmer_base, characters/farmer/farmer_base_bald, characters/farmer/farmer_girl_base, characters/farmer/farmer_girl_base_bald",
+         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_{{ShoesSummer}}.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672 },
+         "ToArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672  },		 
+		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "HasFile:{{FromFile}}": true,"Season": "summer"}},
+
+      {  "LogName": "Farmer changes shoes fall",
+		 "Action": "EditImage",
+         "Update": "OnLocationChange",
+		 "Target": "characters/farmer/farmer_base, characters/farmer/farmer_base_bald, characters/farmer/farmer_girl_base, characters/farmer/farmer_girl_base_bald",
+         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_{{ShoesFall}}.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672 },
+         "ToArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672  },		 
+		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "HasFile:{{FromFile}}": true,"Season": "Fall"}},
+
+      {  "LogName": "Farmer changes shoes winter",
+		 "Action": "EditImage",
+         "Update": "OnLocationChange",
+		 "Target": "characters/farmer/farmer_base, characters/farmer/farmer_base_bald, characters/farmer/farmer_girl_base, characters/farmer/farmer_girl_base_bald",
+         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_{{ShoesWinter}}.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672 },
+         "ToArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672  },		 
+		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "HasFile:{{FromFile}}": true,"Season": "winter"}},
+
+      {  "LogName": "Farmer changes shirt Spring",
+		 "Action": "EditImage",
+         "Update": "OnLocationChange",
+		 "Target": "characters/farmer/farmer_base, characters/farmer/farmer_base_bald, characters/farmer/farmer_girl_base, characters/farmer/farmer_girl_base_bald",
+         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_{{ShirtSpring}}.png",
+         "FromArea": { "X": 97, "Y": 0, "Width": 191, "Height": 672 },
+         "ToArea": { "X": 97, "Y": 0, "Width": 191, "Height": 672  },		 
+		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "HasFile:{{FromFile}}": true, "Season": "spring"}},
+
+      {  "LogName": "Farmer changes shirt Summer",
+		 "Action": "EditImage",
+         "Update": "OnLocationChange",
+		 "Target": "characters/farmer/farmer_base, characters/farmer/farmer_base_bald, characters/farmer/farmer_girl_base, characters/farmer/farmer_girl_base_bald",
+         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_{{ShirtSummer}}.png",
+         "FromArea": { "X": 97, "Y": 0, "Width": 191, "Height": 672 },
+         "ToArea": { "X": 97, "Y": 0, "Width": 191, "Height": 672  },		 
+		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "HasFile:{{FromFile}}": true, "Season": "summer"}},
+
+      {  "LogName": "Farmer changes shirt fall",
+		 "Action": "EditImage",
+         "Update": "OnLocationChange",
+		 "Target": "characters/farmer/farmer_base, characters/farmer/farmer_base_bald, characters/farmer/farmer_girl_base, characters/farmer/farmer_girl_base_bald",
+         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_{{ShirtFall}}.png",
+         "FromArea": { "X": 97, "Y": 0, "Width": 191, "Height": 672 },
+         "ToArea": { "X": 97, "Y": 0, "Width": 191, "Height": 672  },		 
+		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "HasFile:{{FromFile}}": true, "Season": "fall"}},
+
+      {  "LogName": "Farmer changes shirt winter",
+		 "Action": "EditImage",
+         "Update": "OnLocationChange",
+		 "Target": "characters/farmer/farmer_base, characters/farmer/farmer_base_bald, characters/farmer/farmer_girl_base, characters/farmer/farmer_girl_base_bald",
+         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_{{ShirtWinter}}.png",
+         "FromArea": { "X": 97, "Y": 0, "Width": 191, "Height": 672 },
+         "ToArea": { "X": 97, "Y": 0, "Width": 191, "Height": 672  },		 
+		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "HasFile:{{FromFile}}": true, "Season": "winter"}},
+
+ 	  {  "LogName": "Farmer island clothing",
+		 "Action": "EditImage",
+         "Update": "OnLocationChange",
+		 "Target": "characters/farmer/farmer_base, characters/farmer/farmer_base_bald, characters/farmer/farmer_girl_base, characters/farmer/farmer_girl_base_bald",
+         "FromFile": "assets/{{NoNose}}/farmer/{{TargetWithoutPath}}_WarmWeather.png",
+		 "When": {"FarmerBase": "True", "SeasonalFarmerBases": "True", "IslandSummerClothes": "True", "HasFile:{{FromFile}}": true, "LocationName": "IslandWest, IslandNorth, IslandSouth, IslandEast, IslandHut, IslandFarmHouse, IslandFieldOffice, Caldera, VolcanoDungeon0, VolcanoDungeon1, VolcanoDungeon2, VolcanoDungeon3, VolcanoDungeon4, VolcanoDungeon5, VolcanoDungeon6, VolcanoDungeon7, VolcanoDungeon8, VolcanoDungeon9, QiNutRoom, IslandFarmCave, IslandNorthCave1, IslandSouthEastCave, IslandShrine, IslandSouthEast"}},	 		 
+
+// Cursors
+
+      {  "LogName": "Cursors 1",
+		 "Action": "EditImage",
+         "Update": "OnLocationChange",
+		 "Target": "LooseSprites/Cursors",
+         "FromFile": "assets/{{NoNose}}/Random/Cursors_{{Season}}.png",
+         "FromArea": { "X": 0, "Y": 1387, "Width": 114, "Height": 34 },
+         "ToArea": { "X": 0, "Y": 1387, "Width": 114, "Height": 34 }},
+
+      {  "LogName": "Cursors 2",
+		 "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "Update": "OnLocationChange",
+		 "FromFile": "assets/{{NoNose}}/Random/Cursors_{{Season}}.png",
+         "FromArea": { "X": 105, "Y": 1318, "Width": 13, "Height": 31 },
+         "ToArea": { "X": 105, "Y": 1318, "Width": 13, "Height": 31 }},
+
+      {  "LogName": "Cursors 3",
+		 "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "Update": "OnLocationChange",
+		 "FromFile": "assets/{{NoNose}}/Random/Cursors_{{Season}}.png",
+         "FromArea": { "X": 390, "Y": 1405, "Width": 36, "Height": 31 },
+         "ToArea": { "X": 390, "Y": 1405, "Width": 36, "Height": 31 }},
+
+      {  "LogName": "Cursors 4",
+		 "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "Update": "OnLocationChange",
+		 "FromFile": "assets/{{NoNose}}/Random/Cursors_{{Season}}.png",
+         "FromArea": { "X": 558, "Y": 1425, "Width": 60, "Height": 26 },
+         "ToArea": { "X": 558, "Y": 1425, "Width": 60, "Height": 26 }},
+
+      {  "LogName": "Cursors 5",
+		 "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "Update": "OnLocationChange",
+		 "FromFile": "assets/{{NoNose}}/Random/Cursors_{{Season}}.png",
+         "FromArea": { "X": 533, "Y": 1864, "Width": 19, "Height": 27 },
+         "ToArea": { "X": 533, "Y": 1864, "Width": 19, "Height": 27  }},
+
+      {  "LogName": "Cursors 6",
+		 "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "Update": "OnLocationChange",
+		 "FromFile": "assets/{{NoNose}}/Random/Cursors_{{Season}}.png",
+         "FromArea": { "X": 405, "Y": 1854, "Width": 47, "Height": 33 },
+         "ToArea": { "X": 405, "Y": 1854, "Width": 47, "Height": 33 }},
+
+      {  "LogName": "Cursors 7",
+		 "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "Update": "OnLocationChange",
+		 "FromFile": "assets/{{NoNose}}/Random/Cursors_{{Season}}.png",
+         "FromArea": { "X": 413, "Y": 305, "Width": 253, "Height": 28 },
+         "ToArea": { "X": 413, "Y": 305, "Width": 253, "Height": 28 }},
+
+      {  "LogName": "Cursors 8",
+		 "Action": "EditImage",
+         "Target": "LooseSprites/Cursors",
+         "Update": "OnLocationChange",
+		 "FromFile": "assets/{{NoNose}}/Random/Cursors_{{Season}}.png",
+         "FromArea": { "X": 387, "Y": 1311, "Width": 11, "Height": 19 },
+         "ToArea": { "X": 387, "Y": 1311, "Width": 11, "Height": 19 }},
+
+        // Cow Photo
+
+        {
+            "LogName": "Cow Photos",
+            "Action": "EditImage",
+            "Update": "OnLocationChange",
+            "Target": "LooseSprites/cowPhotos",
+            "FromFile": "assets/{{NoNose}}/Random/cowPhotos_{{Season}}.png"
+        },
+
+        {
+            "LogName": "Cow Photos Winter",
+            "Action": "EditImage",
+            "Update": "OnLocationChange",
+            "Target": "LooseSprites/cowPhotosWinter",
+            "FromFile": "assets/{{NoNose}}/Random/cowPhotos_Winter.png"
+        },
+			
+        // Desert
+		
+      {  "LogName": "Desert 1",
+	     "Action": "EditImage",
+         "Target": "Maps/DesertTiles",
+         "Update": "OnLocationChange",
+		 "FromFile": "assets/{{NoNose}}/Random/DesertTiles.png",
+         "FromArea": { "X": 96, "Y": 192, "Width": 30, "Height": 32 },
+         "ToArea": { "X": 96, "Y": 192, "Width": 30, "Height": 32 }},
+
+      {  "LogName": "Desert 2",
+	     "Action": "EditImage",
+         "Target": "Maps/DesertTiles",
+         "Update": "OnLocationChange",
+		 "FromFile": "assets/{{NoNose}}/Random/DesertTiles.png",
+         "FromArea": { "X": 226, "Y": 291, "Width": 29, "Height": 25 },
+         "ToArea": { "X": 226, "Y": 291, "Width": 29, "Height": 25 }},
+		 
+
+
+        // Festivals Map
+
+        {   "LogName": "Festival 1",
+            "Action": "EditImage",
+            "Target": "Maps/Festivals",
+            "FromFile": "assets/{{NoNose}}/Random/Festivals.png",
+            "FromArea": { "X": 336, "Y": 208, "Width": 96, "Height": 47 },
+            "ToArea": { "X": 336, "Y": 208, "Width": 96, "Height": 47 }},
+			
+        {   "LogName": "Festival 2",
+            "Action": "EditImage",
+            "Target": "Maps/Festivals",
+            "FromFile": "assets/{{NoNose}}/Random/Festivals.png",
+            "FromArea": { "X": 480, "Y": 208, "Width": 32, "Height": 35 },
+            "ToArea": { "X": 480, "Y": 208, "Width": 32, "Height": 35 }},
+        
+		{   "LogName": "Festival 3",
+            "Action": "EditImage",
+            "Target": "Maps/Festivals",
+            "FromFile": "assets/{{NoNose}}/Random/Festivals.png",
+            "FromArea": { "X": 448, "Y": 117, "Width": 16, "Height": 59 },
+            "ToArea": { "X": 448, "Y": 117, "Width": 16, "Height": 59 }},
+			
+        {   "LogName": "Festival 4",
+            "Action": "EditImage",
+            "Target": "Maps/Festivals",
+            "FromFile": "assets/{{NoNose}}/Random/Festivals.png",
+            "FromArea": { "X": 289, "Y": 129, "Width": 79, "Height": 31 },
+            "ToArea": { "X": 289, "Y": 129, "Width": 79, "Height": 31 }},
+			
+        {   "LogName": "Festival 5",
+            "Action": "EditImage",
+            "Target": "Maps/Festivals",
+            "FromFile": "assets/{{NoNose}}/Random/Festivals.png",
+            "FromArea": { "X": 289, "Y": 129, "Width": 79, "Height": 31 },
+            "ToArea": {  "X": 289, "Y": 129, "Width": 79, "Height": 31 }},
+			
+        {   "LogName": "Festival 6",
+            "Action": "EditImage",
+            "Target": "Maps/Festivals",
+            "FromFile": "assets/{{NoNose}}/Random/Festivals.png",
+            "FromArea": { "X": 289, "Y": 129, "Width": 79, "Height": 31 },
+            "ToArea": { "X": 289,  "Y": 129, "Width": 79, "Height": 31 }},
+			
+        {   "LogName": "Festival 7",
+            "Action": "EditImage",
+            "Target": "Maps/Festivals",
+            "FromFile": "assets/{{NoNose}}/Random/Festivals.png",
+            "FromArea":  { "X": 274, "Y": 129, "Width": 13, "Height": 15 },
+            "ToArea": {  "X": 274, "Y": 129, "Width": 13, "Height": 15 }},
+			
+        {   "LogName": "Festival 8",
+            "Action": "EditImage",
+            "Target": "Maps/Festivals",
+            "FromFile": "assets/{{NoNose}}/Random/Festivals.png",
+            "FromArea": { "X": 496, "Y": 0, "Width": 16, "Height": 50 },
+            "ToArea": { "X": 496, "Y": 0, "Width": 16, "Height": 50 }},
+
+        //Intro
+
+        {   "LogName": "Jojacorps Intro 1",
+            "Action": "EditImage",
+            "Target": "Minigames/jojacorps",
+            "FromFile": "assets/{{NoNose}}/Random/jojacorps.png",
+            "FromArea": { "X": 109, "Y": 680, "Width": 1010, "Height": 89 },
+            "ToArea": { "X": 109, "Y": 680, "Width": 1010, "Height": 89 }},
+			
+        {   "LogName": "Jojacorps Intro 2",
+            "Action": "EditImage",
+            "Target": "Minigames/jojacorps",
+            "FromFile": "assets/{{NoNose}}/Random/jojacorps.png",
+            "FromArea": { "X": 342, "Y": 592, "Width": 78, "Height": 6 },
+            "ToArea": { "X": 342, "Y": 592, "Width": 78, "Height": 6 }},
+
+        // Junimo Note
+
+        {   "LogName": "Junimo Note",
+            "Action": "EditImage",
+            "Target": "LooseSprites/JunimoNote",
+            "FromFile": "assets/{{NoNose}}/Random/JunimoNote.png",
+            "FromArea": { "X": 352, "Y": 212, "Width": 160, "Height": 32 },
+            "ToArea": { "X": 352, "Y": 212, "Width": 160, "Height": 32 }},
+
+        // Night Market
+
+        {   "LogName": "Night Market 1",
+            "Action": "EditImage",
+            "Target": "Maps/night_market_tilesheet_objects",
+            "FromFile": "assets/{{NoNose}}/Random/nightmarket.png",
+            "FromArea": { "X": 0, "Y": 272, "Width": 96, "Height": 32 },
+            "ToArea": { "X": 0, "Y": 272, "Width": 96, "Height": 32 }},
+			
+        {   "LogName": "Night Market 2",
+            "Action": "EditImage",
+            "Target": "Maps/night_market_tilesheet_objects",
+            "FromFile": "assets/{{NoNose}}/Random/nightmarket.png",
+            "FromArea": { "X": 176, "Y": 288, "Width": 80, "Height": 16 },
+            "ToArea": { "X": 176, "Y": 288, "Width": 80, "Height": 16 }},
+			
+        {   "LogName": "Night Market 3",
+            "Action": "EditImage",
+            "Target": "Maps/night_market_tilesheet_objects",
+            "FromFile": "assets/{{NoNose}}/Random/nightmarket.png",
+            "FromArea": { "X": 224, "Y": 176, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 224, "Y": 176, "Width": 16, "Height": 32 }},
+			
+        {   "LogName": "Night Market 4",
+            "Action": "EditImage",
+            "Target": "Maps/night_market_tilesheet_objects",
+            "FromFile": "assets/{{NoNose}}/Random/nightmarket.png",
+            "FromArea": { "X": 959, "Y": 58, "Width": 8, "Height": 8 },
+            "ToArea": { "X": 959, "Y": 58, "Width": 8, "Height": 8 }},
+			
+        {   "LogName": "Night Market 5",
+            "Action": "EditImage",
+            "Target": "Maps/night_market_tilesheet_objects",
+            "FromFile": "assets/{{NoNose}}/Random/nightmarket.png",
+            "FromArea": { "X": 1056, "Y": 240, "Width": 32, "Height": 32 },
+            "ToArea": { "X": 1056, "Y": 240, "Width": 32, "Height": 32 }},
+			
+        {   "LogName": "Night Market 6",
+            "Action": "EditImage",
+            "Target": "Maps/night_market_tilesheet_objects",
+            "FromFile": "assets/{{NoNose}}/Random/nightmarket.png",
+            "FromArea": { "X": 315, "Y": 112, "Width": 8, "Height": 7 },
+            "ToArea": { "X": 315, "Y": 112, "Width": 8, "Height": 7 }},
+
+
+        //Sam Concert
+
+        {   "LogName": "Sam Show Tiles 1",
+            "Action": "EditImage",
+            "Target": "Maps/samshowtiles",
+            "FromFile": "assets/{{NoNose}}/Random/samshowtiles.png",
+            "FromArea": { "X": 0, "Y": 192, "Width": 160, "Height": 32 },
+            "ToArea": { "X": 0, "Y": 192, "Width": 160, "Height": 32 }},
+			
+        {   "LogName": "Sam Show Tiles 2",
+            "Action": "EditImage",
+            "Target": "Maps/samshowtiles",
+            "FromFile": "assets/{{NoNose}}/Random/samshowtiles.png",
+            "FromArea": { "X": 48, "Y": 0, "Width": 16, "Height": 96 },
+            "ToArea": { "X": 48, "Y": 0, "Width": 16, "Height": 96 }},
+
+        //Stadium
+
+        {   "LogName": "Stadium Tiles 1",
+            "Action": "EditImage",
+            "Target": "Maps/stadium_tiles",
+            "FromFile": "assets/{{NoNose}}/Random/stadium.png",
+            "FromArea": { "X": 0, "Y": 208, "Width": 64, "Height": 96 },
+            "ToArea": { "X": 0, "Y": 208, "Width": 64, "Height": 96 }},
+			
+        {   "LogName": "Stadium Tiles 2",
+            "Action": "EditImage",
+            "Target": "Maps/stadium_tiles",
+            "FromFile": "assets/{{NoNose}}/Random/stadium.png",
+            "FromArea": {  "X": 16, "Y": 176, "Width": 48, "Height": 32 },
+            "ToArea": { "X": 16, "Y": 176, "Width": 48, "Height": 32 }},
+
+        //Submarine
+
+        {   "LogName": "Submarine 1",
+            "Action": "EditImage",
+            "Target": "Maps/submarine_tilesheet",
+            "FromFile": "assets/{{NoNose}}/Random/submarine.png",
+            "FromArea": { "X": 14, "Y": 125, "Width": 18, "Height": 36 },
+            "ToArea": {  "X": 14, "Y": 125, "Width": 18, "Height": 36 }},
+			
+        {   "LogName": "Submarine 2",
+            "Action": "EditImage",
+            "Target": "Maps/submarine_tilesheet",
+            "FromFile": "assets/{{NoNose}}/Random/submarine.png",
+            "FromArea": { "X": 192, "Y": 288, "Width": 64, "Height": 16 },
+            "ToArea": { "X": 192, "Y": 288, "Width": 64, "Height": 16 } },
+
+        //Townint
+
+        {   "LogName": "TownInterior 1",
+            "Action": "EditImage",
+            "Update": "OnLocationChange",
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/{{NoNose}}/Random/townInterior_{{Season}}.png",
+            "FromArea": { "X": 181, "Y": 624, "Width": 26, "Height": 64 },
+            "ToArea": { "X": 181, "Y": 624, "Width": 26, "Height": 64 }},
+			
+        {   "LogName": "TownInterior 2",
+            "Action": "EditImage",
+            "Update": "OnLocationChange",
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/{{NoNose}}/Random/townInterior_{{Season}}.png",
+            "FromArea": { "X": 214, "Y": 657, "Width": 24, "Height": 31 },
+            "ToArea": { "X": 214, "Y": 657, "Width": 24, "Height": 31 }},
+			
+        {   "LogName": "TownInterior 3",
+            "Action": "EditImage",
+            "Update": "OnLocationChange",
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/{{NoNose}}/Random/townInterior_{{Season}}.png",
+            "FromArea": { "X": 368, "Y": 1008, "Width": 48, "Height": 32 },
+            "ToArea": { "X": 368, "Y": 1008, "Width": 48, "Height": 32 }},
+			
+        {   "LogName": "TownInterior 4",
+            "Action": "EditImage",
+            "Update": "OnLocationChange",
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/{{NoNose}}/Random/townInterior_{{Season}}.png",
+            "FromArea": { "X": 352, "Y": 944, "Width": 32, "Height": 26 },
+            "ToArea": { "X": 352, "Y": 944, "Width": 32, "Height": 26 }},
+
+        //Movie Theater
+
+        {   "LogName": "Movie Theater 1",
+            "Action": "EditImage",
+            "Update": "OnLocationChange",
+            "Target": "Maps/MovieTheater_TileSheet",
+            "FromFile": "assets/{{NoNose}}/Random/MovieTheater_{{Season}}.png",
+            "FromArea": { "X": 112, "Y": 192, "Width": 96,  "Height": 64 },
+            "ToArea": { "X": 112, "Y": 192, "Width": 96, "Height": 64 }},
+			
+        {   "LogName": "Movie Theater 2",
+            "Action": "EditImage",
+            "Update": "OnLocationChange",
+            "Target": "Maps/MovieTheater_TileSheet",
+            "FromFile": "assets/{{NoNose}}/Random/MovieTheater_{{Season}}.png",
+            "FromArea": { "X": 192, "Y": 176, "Width": 48, "Height": 16 },
+            "ToArea": { "X": 192, "Y": 176, "Width": 48, "Height": 16 }},
+			
+        {   "LogName": "Movie Theater 3",
+            "Action": "EditImage",
+            "Update": "OnLocationChange",
+            "Target": "Maps/MovieTheater_TileSheet",
+            "FromFile": "assets/{{NoNose}}/Random/MovieTheater_{{Season}}.png",
+            "FromArea": { "X": 240, "Y": 160, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 240, "Y": 160, "Width": 16, "Height": 32 }},
+			
+        {   "LogName": "Movie Theater 4 Marlon",
+            "Action": "EditImage",
+            "Update": "OnLocationChange",
+            "Target": "Maps/MovieTheater_TileSheet",
+            "FromFile": "assets/{{NoNose}}/Random/MovieTheater_{{Season}}.png",
+            "FromArea": { "X": 0, "Y": 192, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 0, "Y": 192, "Width": 16, "Height": 32 },
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false}},
+
+        {   "LogName": "Movie Theater 6 Gunther",
+            "Action": "EditImage",
+			"Update": "OnLocationChange",
+            "Target": "Maps/MovieTheaterJoja_TileSheet",
+            "FromFile": "assets/{{NoNose}}/Random/MovieTheater_{{Season}}.png",
+            "FromArea": { "X": 208, "Y": 192, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 208, "Y": 192, "Width": 16, "Height": 32 },
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false}},
+
+        {   "LogName": "Movie Theater 7 Mayor",
+            "Action": "EditImage",
+			"Update": "OnLocationChange",
+            "Target": "Maps/MovieTheaterJoja_TileSheet",
+            "FromFile": "assets/{{NoNose}}/Random/MovieTheater_{{Season}}.png",
+            "FromArea": { "X": 208, "Y": 224, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 208, "Y": 224, "Width": 16, "Height": 32 }},	
+
+        {   "LogName": "Movie Theater 8 balloon guy",
+            "Action": "EditImage",
+            "Update": "OnLocationChange",
+            "Target": "Maps/MovieTheater_TileSheet",
+            "FromFile": "assets/{{NoNose}}/Random/MovieTheater_{{Season}}.png",
+            "FromArea": { "X": 16, "Y": 192, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 16, "Y": 192, "Width": 16, "Height": 32 }},
+
+        //Movie Theater Joja
+
+        {   "LogName": "Movie Theater Joja 1",
+            "Action": "EditImage",
+			"Update": "OnLocationChange",
+            "Target": "Maps/MovieTheaterJoja_TileSheet",
+            "FromFile": "assets/{{NoNose}}/Random/MovieTheaterJoja_{{Season}}.png",
+            "FromArea": { "X": 112, "Y": 192, "Width": 96, "Height": 64 },
+            "ToArea": { "X": 112, "Y": 192, "Width": 96, "Height": 64 }},
+			
+        {   "LogName": "Movie Theater Joja 2",
+            "Action": "EditImage",
+			"Update": "OnLocationChange",
+            "Target": "Maps/MovieTheaterJoja_TileSheet",
+            "FromFile": "assets/{{NoNose}}/Random/MovieTheaterJoja_{{Season}}.png",
+            "FromArea": { "X": 192, "Y": 176, "Width": 48, "Height": 16 },
+            "ToArea": { "X": 192, "Y": 176, "Width": 48, "Height": 16 }},
+			
+        {   "LogName": "Movie Theater Joja 3",
+            "Action": "EditImage",
+			"Update": "OnLocationChange",
+            "Target": "Maps/MovieTheaterJoja_TileSheet",
+            "FromFile": "assets/{{NoNose}}/Random/MovieTheaterJoja_{{Season}}.png",
+            "FromArea": { "X": 240, "Y": 160, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 240, "Y": 160, "Width": 16, "Height": 32 }},
+			
+        {   "LogName": "Movie Theater Joja 4 Marlon",
+            "Action": "EditImage",
+			"Update": "OnLocationChange",
+            "Target": "Maps/MovieTheaterJoja_TileSheet",
+            "FromFile": "assets/{{NoNose}}/Random/MovieTheaterJoja_{{Season}}.png",
+            "FromArea": { "X": 0, "Y": 192, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 0, "Y": 192, "Width": 16, "Height": 32 },
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false}},
+			
+        {   "LogName": "Movie Theater Joja 5 Morris",
+            "Action": "EditImage",
+			"Update": "OnLocationChange",
+            "Target": "Maps/MovieTheaterJoja_TileSheet",
+            "FromFile": "assets/{{NoNose}}/Random/MovieTheaterJoja_{{Season}}.png",
+            "FromArea": { "X": 16, "Y": 224, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 16, "Y": 224, "Width": 16, "Height": 32 },
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false}},
+			
+        {   "LogName": "Movie Theater Joja 6 Gunther",
+            "Action": "EditImage",
+			"Update": "OnLocationChange",
+            "Target": "Maps/MovieTheaterJoja_TileSheet",
+            "FromFile": "assets/{{NoNose}}/Random/MovieTheaterJoja_{{Season}}.png",
+            "FromArea": { "X": 208, "Y": 192, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 208, "Y": 192, "Width": 16, "Height": 32 },
+			"When": {"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false}},
+
+        {   "LogName": "Movie Theater Joja 7 Mayor",
+            "Action": "EditImage",
+			"Update": "OnLocationChange",
+            "Target": "Maps/MovieTheaterJoja_TileSheet",
+            "FromFile": "assets/{{NoNose}}/Random/MovieTheaterJoja_{{Season}}.png",
+            "FromArea": { "X": 208, "Y": 224, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 208, "Y": 224, "Width": 16, "Height": 32 }},	
+
+        {   "LogName": "Movie Theater Joja 8 balloon guy",
+            "Action": "EditImage",
+            "Update": "OnLocationChange",
+            "Target": "Maps/MovieTheater_TileSheet",
+            "FromFile": "assets/{{NoNose}}/Random/MovieTheaterJoja_{{Season}}.png",
+            "FromArea": { "X": 16, "Y": 192, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 16, "Y": 192, "Width": 16, "Height": 32 }},			
+
+        //Temporary Sprites
+
+        {   "LogName": "Temporary - Turban Guy 1",
+            "Action": "EditImage",
+            "Target": "LooseSprites/temporary_sprites_1",
+            "FromFile": "assets/{{NoNose}}/Random/turbanguy.png",
+            "PatchMode": "Overlay",
+            "ToArea": { "X": 0, "Y": 614, "Width": 180, "Height": 26 }},
+			
+        {   "LogName": "Temporary - Turban Guy 2",
+            "Action": "EditImage",
+            "Target": "LooseSprites/temporary_sprites_1",
+            "FromFile": "assets/{{NoNose}}/Random/turbanguy2.png",
+            "PatchMode": "Overlay",
+            "ToArea": { "X": 354, "Y": 168, "Width": 64, "Height": 32 }},
+			
+        {   "LogName": "Temporary - Mermaid",
+            "Action": "EditImage",
+            "Target": "LooseSprites/temporary_sprites_1",
+            "FromFile": "assets/{{NoNose}}/Random/mermaid.png",
+            "PatchMode": "Overlay",
+            "ToArea": { "X": 193, "Y": 0, "Width": 15, "Height": 32 }},
+			
+        {   "LogName": "Temporary - Paintings",
+            "Action": "EditImage",
+            "Target": "LooseSprites/temporary_sprites_1",
+            "FromFile": "assets/{{NoNose}}/Random/paintings.png",
+            "PatchMode": "Overlay",
+            "ToArea": { "X": 400, "Y": 394, "Width": 101, "Height": 23 }},
+		
+        //Secret Notes
+
+        {   "LogName": "Secret Notes Marnie",
+            "Action": "EditImage",
+            "Target": "TileSheets/SecretNotesImages",
+            "FromFile": "assets/{{NoNose}}/Random/SecretNotesImages.png",
+            "FromArea": { "X": 147, "Y": 90, "Width": 17, "Height": 27 },
+            "ToArea": { "X": 147, "Y": 90, "Width": 17, "Height": 27 }},
+		
+		// Pirates Tilesheet
+
+        {   "LogName": "Pirates - Drunk Pirate",
+            "Action": "EditImage",
+            "Target": "Maps/pirates_tilesheet",
+            "FromFile": "assets/{{NoNose}}/Random/pirates_tilesheet.png",
+            "FromArea": { "X": 241, "Y": 0, "Width": 47, "Height": 64 },
+            "ToArea": { "X": 241, "Y": 0, "Width": 47, "Height": 64 }},
+
+        {   "LogName": "Pirates - Barmaid Pirate",
+            "Action": "EditImage",
+            "Target": "Maps/pirates_tilesheet",
+            "FromFile": "assets/{{NoNose}}/Random/pirates_tilesheet.png",
+            "FromArea": { "X": 208, "Y": 96, "Width": 32, "Height": 32 },
+            "ToArea": { "X": 208, "Y": 96, "Width": 32, "Height": 32 }},
+
+        {   "LogName": "Pirates - Dandy Pirate left",
+            "Action": "EditImage",
+            "Target": "Maps/pirates_tilesheet",
+            "FromFile": "assets/{{NoNose}}/Random/pirates_tilesheet.png",
+            "FromArea": { "X": 144, "Y": 96, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 144, "Y": 96, "Width": 16, "Height": 32 }},
+
+        {   "LogName": "Pirates - Dandy Pirate right",
+            "Action": "EditImage",
+            "Target": "Maps/pirates_tilesheet",
+            "FromFile": "assets/{{NoNose}}/Random/pirates_tilesheet.png",
+            "FromArea": { "X": 176, "Y": 96, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 176, "Y": 96, "Width": 16, "Height": 32 }},
+
+        {   "LogName": "Pirates - Fight Pirates",
+            "Action": "EditImage",
+            "Target": "Maps/pirates_tilesheet",
+            "FromFile": "assets/{{NoNose}}/Random/pirates_tilesheet.png",
+            "FromArea": { "X": 129, "Y": 129, "Width": 62, "Height": 31 },
+            "ToArea": { "X": 129, "Y": 129, "Width": 62, "Height": 31 }},
+
+        {   "LogName": "Pirates - Glasses Pirate",
+            "Action": "EditImage",
+            "Target": "Maps/pirates_tilesheet",
+            "FromFile": "assets/{{NoNose}}/Random/pirates_tilesheet.png",
+            "FromArea": { "X": 160, "Y": 48, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 160, "Y": 48, "Width": 16, "Height": 32 }},
+
+        {   "LogName": "Pirates - Black wood leg Pirate",
+            "Action": "EditImage",
+            "Target": "Maps/pirates_tilesheet",
+            "FromFile": "assets/{{NoNose}}/Random/pirates_tilesheet.png",
+            "FromArea": { "X": 96, "Y": 48, "Width": 32, "Height": 32 },
+            "ToArea": { "X": 96, "Y": 48, "Width": 32, "Height": 32 }},
+
+        {   "LogName": "Pirates - White wood leg Pirate upper",
+            "Action": "EditImage",
+            "Target": "Maps/pirates_tilesheet",
+            "FromFile": "assets/{{NoNose}}/Random/pirates_tilesheet.png",
+            "FromArea": { "X": 32, "Y": 96, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 32, "Y": 96, "Width": 16, "Height": 32 }},	
+
+        {   "LogName": "Pirates - White wood leg Pirate lower",
+            "Action": "EditImage",
+            "Target": "Maps/pirates_tilesheet",
+            "FromFile": "assets/{{NoNose}}/Random/pirates_tilesheet.png",
+            "FromArea": { "X": 16, "Y": 112, "Width": 16, "Height": 32 },
+            "ToArea": { "X": 16, "Y": 112, "Width": 16, "Height": 32  }},
+
+		// Bundle Sprites
+
+        {   "LogName": "Bundles - Jas Vincent Bundle",
+            "Action": "EditImage",
+            "Target": "LooseSprites/BundleSprites",
+            "FromFile": "assets/{{NoNose}}/Random/BundleSprites.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 },
+            "ToArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 }},
+
+        {   "LogName": "Bundles - Linus Bundle",
+            "Action": "EditImage",
+            "Target": "LooseSprites/BundleSprites",
+            "FromFile": "assets/{{NoNose}}/Random/BundleSprites.png",
+            "FromArea": { "X": 160, "Y": 0, "Width": 32, "Height": 32 },
+            "ToArea": { "X": 160, "Y": 0, "Width": 32, "Height": 32 }},		
+
+        {   "LogName": "Bundles - Jodi Bundle",
+            "Action": "EditImage",
+            "Target": "LooseSprites/BundleSprites",
+            "FromFile": "assets/{{NoNose}}/Random/BundleSprites.png",
+            "FromArea": { "X": 192, "Y": 0, "Width": 32, "Height": 32 },
+            "ToArea": { "X": 192, "Y": 0, "Width": 32, "Height": 32 }},
+
+		// Willy Boat
+
+        {   "LogName": "Willy on the boat",
+            "Action": "EditImage",
+			"Update": "OnLocationChange",
+            "Target": "LooseSprites/WillysBoat",
+            "FromFile": "assets/{{NoNose}}/Random/WillysBoat_{{Season}}.png",
+            "ToArea": { "X": 173, "Y": 163, "Width": 16, "Height": 18 }},
+
+		// Icon Changes
+		
+        {   "LogName": "Icons Special Orders 1",
+            "Action": "EditImage",
+			"Update": "OnLocationChange",
+            "Target": "LooseSprites/emojis",
+            "FromFile": "assets/{{NoNose}}/Random/emojis.png",
+            "FromArea": {"X": 0, "Y": 99, "Width": 126, "Height": 18  },            
+			"ToArea": { "X": 0, "Y": 99, "Width": 126, "Height": 18 }},
+
+        {   "LogName": "Icons Special Orders 2",
+            "Action": "EditImage",
+			"Update": "OnLocationChange",
+            "Target": "LooseSprites/emojis",
+            "FromFile": "assets/{{NoNose}}/Random/emojis.png",
+            "FromArea": {"X": 0, "Y": 117, "Width": 63, "Height": 9 },            
+			"ToArea": { "X": 0, "Y": 117, "Width": 63, "Height": 9 }},
+
+        {   "LogName": "Icons Special Orders 3",
+            "Action": "EditImage",
+			"Update": "OnLocationChange",
+            "Target": "LooseSprites/emojis",
+            "FromFile": "assets/{{NoNose}}/Random/emojis.png",
+            "FromArea": {"X": 90, "Y": 117, "Width": 36, "Height": 9  },   			
+            "ToArea": { "X": 90, "Y": 117, "Width": 36, "Height": 9 }},				
+    ]
+}
