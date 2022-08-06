@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Adorable Festival Kotatsu Furniture",
+  "Author": "Asterisk",
+  "Version": "1.0",
+  "Description": "Furniture",
+  "UniqueID": "Asterisk.DGA.FKotatsu",
+  "UpdateKeys": ["Nexus:11091@DGAFurniture"],
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.DynamicGameAssets",
+    "MinimumVersion": "1.1.0"
+  },
+  "DGA.FormatVersion": 2,
+  "DGA.ConditionsFormatVersion": "1.23.0"
+}

@@ -1,0 +1,71 @@
+[
+	{
+		"$ItemType": "Furniture",
+		"ID": "Small Garden Table",
+		"Type": "Table",
+		"Configurations": [
+			{
+				"Texture": "assets/smalltable.png:0",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"MaxSold": 10,
+		"Cost": 300,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Small Garden Table"
+		}
+	},
+		{
+		"$ItemType": "Furniture",
+		"ID": "Medium Garden Table",
+		"Type": "Table",
+		"Configurations": [
+			{
+				"Texture": "assets/mediumtable.png:0",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"MaxSold": 10,
+		"Cost": 500,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Medium Garden Table"
+		}
+	},
+		{
+		"$ItemType": "Furniture",
+		"ID": "Large Garden Table",
+		"Type": "Table",
+		"Configurations": [
+			{
+				"Texture": "assets/largetable.png:0",
+				"DisplaySize": { "X": 3, "Y": 2 },
+				"CollisionHeight": 1
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"MaxSold": 10,
+		"Cost": 800,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Large Garden Table"
+		}
+	},
+]

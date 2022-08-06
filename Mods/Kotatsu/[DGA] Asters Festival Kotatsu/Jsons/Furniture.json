@@ -1,0 +1,322 @@
+[
+	{
+        "$ItemType": "Furniture",
+        "ID": "blueboat_cush",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/blueboat_cush.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "blueboat_kota",
+        "Type": "Table",
+        "Configurations": [
+            {
+                "Texture": "Assets/blueboat_kota.png",
+                "DisplaySize": { "X": 3, "Y": 3 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "fa16_cush",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/fa16_cush.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "fa16_kota",
+        "Type": "Table",
+        "Configurations": [
+            {
+                "Texture": "Assets/fa16_kota.png",
+                "DisplaySize": { "X": 3, "Y": 3 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "fa27_cush",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/fa27_cush.png:0",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            },
+			{
+                "Texture": "Assets/fa27_cush.png:1",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            },
+			{
+                "Texture": "Assets/fa27_cush.png:2",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            },
+			{
+                "Texture": "Assets/fa27_cush.png:3",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "fa27_kota",
+        "Type": "Table",
+        "Configurations": [
+            {
+                "Texture": "Assets/fa27_kota.png",
+                "DisplaySize": { "X": 3, "Y": 3 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "sp13_cush_blu",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/sp13_cush_blu.png:0",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1
+            },
+			{
+                "Texture": "Assets/sp13_cush_blu.png:1",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1
+            },
+			{
+                "Texture": "Assets/sp13_cush_blu.png:2",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1
+            },
+			{
+                "Texture": "Assets/sp13_cush_blu.png:1",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+				"Flipped": true
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "sp13_cush_gre",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/sp13_cush_gre.png:0",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1
+            },
+			{
+                "Texture": "Assets/sp13_cush_gre.png:1",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1
+            },
+			{
+                "Texture": "Assets/sp13_cush_gre.png:2",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1
+            },
+			{
+                "Texture": "Assets/sp13_cush_gre.png:1",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+				"Flipped": true
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "sp13_cush_ora",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/sp13_cush_ora.png:0",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1
+            },
+			{
+                "Texture": "Assets/sp13_cush_ora.png:1",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1
+            },
+			{
+                "Texture": "Assets/sp13_cush_ora.png:2",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1
+            },
+			{
+                "Texture": "Assets/sp13_cush_ora.png:1",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+				"Flipped": true
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "sp13_kota",
+        "Type": "Table",
+        "Configurations": [
+            {
+                "Texture": "Assets/sp13_kota.png",
+                "DisplaySize": { "X": 3, "Y": 3 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "sp24_cush",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/sp24_cush.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "sp24_kota",
+        "Type": "Table",
+        "Configurations": [
+            {
+                "Texture": "Assets/sp24_kota.png",
+                "DisplaySize": { "X": 3, "Y": 3 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "su11_browncush",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/su11_browncush.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "su11_cush",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/su11_cush.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "su11_kota",
+        "Type": "Table",
+        "Configurations": [
+            {
+                "Texture": "Assets/su11_kota.png",
+                "DisplaySize": { "X": 3, "Y": 3 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "su28_cush",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/su28_cush.png:0",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            },
+			{
+                "Texture": "Assets/su28_cush.png:1",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "su28_kota",
+        "Type": "Table",
+        "Configurations": [
+            {
+                "Texture": "Assets/su28_kota.png",
+                "DisplaySize": { "X": 3, "Y": 3 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "wi08_cush",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/wi08_cush.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "wi08_kota",
+        "Type": "Table",
+        "Configurations": [
+            {
+                "Texture": "Assets/wi08_kota.png:6@444, Assets/wi08_kota.png:7@8, Assets/wi08_kota.png:8@111, Assets/wi08_kota.png:5@8, Assets/wi08_kota.png:4@444, Assets/wi08_kota.png:3@8, Assets/wi08_kota.png:2@8, Assets/wi08_kota.png:1@8, Assets/wi08_kota.png:0@444, Assets/wi08_kota.png:1@8, Assets/wi08_kota.png:2@8, Assets/wi08_kota.png:3@8, Assets/wi08_kota.png:4@8",
+                "DisplaySize": { "X": 3, "Y": 3 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "wi25_cush",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/wi25_cush.png",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "wi25_kota",
+        "Type": "Table",
+        "Configurations": [
+            {
+                "Texture": "Assets/wi25_kota.png",
+                "DisplaySize": { "X": 3, "Y": 3 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+]

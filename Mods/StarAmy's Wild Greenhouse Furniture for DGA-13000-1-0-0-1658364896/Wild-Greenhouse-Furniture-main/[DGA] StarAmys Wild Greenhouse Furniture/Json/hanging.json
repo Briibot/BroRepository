@@ -1,0 +1,182 @@
+[
+	{
+		"$ItemType": "Furniture",
+		"ID": "Hanging Peppers",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/redpeppers.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/greenpeppers.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/yellowpeppers.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"MaxSold": 10,
+		"Cost": 80,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Hanging Peppers"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Hanging Garlic",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/garlic.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"MaxSold": 10,
+		"Cost": 80,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Hanging Garlic"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Hanging Dried Flowers",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/lupine.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/dandelions.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/bellflowers.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/poppies.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/daisies.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/tulips.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/sunflowers.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/callalillies.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/sweetpeas.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/daffodils.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"MaxSold": 10,
+		"Cost": 80,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Hanging Dried Flowers"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Hanging Nepenthes",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/nepenthes.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"MaxSold": 10,
+		"Cost": 120,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Hanging Nepenthes"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Hanging Tool",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/hanging_shovel.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/hanging_pitchfork.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/hanging_scythe.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"MaxSold": 10,
+		"Cost": 120,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Hanging Tool"
+		}
+	},
+]

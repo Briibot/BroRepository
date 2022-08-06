@@ -1,0 +1,123 @@
+[
+	{
+		"$ItemType": "Furniture",
+		"ID": "Large Decorative Cloche",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/largecloches.png:0",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/largecloches.png:1",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/largecloches.png:2",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/largecloches.png:3",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/largecloches.png:4",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/largecloches.png:5",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/largecloches.png:6",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/largecloches.png:7",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/largecloches.png:8",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/largecloches.png:9",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/largecloches.png:10",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/largecloches.png:11",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/largecloches.png:12",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/largecloches.png:13",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/largecloches.png:14",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/largecloches.png:15",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"MaxSold": 10,
+		"Cost": 560,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Large Decorative Cloche"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Large Waterfall Cloche",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/largecloches.png:16@10, assets/largecloches.png:17@10, assets/largecloches.png:18@10",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"MaxSold": 10,
+		"Cost": 740,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Large Waterfall Cloche"
+		}
+	},
+]

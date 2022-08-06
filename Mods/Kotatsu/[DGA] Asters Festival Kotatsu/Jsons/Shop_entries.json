@@ -1,0 +1,128 @@
+[
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk.DGA.FKotatsu/blueboat_cush" },
+    "ShopId": "BlueBoat",
+    "Cost": 350,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk.DGA.FKotatsu/blueboat_kota" },
+    "ShopId": "BlueBoat",
+    "Cost": 2500,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk.DGA.FKotatsu/fa16_cush" },
+    "ShopId": "GeMagic",
+    "Cost": 350,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk.DGA.FKotatsu/fa16_kota" },
+    "ShopId": "GeMagic",
+    "Cost": 2500,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk.DGA.FKotatsu/fa27_cush" },
+    "ShopId": "Festival.fall27",
+    "Cost": 350,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk.DGA.FKotatsu/fa27_kota" },
+    "ShopId": "Festival.fall27",
+    "Cost": 2500,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk.DGA.FKotatsu/sp13_cush_blu" },
+    "ShopId": "Festival.spring13",
+    "Cost": 350,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk.DGA.FKotatsu/sp13_cush_gre" },
+    "ShopId": "Festival.spring13",
+    "Cost": 350,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk.DGA.FKotatsu/sp13_cush_ora" },
+    "ShopId": "Festival.spring13",
+    "Cost": 350,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk.DGA.FKotatsu/sp13_kota" },
+    "ShopId": "Festival.spring13",
+    "Cost": 2500,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk.DGA.FKotatsu/sp24_cush" },
+    "ShopId": "Festival.spring24",
+    "Cost": 350,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk.DGA.FKotatsu/sp24_kota" },
+    "ShopId": "Festival.spring24",
+    "Cost": 2500,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk.DGA.FKotatsu/su11_browncush" },
+    "ShopId": "Festival.summer11",
+    "Cost": 350,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk.DGA.FKotatsu/su11_cush" },
+    "ShopId": "Festival.summer11",
+    "Cost": 350,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk.DGA.FKotatsu/su11_kota" },
+    "ShopId": "Festival.summer11",
+    "Cost": 2500,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk.DGA.FKotatsu/su28_cush" },
+    "ShopId": "Festival.summer28",
+    "Cost": 350,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk.DGA.FKotatsu/su28_kota" },
+    "ShopId": "Festival.summer28",
+    "Cost": 2500,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk.DGA.FKotatsu/wi08_cush" },
+    "ShopId": "Festival.winter8",
+    "Cost": 350,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk.DGA.FKotatsu/wi08_kota" },
+    "ShopId": "Festival.winter8",
+    "Cost": 2500,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk.DGA.FKotatsu/wi25_cush" },
+    "ShopId": "Festival.winter25",
+    "Cost": 350,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk.DGA.FKotatsu/wi25_kota" },
+    "ShopId": "Festival.winter25",
+    "Cost": 2500,
+  }
+]
