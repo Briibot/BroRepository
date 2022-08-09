@@ -1,0 +1,801 @@
+[
+  // Sell items at Robin's
+  {
+    // Fairy Circle #1
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Plant1" },
+    "ShopId": "Carpenter",
+    "Cost": 150,
+  },
+  {
+    // Fairy Circle #2
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Plant2" },
+    "ShopId": "Carpenter",
+    "Cost": 150,
+  },
+  {
+    // Fairy Circle #3
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Plant3" },
+    "ShopId": "Carpenter",
+    "Cost": 150,
+  },
+  {
+    // Mushroom Stool
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Stool1" },
+    "ShopId": "Carpenter",
+    "Cost": 150,
+  },
+  {
+    // Brown Basket
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Basket1" },
+    "ShopId": "Carpenter",
+    "Cost": 80,
+  },
+  {
+    // Pink Basket
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Basket2" },
+    "ShopId": "Carpenter",
+    "Cost": 80,
+  },
+  {
+    // Lavender Basket
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Basket3" },
+    "ShopId": "Carpenter",
+    "Cost": 80,
+  },
+  {
+    // Tiny Mushroom #1
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Painting1" },
+    "ShopId": "Carpenter",
+    "Cost": 200,
+  },
+  {
+   // Tiny Mushroom #2
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Painting2" },
+    "ShopId": "Carpenter",
+    "Cost": 150,
+  },
+  {
+    // Tiny Mushroom #3
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Painting3" },
+    "ShopId": "Carpenter",
+    "Cost": 250,
+  },
+  { 
+    // Tiny Purple Rose #1
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Painting4" },
+    "ShopId": "Carpenter",
+    "Cost": 200,
+  },
+  {
+    // Tiny Purple Rose #2
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Painting5" },
+    "ShopId": "Carpenter",
+    "Cost": 150,
+  },
+  {
+    // Tiny Purple Rose #3
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Painting6" },
+    "ShopId": "Carpenter",
+    "Cost": 250,
+  },
+  {
+    // Bird Bath
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/BirdBath1" },
+    "ShopId": "Carpenter",
+    "Cost": 200,
+  },
+  {
+    // Bird Bath With Birb
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/BirdBath5" },
+    "ShopId": "Carpenter",
+    "Cost": 300,
+  },
+  {
+    // Overgrown Bird Bath #1
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/BirdBath2" },
+    "ShopId": "Carpenter",
+    "Cost": 200,
+  },
+  {
+    // Overgrown Bird Bath With Birb #1
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/BirdBath6" },
+    "ShopId": "Carpenter",
+    "Cost": 300,
+  },
+  {
+    // Overgrown Bird Bath #2
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/BirdBath3" },
+    "ShopId": "Carpenter",
+    "Cost": 200,
+  },
+  {
+    // Overgrown Bird Bath With Birb #2
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/BirdBath7" },
+    "ShopId": "Carpenter",
+    "Cost": 300,
+  },
+  {
+    // Overgrown Bird Bath #3
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/BirdBath4" },
+    "ShopId": "Carpenter",
+    "Cost": 200,
+  },
+  {
+    // Overgrown Bird Bath With Birb #3
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/BirdBath8" },
+    "ShopId": "Carpenter",
+    "Cost": 300,
+  },
+  {
+    // Mushroom Tea Set #1
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/TeaSet1" },
+    "ShopId": "Carpenter",
+    "Cost": 300,
+  },
+  {
+    // Mushroom Tea Set #2
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/TeaSet2" },
+    "ShopId": "Carpenter",
+    "Cost": 300,
+  },
+  {
+    // Mushroom Teapot #1
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/MushroomTeapot1" },
+    "ShopId": "Carpenter",
+    "Cost": 100,
+  },
+  {
+    // Mushroom Teapot #2
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/MushroomTeapot2" },
+    "ShopId": "Carpenter",
+    "Cost": 100,
+  },
+  {
+    // Mushroom Teapot #3
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/MushroomTeapot3" },
+    "ShopId": "Carpenter",
+    "Cost": 100,
+  },
+  {
+    // Purple Rose Vase
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Vase1" },
+    "ShopId": "Carpenter",
+    "Cost": 100,
+  },
+  {
+    // Red Rose Vase
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Vase2" },
+    "ShopId": "Carpenter",
+    "Cost": 100,
+  },
+  {
+    // Pink Plant in Brown Pot
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Plant4" },
+    "ShopId": "Carpenter",
+    "Cost": 200,
+  },
+  {
+    // Pink Plant in White Pot
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Plant5" },
+    "ShopId": "Carpenter",
+    "Cost": 200,
+  },
+  {
+    // Mushroom Planter Box #1
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/PlanterBox1" },
+    "ShopId": "Carpenter",
+    "Cost": 350,
+  },
+  {
+    // Mushroom Planter Box #2
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/PlanterBox4" },
+    "ShopId": "Carpenter",
+    "Cost": 350,
+  },
+  {
+    // Purple Roses Planter Box
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/PlanterBox2" },
+    "ShopId": "Carpenter",
+    "Cost": 350,
+  },
+  {
+    // Red Roses Planter Box
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/PlanterBox3" },
+    "ShopId": "Carpenter",
+    "Cost": 350,
+  },
+  {
+    // Small Red Mushroom Fairy House
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/SmallFairyHouse1" },
+    "ShopId": "Carpenter",
+    "Cost": 30,
+  },
+  {
+    // Small Pink Mushroom Fairy House
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/SmallFairyHouse5" },
+    "ShopId": "Carpenter",
+    "Cost": 30,
+  },
+  {
+    // Small Lavender Mushroom Fairy House
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/SmallFairyHouse6" },
+    "ShopId": "Carpenter",
+    "Cost": 30,
+  },
+  {
+    // Red Mushroom Decoration
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/MushroomDeco1" },
+    "ShopId": "Carpenter",
+    "Cost": 50,
+  },
+  {
+    // Pink Mushroom Decoration
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/MushroomDeco2" },
+    "ShopId": "Carpenter",
+    "Cost": 50,
+  },
+  {
+    // Lavender Mushroom Decoration
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/MushroomDeco3" },
+    "ShopId": "Carpenter",
+    "Cost": 50,
+  },
+  {
+    // Small Red Mushroom Decoration
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/SmallMushroomDeco1" },
+    "ShopId": "Carpenter",
+    "Cost": 25,
+  },
+  {
+    // Small Pink Mushroom Decoration
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/SmallMushroomDeco2" },
+    "ShopId": "Carpenter",
+    "Cost": 25,
+  },
+  {
+    // Small Lavender Mushroom Decoration
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/SmallMushroomDeco3" },
+    "ShopId": "Carpenter",
+    "Cost": 25,
+  },
+  {
+    // Pink Flower Fairy House
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/SmallFairyHouse2" },
+    "ShopId": "Carpenter",
+    "Cost": 30,
+  },
+  {
+    // Purple Flower Fairy House
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/SmallFairyHouse3" },
+    "ShopId": "Carpenter",
+    "Cost": 30,
+  },
+  {
+    // Red Flower Fairy House
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/SmallFairyHouse4" },
+    "ShopId": "Carpenter",
+    "Cost": 30,
+  },
+  {
+    // Mushroom Witch Hat
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Hat1" },
+    "ShopId": "Carpenter",
+    "Cost": 1000,
+  },
+  {
+    // Pink Floral Witch Hat
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Hat2" },
+    "ShopId": "Carpenter",
+    "Cost": 1000,
+  },
+  {
+    // Square Mushroom Table
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Table1" },
+    "ShopId": "Carpenter",
+    "Cost": 750,
+  },
+  {
+    // Round Mushroom Table
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Table2" },
+    "ShopId": "Carpenter",
+    "Cost": 750,
+  },
+  {
+    // Gardening Table #1
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/GardenTable1" },
+    "ShopId": "Carpenter",
+    "Cost": 900,
+  },
+  {
+    // Gardening Table #2
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/GardenTable2" },
+    "ShopId": "Carpenter",
+    "Cost": 900,
+  },
+  {
+    // Fairy Offerings Table
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/FairyOfferingsTable" },
+    "ShopId": "Carpenter",
+    "Cost": 1200,
+  },
+  {
+    // Pink Blanket
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Blanket1" },
+    "ShopId": "Carpenter",
+    "Cost": 400,
+  },
+  {
+    // Lavender Blanket
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Blanket2" },
+    "ShopId": "Carpenter",
+    "Cost": 400,
+  },
+  {
+    // Overgrown Brown Dresser
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/OvergrownDresser1" },
+    "ShopId": "Carpenter",
+    "Cost": 2000,
+  },
+  {
+    // Overgrown Pink Dresser
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/OvergrownDresser2" },
+    "ShopId": "Carpenter",
+    "Cost": 2000,
+  },
+  {
+    // Overgrown Lavender Dresser
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/OvergrownDresser3" },
+    "ShopId": "Carpenter",
+    "Cost": 2000,
+  },
+  {
+    // Leaf Outfit Dressform #1
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/OutfitDressform1" },
+    "ShopId": "Carpenter",
+    "Cost": 200,
+  },
+  {
+    // Leaf Outfit Dressform #2
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/OutfitDressform2" },
+    "ShopId": "Carpenter",
+    "Cost": 200,
+  },
+  {
+    // Leaf Outfit Dressform #3
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/OutfitDressform3" },
+    "ShopId": "Carpenter",
+    "Cost": 200,
+  },
+  {
+    // Leaf Outfit Dressform #4
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/OutfitDressform4" },
+    "ShopId": "Carpenter",
+    "Cost": 200,
+  },
+  {
+    // Mushroom Outfit Dressform #1
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/OutfitDressform5" },
+    "ShopId": "Carpenter",
+    "Cost": 200,
+  },
+  {
+    // Mushroom Outfit Dressform #2
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/OutfitDressform6" },
+    "ShopId": "Carpenter",
+    "Cost": 200,
+  },
+  {
+    // Mushroom Outfit Dressform #3
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/OutfitDressform7" },
+    "ShopId": "Carpenter",
+    "Cost": 200,
+  },
+  {
+    // Mushroom Outfit Dressform #4
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/OutfitDressform8" },
+    "ShopId": "Carpenter",
+    "Cost": 200,
+  },
+  {
+    // Flower Petals Outfit Dressform #1
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/OutfitDressform9" },
+    "ShopId": "Carpenter",
+    "Cost": 200,
+  },
+  {
+    // Flower Petals Outfit Dressform #2
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/OutfitDressform10" },
+    "ShopId": "Carpenter",
+    "Cost": 200,
+  },
+  {
+    // Flower Petals Outfit Dressform #3
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/OutfitDressform11" },
+    "ShopId": "Carpenter",
+    "Cost": 200,
+  },
+  {
+    // Flower Petals Outfit Dressform #4
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/OutfitDressform12" },
+    "ShopId": "Carpenter",
+    "Cost": 200,
+  },
+  {
+    // Left Fairy Decoration 
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/FairyDeco" },
+    "ShopId": "Carpenter",
+    "Cost": 300,
+  },
+  {
+    // Right Fairy Decoration 
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/FairyDeco2" },
+    "ShopId": "Carpenter",
+    "Cost": 300,
+  },
+  {
+    // Mushroom Fairy House
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/FairyHouse1" },
+    "ShopId": "Carpenter",
+    "Cost": 100,
+  },
+  {
+    // Tree Stump Fairy House #1
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/FairyHouse2" },
+    "ShopId": "Carpenter",
+    "Cost": 100,
+  },
+  {
+    // Tree Stump Fairy House #2
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/FairyHouse3" },
+    "ShopId": "Carpenter",
+    "Cost": 100,
+  },
+  {
+    // Tree Stump Fairy House #3
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/FairyHouse4" },
+    "ShopId": "Carpenter",
+    "Cost": 100,
+  },
+  {
+    // Tree Stump
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/TreeStump" },
+    "ShopId": "Carpenter",
+    "Cost": 80,
+  },
+  {
+    // Mushroom Log
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/MushroomLog" },
+    "ShopId": "Carpenter",
+    "Cost": 100,
+  },
+  {
+    // Purple Flower Bed
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/FlowerBed1" },
+    "ShopId": "Carpenter",
+    "Cost": 300,
+  },
+  {
+    // Red Flower Bed
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/FlowerBed2" },
+    "ShopId": "Carpenter",
+    "Cost": 300,
+  },
+  {
+    // Purple Flower Heart Bed
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/FlowerHeartBed1" },
+    "ShopId": "Carpenter",
+    "Cost": 300,
+  },
+  {
+    // Red Flower Heart Bed
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/FlowerHeartBed2" },
+    "ShopId": "Carpenter",
+    "Cost": 300,
+  },
+  {
+    // Tiny Fairy Village
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/TinyFairyVillage" },
+    "ShopId": "Carpenter",
+    "Cost": 800,
+  },
+  {
+    // Purple Potted Plant
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/PottedPlant1" },
+    "ShopId": "Carpenter",
+    "Cost": 800,
+  },
+  {
+    // Red Potted Plant
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/PottedPlant2" },
+    "ShopId": "Carpenter",
+    "Cost": 800,
+  },
+  {
+    // Lavender Plant Watering Can Planter
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/WateringCanPlanter1" },
+    "ShopId": "Carpenter",
+    "Cost": 400,
+  },
+  {
+    // Pink Plant Watering Can Planter
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/WateringCanPlanter2" },
+    "ShopId": "Carpenter",
+    "Cost": 400,
+  },
+  {
+    // White Plant Watering Can Planter
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/WateringCanPlanter3" },
+    "ShopId": "Carpenter",
+    "Cost": 400,
+  },
+  {
+    // Lavender Sunflower Watering Can Planter
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/WateringCanPlanter4" },
+    "ShopId": "Carpenter",
+    "Cost": 400,
+  },
+  {
+    // Pink Sunflower Watering Can Planter
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/WateringCanPlanter5" },
+    "ShopId": "Carpenter",
+    "Cost": 400,
+  },
+  {
+    // White Sunflower Watering Can Planter
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/WateringCanPlanter6" },
+    "ShopId": "Carpenter",
+    "Cost": 400,
+  },
+  {
+    // Lattice Panel
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/LatticePanel1" },
+    "ShopId": "Carpenter",
+    "Cost": 100,
+  },
+  {
+    // Ivy Lattice Panel
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/LatticePanel2" },
+    "ShopId": "Carpenter",
+    "Cost": 125,
+  },
+  {
+    // Purple Ivy Lattice Panel
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/LatticePanel3" },
+    "ShopId": "Carpenter",
+    "Cost": 150,
+  },
+  {
+    // Red Ivy Lattice Panel
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/LatticePanel4" },
+    "ShopId": "Carpenter",
+    "Cost": 150,
+  },
+  {
+    // Bird House 
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/BirdHouse1" },
+    "ShopId": "Carpenter",
+    "Cost": 400,
+  },
+  {
+    // Overgrown Bird House #1
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/BirdHouse2" },
+    "ShopId": "Carpenter",
+    "Cost": 400,
+  },
+  {
+    // Overgrown Bird House #2
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/BirdHouse3" },
+    "ShopId": "Carpenter",
+    "Cost": 400,
+  },
+  {
+    // Overgrown Bird House #3
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/BirdHouse4" },
+    "ShopId": "Carpenter",
+    "Cost": 400,
+  },
+  {
+    // Mushroom End Table #1
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/EndTable1" },
+    "ShopId": "Carpenter",
+    "Cost": 500,
+  },
+  {
+    // Mushroom End Table #2
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/EndTable2" },
+    "ShopId": "Carpenter",
+    "Cost": 500,
+  },
+  {
+    // Bee Rug
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Rug1" },
+    "ShopId": "Carpenter",
+    "Cost": 800,
+  },
+  {
+    // Mushroom Rug
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Rug2" },
+    "ShopId": "Carpenter",
+    "Cost": 800,
+  },
+  {
+    // Fairy Statue #1
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Statue1" },
+    "ShopId": "Carpenter",
+    "Cost": 1000,
+  },
+  {
+    // Fairy Statue #2
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Statue2" },
+    "ShopId": "Carpenter",
+    "Cost": 1000,
+  },
+  {
+    // Fairy Statue #3
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Statue3" },
+    "ShopId": "Carpenter",
+    "Cost": 1000,
+  },
+  {
+    // Fairy Statue #4
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Statue4" },
+    "ShopId": "Carpenter",
+    "Cost": 1000,
+  },
+  {
+    // Fairy Single Bed
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Bed2" },
+    "ShopId": "Carpenter",
+    "Cost": 10000,
+  },
+  {
+    // Fairy Double Bed
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Bed1" },
+    "ShopId": "Carpenter",
+    "Cost": 15000,
+  },
+  {
+    // Purple Ivy Bench
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Bench1" },
+    "ShopId": "Carpenter",
+    "Cost": 750,
+  },
+  {
+    // Pink Broomstick
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Broomstick1" },
+    "ShopId": "Carpenter",
+    "Cost": 350,
+  },
+  {
+    // Overgrown Pink Broomstick
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Broomstick2" },
+    "ShopId": "Carpenter",
+    "Cost": 350,
+  },
+  {
+    // Lavender Broomstick
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Broomstick3" },
+    "ShopId": "Carpenter",
+    "Cost": 350,
+  },
+  {
+    // Overgrown Lavender Broomstick
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.FairyGardenDecorations/Broomstick4" },
+    "ShopId": "Carpenter",
+    "Cost": 350,
+  }
+]

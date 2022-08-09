@@ -1,0 +1,14 @@
+{
+  "Name": "Pumpkin Junimo Plushies", 
+  "Author": "RoseDryad", 
+  "Version": "1.0.0", 
+  "Description": "Adds Pumpkin Junimo Plushies using Dynamic Game Assets",
+  "UniqueID": "rosedryad.DynamicGameAssets.PumpkinJunimoPlushies", 
+  "UpdateKeys": ["Nexus:10910"],
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.DynamicGameAssets", 
+    "MinimumVersion": "1.1.0" // Current version of DGA
+  },
+  "DGA.FormatVersion": 2, // Current default
+  "DGA.ConditionsFormatVersion": "1.23.0" // You need this to tell it which version of CP conditions to use
+}

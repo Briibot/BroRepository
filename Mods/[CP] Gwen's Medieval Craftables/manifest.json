@@ -1,0 +1,32 @@
+{
+   "Name": "Medieval_Craftables",
+   "Author": "Gweniaczek",
+   "Version": "2.4",
+   "Description": "Craftables retextures",
+   "UniqueID": "Gweniaczek.Medieval_Craftables",
+   "UpdateKeys": ["Nexus:5513"],
+   "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher",
+					"MinimumVersion": "1.24.0"},
+		"Dependencies": [
+			{
+			"UniqueID": "Eemie.DarkerWood",
+			"IsRequired": false,
+			},
+			{
+			"UniqueID": "Eemiestardew.craftables",
+			"IsRequired": false,
+			},
+			{
+			"UniqueID": "Yellog.YWB9",
+			"IsRequired": false,
+			},
+			{
+			"UniqueID": "sonreirblah.JBuildings",
+			"IsRequired": false,
+			},
+			{
+			"UniqueID": "oomps62.HudsonValleyBuildings",
+			"IsRequired": false,
+			},
+		],
+}

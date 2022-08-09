@@ -1,0 +1,38 @@
+{
+   "Name": "Industrial Kitchen Interior",
+   "Author": "DustBeauty",
+   "Version": "1.7",
+   "Description": "Industrial Style Kitchen, TV and Farmhouse Interior",
+   "UniqueID": "DustBeauty.IndustrialKitchen",
+   "UpdateKeys": ["Nexus:5351"],
+   "MinimumApiVersion": "1.6",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+   "Dependencies": [
+   {
+      "UniqueID": "DustBeauty.1.4miscrecolour",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "Hesper.RusticCountrysideTownInterior",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "minervamaga.CP.ATDSV",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "coldazrael.ModernGothic",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "zosa.furniture",
+      "IsRequired": false
+   },
+   {
+      "UniqueID": "Rose.Interior.Roserish",
+      "IsRequired": false
+   },
+]
+}

@@ -280,6 +280,35 @@
         "Deluxe Barn"
       ],
       "AnimalShop": null
+    },
+    {
+      "Category": "Crow",
+      "Types": [
+        {
+          "Data": "7/3/169/797/crow/8/32/48/32/8/32/48/32/0/false/Coop/16/16/16/16/4/7/null/641/800/crow/Coop",
+          "DeluxeProduceLuck": 0.2,
+          "Localization": {},
+          "Sprites": {
+            "Adult": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Crows (bfav unofficial update)\\assets/crow.png",
+            "Baby": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Crows (bfav unofficial update)\\assets/babycrow.png",
+            "ReadyForHarvest": null
+          },
+          "Type": "Crow"
+        }
+      ],
+      "Buildings": [
+        "Coop",
+        "Big Coop",
+        "Deluxe Coop"
+      ],
+      "AnimalShop": {
+        "Name": "Crow",
+        "Description": "Crows like to collect branches for nest building and the occasional shiny object.",
+        "Icon": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Stardew Valley\\Mods\\[BFAV] Crows (bfav unofficial update)\\assets/animal_shop_crow.png",
+        "Exclude": [
+          "Void Chicken"
+        ]
+      }
     }
   ]
 }

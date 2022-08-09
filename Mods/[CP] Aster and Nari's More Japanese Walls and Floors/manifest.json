@@ -1,0 +1,11 @@
+{
+    "Name": "[CP] Aster and Narianka's More Japanese Walls and Floors",
+    "Author": "asterisk555",
+    "Version": "1.1.0",
+    "Description": "Wallpaper Pack.",
+    "UniqueID": "asterisk555.Narianka.CP.MoreJapanese",
+	"UpdateKeys": ["Nexus:12993@CP"],
+    "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    }
+ }

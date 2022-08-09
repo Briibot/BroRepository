@@ -237,13 +237,13 @@
 				"X": 0,
 				"Y": 560,
 				"Width": 96,
-				"Height": 32
+				"Height": 48
 			},
 			"ToArea": {
 				"X": 0,
 				"Y": 560,
 				"Width": 96,
-				"Height": 32
+				"Height": 48
 			}
 		},
 		{
@@ -791,19 +791,54 @@
 		},
 		{
 			"Action": "EditImage",
-			"Target": "farmhouse_tiles",
+			"Target": "TileSheets/furniture",
 			"FromFile": "assets/{{colour}} farmhouse_tiles.png",
 			"FromArea": {
 				"X": 128,
 				"Y": 192,
 				"Width": 48,
-				"Height": 80
+				"Height": 32
 			},
 			"ToArea": {
-				"X": 128,
-				"Y": 192,
+				"X": 64,
+				"Y": 1024,
 				"Width": 48,
-				"Height": 80
+				"Height": 32
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/{{colour}} farmhouse_tiles.png",
+			"PatchMode": "Overlay",
+			"FromArea": {
+				"X": 128,
+				"Y": 224,
+				"Width": 48,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 64,
+				"Y": 1040,
+				"Width": 48,
+				"Height": 48
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/furniture",
+			"FromFile": "assets/{{colour}} farmhouse_tiles.png",
+			"FromArea": {
+				"X": 128,
+				"Y": 224,
+				"Width": 48,
+				"Height": 48
+			},
+			"ToArea": {
+				"X": 112,
+				"Y": 1040,
+				"Width": 48,
+				"Height": 48
 			}
 		},
 		{

@@ -10,13 +10,13 @@
   "BlossomTrees": "true",
   "Interiors": "true",
   "Walls&Floors": "true",
-  "Furniture": "true",
+  "Furniture": "false",
   "Interface": "true",
   "Flooring": "true",
   "HardwoodFence": "true",
-  "Craftables": "true",
+  "Craftables": "false",
   "JunimoHuts": "true",
   "ShaneCoop": "true",
-  "ShipBin": "true",
+  "ShipBin": "false",
   "SpringGrass": "green"
 }

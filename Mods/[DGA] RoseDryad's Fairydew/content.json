@@ -1,0 +1,11 @@
+[    // Loads furniture Json
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "Jsons/fairy_garden_decorations.json"
+    },
+    // Loads shop entries Json
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "Jsons/fairy_garden_decorations_shop_entries.json"
+    },
+]

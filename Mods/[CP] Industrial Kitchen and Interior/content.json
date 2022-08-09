@@ -1,0 +1,391 @@
+{
+	"Format": "1.19.0",
+	"ConfigSchema": {
+
+		"Interior Structure" : {
+			"AllowValues" : "true, false",
+                                                "Default": "true"
+		},
+		"TV" : {
+			"AllowValues" : "true, false",
+                                                "Default": "true"
+		},
+		"Bars" : {
+			"AllowValues" : "true, false",
+                                                "Default": "true"
+		},
+		"Beams" : {
+			"AllowValues" : "true, false",
+                                                "Default": "true"
+		},
+		"Kitchen fix manual switch" : {
+			"AllowValues" : "true, false",
+                                                "Default": "false"
+		},
+		"Include the Walnut Farmhouse" : {
+			"AllowValues" : "true, false",
+                                                "Default": "true"
+		},
+
+/*
+		"Bed" : {
+			"AllowValues" : "true, false",
+                                                "Default": "true"
+		},
+		"Kids Beds" : {
+			"AllowValues" : "true, false",
+                                                "Default": "true"
+		},
+		"Crib" : {
+			"AllowValues" : "true, false",
+                                                "Default": "true"
+		},
+*/
+	},
+
+	"Changes": [
+//Kitcken
+			{
+			"Action": "EditImage",
+                                                "PatchMode": "Replace",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles_{{Random:1, 2, 3, 4, 5 |key=Kitchen}}.png",
+			"ToArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+			"FromArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+			"When" : {
+				"HasMod |contains=mabelsyrup.farmhouse": false,
+			}
+		},
+			{
+			"Action": "EditImage",
+                                                "PatchMode": "Replace",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles_{{Random:1, 2, 3, 4, 5 |key=Kitchen}}.png",
+			"ToArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+			"FromArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },	
+			"When" : {
+				"HasMod |contains=mabelsyrup.farmhouse": false,
+			}
+		},
+			{
+			"Action": "EditImage",
+                                                "PatchMode": "Replace",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles_{{Random:1, 2, 3, 4, 5 |key=Kitchen}}.png",
+			"ToArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+			"FromArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },	
+			"When" : {
+				"HasMod |contains=mabelsyrup.farmhouse": false,
+			}
+		},
+			{
+			"Action": "EditImage",
+                                                "PatchMode": "Replace",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles_{{Random:1, 2, 3, 4, 5 |key=Kitchen}}.png",
+			"ToArea": { "X": 64, "Y": 304, "Width": 48, "Height": 48 },
+			"FromArea": { "X": 64, "Y": 304, "Width": 48, "Height": 48 },	
+			"When" : {
+				"HasMod |contains=mabelsyrup.farmhouse": false,
+				"Include the Walnut Farmhouse": true
+			}
+		},
+			{
+			"Action": "EditImage",
+                                                "PatchMode": "Replace",
+			"Target": "LooseSprites/Cursors2,  LooseSprites/Cursors2.{{language}}",
+			"FromFile": "assets/Cursors2.png",
+			"ToArea": { "X": 0, "Y": 192, "Width": 16, "Height": 32 },
+			"FromArea": { "X": 0, "Y": 192, "Width": 16, "Height": 32 },
+		},
+
+//Kitcken for FHR
+			{
+			"Action": "EditImage",
+                                                "PatchMode": "Replace",
+			"Target": "farmhouse_tiles,Maps/farmhouse_tiles",
+			"FromFile": "assets/FHR/farmhouse_tiles_{{Random:1, 2, 3, 4, 5 |key=Kitchen}}.png",
+			"ToArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+			"FromArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+			"When" : {
+				"HasMod |contains=mabelsyrup.farmhouse": true,
+			}
+		},
+			{
+			"Action": "EditImage",
+                                                "PatchMode": "Replace",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/FHR/farmhouse_tiles_{{Random:1, 2, 3, 4, 5 |key=Kitchen}}.png",
+			"ToArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+			"FromArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },	
+			"When" : {
+				"HasMod |contains=mabelsyrup.farmhouse": true,
+			}
+		},
+			{
+			"Action": "EditImage",
+                                                "PatchMode": "Replace",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/FHR/farmhouse_tiles_{{Random:1, 2, 3, 4, 5 |key=Kitchen}}.png",
+			"ToArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+			"FromArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },	
+			"When" : {
+				"HasMod |contains=mabelsyrup.farmhouse": true,
+			}
+		},
+//Kitcken for Some non english versions
+			{
+			"Action": "EditImage",
+                                                "PatchMode": "Replace",
+			"Target": "farmhouse_tiles,Maps/farmhouse_tiles",
+			"FromFile": "assets/FHR/farmhouse_tiles_{{Random:1, 2, 3, 4, 5 |key=Kitchen}}.png",
+			"ToArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+			"FromArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+			"When" : {
+				"Kitchen fix manual switch": true
+			}
+		},
+			{
+			"Action": "EditImage",
+                                                "PatchMode": "Replace",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/FHR/farmhouse_tiles_{{Random:1, 2, 3, 4, 5 |key=Kitchen}}.png",
+			"ToArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+			"FromArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },	
+			"When" : {
+				"Kitchen fix manual switch": true
+			}
+		},
+			{
+			"Action": "EditImage",
+                                                "PatchMode": "Replace",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/FHR/farmhouse_tiles_{{Random:1, 2, 3, 4, 5 |key=Kitchen}}.png",
+			"ToArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+			"FromArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },	
+			"When" : {
+				"Kitchen fix manual switch": true
+			}
+		},
+//Interior Structure
+			{
+			"Action": "EditImage",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles_1.png",
+			"ToArea": { "X": 48, "Y": 144, "Width": 16, "Height": 48 },
+			"FromArea": { "X": 48, "Y": 144, "Width": 16, "Height": 48 },
+			"When" : {
+				"Interior Structure" : "true"
+			}	
+		},
+			{
+			"Action": "EditImage",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles_1.png",
+			"ToArea": { "X": 0, "Y": 240, "Width": 16, "Height": 48 },
+			"FromArea": { "X": 0, "Y": 240, "Width": 16, "Height": 48 },
+			"When" : {
+				"Interior Structure" : "true"
+			}	
+		},
+			{
+			"Action": "EditImage",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles_1.png",
+			"ToArea": { "X": 16, "Y": 256, "Width": 16, "Height": 32 },
+			"FromArea": { "X": 16, "Y": 256, "Width": 16, "Height": 32 },
+			"When" : {
+				"Interior Structure" : "true"
+			}	
+		},
+			{
+			"Action": "EditImage",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles_1.png",
+			"ToArea": { "X": 32, "Y": 240, "Width": 32, "Height": 48 },
+			"FromArea": { "X": 32, "Y": 240, "Width": 32, "Height": 48 },
+			"When" : {
+				"Interior Structure" : "true"
+			}	
+		},
+//Beams
+			{
+			"Action": "EditImage",
+		                "PatchMode": "Overlay",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/beams.png",
+			"ToArea": { "X": 48, "Y": 112, "Width": 16, "Height": 32 },
+			"FromArea": { "X": 48, "Y": 112, "Width": 16, "Height": 32 },
+			"When" : {
+				"Beams" : "true"
+			}	
+		},
+		                {
+		                "Action": "EditImage",
+		                "PatchMode": "Overlay",
+		                "Target": "townInterior, Maps/townInterior",
+		                "FromFile": "assets/townInterior_DustBeauty.png",
+			"When" : {
+				"HasMod |contains=Hesper.RusticCountrysideTownInterior": false,
+				"Beams" : "true"
+			}
+		},
+//TV
+			{
+			"Action": "EditImage",
+                                                "PatchMode": "Replace",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles_1.png",
+			"ToArea": { "X": 96, "Y": 192, "Width": 32, "Height": 48 },
+			"FromArea": { "X": 96, "Y": 192, "Width": 32, "Height": 48 },
+			"When" : {
+				"TV" : true
+			}	
+		},
+			{
+			"Action": "EditImage",
+                                                "PatchMode": "Replace",
+			"Target": "TileSheets/furniture, TileSheets/furniture.{{language}}",
+			"FromFile": "assets/farmhouse_tiles_1.png",
+			"ToArea": { "X": 416, "Y": 720, "Width": 32, "Height": 48 },
+			"FromArea": { "X": 96, "Y": 192, "Width": 32, "Height": 48 },
+			"When" : {
+				"TV" : true
+			}	
+		},
+
+//Furniture
+			{
+			"Action": "EditImage",
+                                                "PatchMode": "Replace",
+			"Target": "Tilesheets/Furniture, TileSheets/furniture.{{language}}",
+			"FromFile": "assets/furniture.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 80 },
+			"ToArea": { "X": 464, "Y": 480, "Width": 48, "Height": 80 },
+			"When" : {
+				"Bars" : true
+			}
+		},
+			{
+			"Action": "EditImage",
+                                                "PatchMode": "Replace",
+			"Target": "Tilesheets/Furniture, TileSheets/furniture.{{language}}",
+			"FromFile": "assets/furniture.png",
+			"FromArea": { "X": 48, "Y": 0, "Width": 32, "Height": 80 },
+			"ToArea": { "X": 416, "Y": 400, "Width": 32, "Height": 80 },
+			"When" : {
+				"Bars" : true
+			}
+		},
+//MapEdit
+			{
+			"Action": "EditMap",
+			"Target": "Maps/FarmHouse2_marriage, Maps/FarmHouse2",
+			"FromFile": "assets/contertile_L2.tbin",
+			"ToArea": { "X": 1, "Y": 14, "Width": 1, "Height": 4 },	
+			"When" : {
+				"HasMod |contains=mabelsyrup.farmhouse": false,
+				"Kitchen fix manual switch": false
+			}
+		},
+			{
+			"Action": "EditMap",
+			"Target": "Maps/FarmHouse1_marriage, Maps/FarmHouse1",
+			"FromFile": "assets/contertile_L1.tbin",
+			"ToArea": { "X": 1, "Y": 6, "Width": 1, "Height": 1 },	
+			"When" : {
+				"HasMod |contains=mabelsyrup.farmhouse": false,
+				"Kitchen fix manual switch": false
+			}
+		},
+
+/*
+//Crib
+			{
+			"Action": "EditImage",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles.png",
+			"ToArea": { "X": 74, "Y": 242, "Width": 54, "Height": 60},
+			"FromArea": { "X": 74, "Y": 242, "Width": 54, "Height": 60},
+			"When" : {
+				"Crib enable" : "true"
+			}	
+		},
+			{
+			"Action": "EditImage",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles.png",
+			"ToArea": { "X": 128, "Y": 300, "Width": 48, "Height": 19},
+			"FromArea": { "X": 128, "Y": 300, "Width": 48, "Height": 19},
+			"When" : {
+				"Crib enable" : "true"
+			}	
+		},
+//Player Bed
+			{
+			"Action": "EditImage",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles.png",
+			"ToArea": { "X": 128, "Y": 112, "Width": 32, "Height": 64},
+			"FromArea": { "X": 128, "Y": 112, "Width": 32, "Height": 64},
+			"When" : {
+				"Bed" : "true"
+			}	
+		},
+			{
+			"Action": "EditImage",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles.png",
+			"ToArea": { "X": 112, "Y": 176, "Width": 80, "Height": 16},
+			"FromArea": { "X": 112, "Y": 176, "Width": 80, "Height": 16},
+			"When" : {
+				"Bed" : "true"
+			}	
+		},
+			{
+			"Action": "EditImage",
+			"Target": "farmhouse_tiles, Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles.png",
+			"ToArea": { "X": 128, "Y": 192, "Width": 48, "Height": 80},
+			"FromArea": { "X": 128, "Y": 192, "Width": 48, "Height": 80},
+			"When" : {
+				"Bed" : "true"
+			}	
+		},
+//Kids Beds
+		{
+			"Action": "EditImage",
+			"Patchmode": "replace",
+			"Target": "Maps/townInterior",
+			"FromFile": "assets/kids top.png",
+			"ToArea": { "X": 64, "Y": 160, "Width": 32, "Height": 32 },
+			"When": {
+			              "LocationName":"FarmHouse",
+                                                              "Kids Beds":"true",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Patchmode": "replace",
+			"Target": "Maps/townInterior",
+			"FromFile": "assets/kids cover.png",
+			"ToArea": { "X": 96, "Y": 176, "Width": 32, "Height": 32},
+			"When": {
+			              "LocationName":"FarmHouse",
+                                                              "Kids Beds":"true",
+			},
+		},
+		{
+			"Action": "EditImage",
+			"Patchmode": "replace",
+			"Target": "townInterior, Maps/townInterior",
+			"FromFile": "assets/kids bottom.png",
+			"ToArea": { "X": 0, "Y": 160, "Width": 32, "Height": 16},
+			"When": {
+			              "LocationName":"FarmHouse",
+                                                              "Kids Beds":"true",
+			},
+		},
+*/
+	]
+}

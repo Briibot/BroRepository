@@ -1,0 +1,29 @@
+[
+    // Load in the furniture
+    {
+	// Big Junimo
+        "$ItemType": "Furniture",
+        "ID": "BigJunimo",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/BigJunimo.png:0",
+                "DisplaySize": { "X": 2, "Y": 2 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Small Junimo
+        "$ItemType": "Furniture",
+        "ID": "SmallJunimo",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/SmallJunimo.png:0",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    }
+]

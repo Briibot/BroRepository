@@ -1,0 +1,41 @@
+{
+    "Format": "1.23.0",
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/AdditionalWallpaperFlooring",
+            "Entries": {
+                "A555Nari.WallsAndFloors.Walls": {
+                    "ID": "A555Nari.WallsAndFloors.Walls",
+                    "Texture": "Maps/A555Nari.WallsAndFloors.Walls",
+                    "IsFlooring": false,
+                    "Count": 26
+                }
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/A555Nari.WallsAndFloors.Walls",
+            "FromFile": "assets/A555Nari.WallsAndFloors.Walls.png"
+        },
+		
+		
+        {
+            "Action": "EditData",
+            "Target": "Data/AdditionalWallpaperFlooring",
+            "Entries": {
+                "A555Nari.WallsAndFloors.Floors": {
+                    "ID": "A555Nari.WallsAndFloors.Floors",
+                    "Texture": "Maps/A555Nari.WallsAndFloors.Floors",
+                    "IsFlooring": true,
+                    "Count": 34
+                }
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/A555Nari.WallsAndFloors.Floors",
+            "FromFile": "assets/A555Nari.WallsAndFloors.Floors.png"
+        }
+    ]
+}

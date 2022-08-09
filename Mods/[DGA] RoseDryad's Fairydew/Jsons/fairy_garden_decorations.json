@@ -1,0 +1,1677 @@
+[
+    // Load in the furniture
+    {
+	// Fairy Circle #1
+        "$ItemType": "Furniture",
+        "ID": "Plant1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:1@40, Assets/fairygardendecorations1x1.png:2@30, Assets/fairygardendecorations1x1.png:3@40, Assets/fairygardendecorations1x1.png:4@30",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Mushroom Stool
+        "$ItemType": "Furniture",
+        "ID": "Stool1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:5",
+                "FrontTexture": "Assets/fairygardendecorations1x1.png:0",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+		"Flipped": false,
+		"Seats": [{"X": 0, "Y": 0}],
+		"SittingDirection": "Down",
+            },
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:5",
+		"FrontTexture": "Assets/fairygardendecorations1x1.png:0",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+		"Flipped": false,
+		"Seats": [{"X": 0, "Y": 0}],
+		"SittingDirection": "Right",
+            },
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:5",
+		"FrontTexture": "Assets/fairygardendecorations1x1.png:0",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+		"Flipped": false,
+		"Seats": [{"X": 0, "Y": 0}],
+		"SittingDirection": "Up",
+            },
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:5",
+		"FrontTexture": "Assets/fairygardendecorations1x1.png:0",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+		"Flipped": true,
+		"Seats": [{"X": 0, "Y": 0}],
+		"SittingDirection": "Left",
+            },
+	]
+    },
+    {
+	// Brown Basket
+        "$ItemType": "Furniture",
+        "ID": "Basket1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:6", 
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            },
+  	    {
+                "Texture": "Assets/fairygardendecorations1x1.png:7", 
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            },
+	]
+    },
+    {
+	// Pink Basket
+        "$ItemType": "Furniture",
+        "ID": "Basket2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:8", 
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            },
+  	    {
+                "Texture": "Assets/fairygardendecorations1x1.png:9", 
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            },
+	]
+    },
+    {
+	// Tiny Mushroom #1
+        "$ItemType": "Furniture",
+        "ID": "Painting1",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:10",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+    {
+ 	// Tiny Mushroom #2
+        "$ItemType": "Furniture",
+        "ID": "Painting2",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:11",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 2,
+
+            }
+        ]
+    },
+    {
+	// Tiny Mushroom #3
+        "$ItemType": "Furniture",
+        "ID": "Painting3",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:12",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 2,
+
+            }
+        ]
+    },
+    {
+	// Tiny Purple Rose #1
+        "$ItemType": "Furniture",
+        "ID": "Painting4",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:13",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 2,
+
+            }
+        ]
+    },
+    {
+	// Tiny Purple Rose #2
+        "$ItemType": "Furniture",
+        "ID": "Painting5",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:14",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 2,
+
+            }
+        ]
+    },
+    {
+	// Tiny Purple Rose #3
+        "$ItemType": "Furniture",
+        "ID": "Painting6",
+        "Type": "Painting",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:15",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+    {
+	// Bird Bath
+        "$ItemType": "Furniture",
+        "ID": "BirdBath1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:16",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+    {
+	// Overgrown Bird Bath #1
+        "$ItemType": "Furniture",
+        "ID": "BirdBath2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:17",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+    {
+	// Overgrown Bird Bath #2
+        "$ItemType": "Furniture",
+        "ID": "BirdBath3",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:18",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+    {
+	// Overgrown Bird Bath #3
+        "$ItemType": "Furniture",
+        "ID": "BirdBath4",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:19",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+    {
+	// Mushroom Tea Set #1
+        "$ItemType": "Furniture",
+        "ID": "TeaSet1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:20",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+    {
+	// Mushroom Tea Set #2
+        "$ItemType": "Furniture",
+        "ID": "TeaSet2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:21",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+    {
+	// Mushroom Teapot #1
+        "$ItemType": "Furniture",
+        "ID": "MushroomTeapot1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:76",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+    {
+	// Mushroom Teapot #2
+        "$ItemType": "Furniture",
+        "ID": "MushroomTeapot2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:77",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+    {
+	// Mushroom Teapot #3
+        "$ItemType": "Furniture",
+        "ID": "MushroomTeapot3",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:78",
+                "DisplaySize": { "X": 1, "Y": 1 },
+                "CollisionHeight": 1,
+            }
+        ]
+    },
+ {
+	// Purple Rose Vase
+        "$ItemType": "Furniture",
+        "ID": "Vase1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:22",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Red Rose Vase
+        "$ItemType": "Furniture",
+        "ID": "Vase2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:23",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Pink Plant in Brown Pot
+        "$ItemType": "Furniture",
+        "ID": "Plant4",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:58",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Pink Plant in White Pot
+        "$ItemType": "Furniture",
+        "ID": "Plant5",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:59",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Bird Bath With Birb
+        "$ItemType": "Furniture",
+        "ID": "BirdBath5",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:60@15, Assets/fairygardendecorations1x1.png:61@30, Assets/fairygardendecorations1x1.png:62@15, Assets/fairygardendecorations1x1.png:63@30",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Overgrown Bird Bath With Birb
+        "$ItemType": "Furniture",
+        "ID": "BirdBath6",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:64@15, Assets/fairygardendecorations1x1.png:65@30, Assets/fairygardendecorations1x1.png:66@15, Assets/fairygardendecorations1x1.png:67@30",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Overgrown Bird Bath With Birb #2
+        "$ItemType": "Furniture",
+        "ID": "BirdBath7",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:68@15, Assets/fairygardendecorations1x1.png:69@30, Assets/fairygardendecorations1x1.png:70@15, Assets/fairygardendecorations1x1.png:71@30",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Overgrown Bird Bath With Birb #3
+        "$ItemType": "Furniture",
+        "ID": "BirdBath8",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:72@15, Assets/fairygardendecorations1x1.png:73@30, Assets/fairygardendecorations1x1.png:74@15, Assets/fairygardendecorations1x1.png:75@30",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Mushroom Planter Box #1
+        "$ItemType": "Furniture",
+        "ID": "PlanterBox1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:24",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Mushroom Planter Box #2
+        "$ItemType": "Furniture",
+        "ID": "PlanterBox4",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:27",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Purple Roses Planter Box
+        "$ItemType": "Furniture",
+        "ID": "PlanterBox2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:25",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Red Roses Planter Box
+        "$ItemType": "Furniture",
+        "ID": "PlanterBox3",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:26",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Small Red Mushroom Fairy House
+        "$ItemType": "Furniture",
+        "ID": "SmallFairyHouse1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:28",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Pink Flower Fairy House
+        "$ItemType": "Furniture",
+        "ID": "SmallFairyHouse2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:29",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Purple Flower Fairy House
+        "$ItemType": "Furniture",
+        "ID": "SmallFairyHouse3",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:38",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Red Flower Fairy House
+        "$ItemType": "Furniture",
+        "ID": "SmallFairyHouse4",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:39",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Red Mushroom Decoration
+        "$ItemType": "Furniture",
+        "ID": "MushroomDeco1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:40",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Pink Mushroom Decoration
+        "$ItemType": "Furniture",
+        "ID": "MushroomDeco2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:41",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Lavender Mushroom Decoration
+        "$ItemType": "Furniture",
+        "ID": "MushroomDeco3",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:42",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Small Red Mushroom Decoration
+        "$ItemType": "Furniture",
+        "ID": "SmallMushroomDeco1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:43",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Small Pink Mushroom Decoration
+        "$ItemType": "Furniture",
+        "ID": "SmallMushroomDeco2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:44",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Small Lavender Mushroom Decoration
+        "$ItemType": "Furniture",
+        "ID": "SmallMushroomDeco3",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:45",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+{
+	// Lavender Basket
+        "$ItemType": "Furniture",
+        "ID": "Basket3",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:46", 
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            },
+  	    {
+                "Texture": "Assets/fairygardendecorations1x1.png:47", 
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            },
+	]
+    },
+    {
+	// Small Pink Mushroom Fairy House
+        "$ItemType": "Furniture",
+        "ID": "SmallFairyHouse5",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:48",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Small Lavender Mushroom Fairy House
+        "$ItemType": "Furniture",
+        "ID": "SmallFairyHouse6",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:49",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Fairy Circle #2
+        "$ItemType": "Furniture",
+        "ID": "Plant2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:50@40, Assets/fairygardendecorations1x1.png:51@30, Assets/fairygardendecorations1x1.png:52@40, Assets/fairygardendecorations1x1.png:53@30",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Fairy Circle #3
+        "$ItemType": "Furniture",
+        "ID": "Plant3",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:54@40, Assets/fairygardendecorations1x1.png:55@30, Assets/fairygardendecorations1x1.png:56@40, Assets/fairygardendecorations1x1.png:57@30",
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Mushroom Witch Hat
+        "$ItemType": "Furniture",
+        "ID": "Hat1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations1x1.png:30", 
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            },
+  	    {
+                "Texture": "Assets/fairygardendecorations1x1.png:31", 
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            },
+  	    {
+                "Texture": "Assets/fairygardendecorations1x1.png:32", 
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            },
+  	    {
+                "Texture": "Assets/fairygardendecorations1x1.png:33", 
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            },
+	]
+    },
+    {
+	// Pink Floral Witch Hat
+        "$ItemType": "Furniture",
+        "ID": "Hat2",
+        "Type": "Decoration",
+        "Configurations": [
+             {
+                "Texture": "Assets/fairygardendecorations1x1.png:34", 
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            },
+  	    {
+                "Texture": "Assets/fairygardendecorations1x1.png:35", 
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            },
+  	    {
+                "Texture": "Assets/fairygardendecorations1x1.png:36", 
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            },
+  	    {
+                "Texture": "Assets/fairygardendecorations1x1.png:37", 
+                "DisplaySize": { "X": 1, "Y": 1 }, 
+                "CollisionHeight": 1, 
+            },
+	]
+    },
+    {
+	// Square Mushroom Table
+        "$ItemType": "Furniture",
+        "ID": "Table1",
+        "Type": "Table",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x2.png:0",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+    {
+	// Round Mushroom Table
+        "$ItemType": "Furniture",
+        "ID": "Table2",
+        "Type": "Table",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x2.png:1",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 2,
+            }
+        ]
+    },
+    {
+	// Pink Blanket
+        "$ItemType": "Furniture",
+        "ID": "Blanket1",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x2.png:2",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 2,
+            },
+            {
+                "Texture": "Assets/fairygardendecorations2x2.png:3",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 2,
+            },
+        ]
+    },
+  {
+	// Lavender Blanket
+        "$ItemType": "Furniture",
+        "ID": "Blanket2",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x2.png:8",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 2,
+            },
+            {
+                "Texture": "Assets/fairygardendecorations2x2.png:9",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 2,
+            },
+        ]
+    },
+    {
+	// Leaf Outfit Dressform #1
+        "$ItemType": "Furniture",
+        "ID": "OutfitDressform1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:30",
+           	"DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 2, 
+            },
+	]
+    },
+    {
+	// Leaf Outfit Dressform #2
+        "$ItemType": "Furniture",
+        "ID": "OutfitDressform2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:31",
+           	"DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 2, 
+            },
+	]
+    },
+    {
+	// Leaf Outfit Dressform #3
+        "$ItemType": "Furniture",
+        "ID": "OutfitDressform3",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:36",
+           	"DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 2, 
+            },
+	]
+    },
+    {
+	// Leaf Outfit Dressform #4
+        "$ItemType": "Furniture",
+        "ID": "OutfitDressform4",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:37",
+           	"DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 2, 
+            },
+	]
+    },
+    {
+	// Mushroom Outfit Dressform #1
+        "$ItemType": "Furniture",
+        "ID": "OutfitDressform5",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:32",
+           	"DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 2, 
+            },
+	]
+    },
+    {
+	// Mushroom Outfit Dressform #2
+        "$ItemType": "Furniture",
+        "ID": "OutfitDressform6",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:33",
+           	"DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 2, 
+            },
+	]
+    },
+    {
+	// Mushroom Outfit Dressform #3
+        "$ItemType": "Furniture",
+        "ID": "OutfitDressform7",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:38",
+           	"DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 2, 
+            },
+	]
+    },
+    {
+	// Mushroom Outfit Dressform #4
+        "$ItemType": "Furniture",
+        "ID": "OutfitDressform8",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:39",
+           	"DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 2, 
+            },
+	]
+    },
+    {
+	// Flower Petals Outfit Dressform #1
+        "$ItemType": "Furniture",
+        "ID": "OutfitDressform9",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:34",
+           	"DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 2, 
+            },
+	]
+    },
+    {
+	// Flower Petals Outfit Dressform #2
+        "$ItemType": "Furniture",
+        "ID": "OutfitDressform10",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:35",
+           	"DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 2, 
+            },
+	]
+    },
+    {
+	// Flower Petals Outfit Dressform #3
+        "$ItemType": "Furniture",
+        "ID": "OutfitDressform11",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:40",
+           	"DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 2, 
+            },
+	]
+    },
+    {
+	// Flower Petals Outfit Dressform #4
+        "$ItemType": "Furniture",
+        "ID": "OutfitDressform12",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:41",
+           	"DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 2, 
+            },
+	]
+    },
+    {
+	// Mushroom Fairy House
+        "$ItemType": "Furniture",
+        "ID": "FairyHouse1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x2.png:4",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 2,
+            },
+        ]
+    },
+    {
+	// Tree Stump Fairy House #1
+        "$ItemType": "Furniture",
+        "ID": "FairyHouse2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x2.png:5",
+           	"DisplaySize": { "X": 2, "Y": 2 }, 
+                "CollisionHeight": 2, 
+            },
+	]
+    },
+    {
+	// Tree Stump Fairy House #2
+        "$ItemType": "Furniture",
+        "ID": "FairyHouse3",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x2.png:6",
+           	"DisplaySize": { "X": 2, "Y": 2 }, 
+                "CollisionHeight": 2, 
+            },
+	]
+    },
+    {
+	// Tree Stump Fairy House #3
+        "$ItemType": "Furniture",
+        "ID": "FairyHouse4",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x2.png:7",
+           	"DisplaySize": { "X": 2, "Y": 2 }, 
+                "CollisionHeight": 2, 
+            },
+	]
+    },
+    {
+	// Tree Stump
+        "$ItemType": "Furniture",
+        "ID": "TreeStump",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x2.png:12",
+           	"DisplaySize": { "X": 2, "Y": 2 }, 
+                "CollisionHeight": 2, 
+            },
+	]
+    },
+    {
+	// Mushroom Log
+        "$ItemType": "Furniture",
+        "ID": "MushroomLog",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x2.png:13",
+           	"DisplaySize": { "X": 2, "Y": 2 }, 
+                "CollisionHeight": 2, 
+            },
+	]
+    },
+    {
+	// Purple Flower Bed
+        "$ItemType": "Furniture",
+        "ID": "FlowerBed1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x2.png:14",
+           	"DisplaySize": { "X": 2, "Y": 2 }, 
+                "CollisionHeight": 2, 
+            },
+	]
+    },
+    {
+	// Red Flower Bed 
+        "$ItemType": "Furniture",
+        "ID": "FlowerBed2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x2.png:15",
+           	"DisplaySize": { "X": 2, "Y": 2 }, 
+                "CollisionHeight": 2, 
+            },
+	]
+    },
+    {
+	// Purple Flower Heart Bed
+        "$ItemType": "Furniture",
+        "ID": "FlowerHeartBed1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x2.png:16",
+           	"DisplaySize": { "X": 2, "Y": 2 }, 
+                "CollisionHeight": 2, 
+            },
+	]
+    },
+    {
+	// Red Flower Heart Bed
+        "$ItemType": "Furniture",
+        "ID": "FlowerHeartBed2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x2.png:17",
+           	"DisplaySize": { "X": 2, "Y": 2 }, 
+                "CollisionHeight": 2, 
+            },
+	]
+    },
+    {
+	// Gardening Table #1
+        "$ItemType": "Furniture",
+        "ID": "GardenTable1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x2.png:18",
+           	"DisplaySize": { "X": 2, "Y": 2 }, 
+                "CollisionHeight": 2, 
+            },
+	]
+    },
+    {
+	// Gardening Table #2
+        "$ItemType": "Furniture",
+        "ID": "GardenTable2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x2.png:19",
+           	"DisplaySize": { "X": 2, "Y": 2 }, 
+                "CollisionHeight": 2, 
+            },
+	]
+    },
+    {
+	// Overgrown Brown Dresser
+        "$ItemType": "Furniture",
+        "ID": "OvergrownDresser1",
+        "Type": "Dresser",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x2.png:20",
+           	"DisplaySize": { "X": 2, "Y": 2 }, 
+                "CollisionHeight": 1, 
+		"Flipped": false
+            },
+            {
+                "Texture": "Assets/fairygardendecorations3x1.png:5",
+           	"DisplaySize": { "X": 1, "Y": 3 }, 
+                "CollisionHeight": 2, 
+		"Flipped": false
+            },
+            {
+                "Texture": "Assets/fairygardendecorations2x2.png:21",
+           	"DisplaySize": { "X": 2, "Y": 2 }, 
+                "CollisionHeight": 1, 
+		"Flipped": false
+            },
+            {
+                "Texture": "Assets/fairygardendecorations3x1.png:5",
+           	"DisplaySize": { "X": 1, "Y": 3 }, 
+                "CollisionHeight": 2, 
+		"Flipped": true
+            }
+	]
+    },
+    {
+	// Overgrown Pink Dresser
+        "$ItemType": "Furniture",
+        "ID": "OvergrownDresser2",
+        "Type": "Dresser",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x2.png:22",
+           	"DisplaySize": { "X": 2, "Y": 2 }, 
+                "CollisionHeight": 1, 
+		"Flipped": false
+            },
+            {
+                "Texture": "Assets/fairygardendecorations3x1.png:6",
+           	"DisplaySize": { "X": 1, "Y": 3 }, 
+                "CollisionHeight": 2, 
+		"Flipped": false
+            },
+            {
+                "Texture": "Assets/fairygardendecorations2x2.png:23",
+           	"DisplaySize": { "X": 2, "Y": 2 }, 
+                "CollisionHeight": 1, 
+		"Flipped": false
+            },
+            {
+                "Texture": "Assets/fairygardendecorations3x1.png:6",
+           	"DisplaySize": { "X": 1, "Y": 3 }, 
+                "CollisionHeight": 2, 
+		"Flipped": true
+            }
+	]
+    },
+    {
+	// Overgrown Lavender Dresser
+        "$ItemType": "Furniture",
+        "ID": "OvergrownDresser3",
+        "Type": "Dresser",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x2.png:24",
+           	"DisplaySize": { "X": 2, "Y": 2 }, 
+                "CollisionHeight": 1, 
+		"Flipped": false
+            },
+            {
+                "Texture": "Assets/fairygardendecorations3x1.png:7",
+           	"DisplaySize": { "X": 1, "Y": 3 }, 
+                "CollisionHeight": 2, 
+		"Flipped": false
+            },
+            {
+                "Texture": "Assets/fairygardendecorations2x2.png:25",
+           	"DisplaySize": { "X": 2, "Y": 2 }, 
+                "CollisionHeight": 1, 
+		"Flipped": false
+            },
+            {
+                "Texture": "Assets/fairygardendecorations3x1.png:8",
+           	"DisplaySize": { "X": 1, "Y": 3 }, 
+                "CollisionHeight": 2, 
+		"Flipped": true
+            }
+	]
+    },
+    {
+	// Purple Potted Plant
+        "$ItemType": "Furniture",
+        "ID": "PottedPlant1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:0@45, Assets/fairygardendecorations2x1.png:1@15, Assets/fairygardendecorations2x1.png:2@45, Assets/fairygardendecorations2x1.png:3@15, Assets/fairygardendecorations2x1.png:4@45",
+                "DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Red Potted Plant
+        "$ItemType": "Furniture",
+        "ID": "PottedPlant2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:5@45, Assets/fairygardendecorations2x1.png:6@15, Assets/fairygardendecorations2x1.png:7@45, Assets/fairygardendecorations2x1.png:8@15, Assets/fairygardendecorations2x1.png:9@45",
+                "DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Lattice Panel
+        "$ItemType": "Furniture",
+        "ID": "LatticePanel1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:10",
+                "DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Ivy Lattice Panel
+        "$ItemType": "Furniture",
+        "ID": "LatticePanel2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:11",
+                "DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Purple Ivy Lattice Panel
+        "$ItemType": "Furniture",
+        "ID": "LatticePanel3",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:12",
+                "DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Red Ivy Lattice Panel
+        "$ItemType": "Furniture",
+        "ID": "LatticePanel4",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:13",
+                "DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Bird House
+        "$ItemType": "Furniture",
+        "ID": "BirdHouse1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:14",
+                "DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Overgrown Bird House #1
+        "$ItemType": "Furniture",
+        "ID": "BirdHouse2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:15",
+                "DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Overgrown Bird House #2
+        "$ItemType": "Furniture",
+        "ID": "BirdHouse3",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:16",
+                "DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Overgrown Bird House #3
+        "$ItemType": "Furniture",
+        "ID": "BirdHouse4",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:17",
+                "DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Mushroom End Table #1
+        "$ItemType": "Furniture",
+        "ID": "EndTable1",
+        "Type": "Table",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:18",
+                "DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Mushroom End Table #2
+        "$ItemType": "Furniture",
+        "ID": "EndTable2",
+        "Type": "Table",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:19",
+                "DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Left Fairy Decoration 
+        "$ItemType": "Furniture",
+        "ID": "FairyDeco",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:20@40, Assets/fairygardendecorations2x1.png:21@30, Assets/fairygardendecorations2x1.png:22@40, Assets/fairygardendecorations2x1.png:23@30",
+                "DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Right Fairy Decoration 
+        "$ItemType": "Furniture",
+        "ID": "FairyDeco2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:42@40, Assets/fairygardendecorations2x1.png:43@30, Assets/fairygardendecorations2x1.png:44@40, Assets/fairygardendecorations2x1.png:45@30",
+                "DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+   {
+	// Lavender Plant in Watering Can
+        "$ItemType": "Furniture",
+        "ID": "WateringCanPlanter1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:24",
+                "DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+ {
+	// Pink Plant in Watering Can
+        "$ItemType": "Furniture",
+        "ID": "WateringCanPlanter2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:25",
+                "DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+ {
+	// White Plant in Watering Can
+        "$ItemType": "Furniture",
+        "ID": "WateringCanPlanter3",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:26",
+                "DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+ {
+	// Lavender Sunflower in Watering Can
+        "$ItemType": "Furniture",
+        "ID": "WateringCanPlanter4",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:27",
+                "DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+ {
+	// Pink Sunflower in Watering Can
+        "$ItemType": "Furniture",
+        "ID": "WateringCanPlanter5",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:28",
+                "DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+ {
+	// White Sunflower in Watering Can
+        "$ItemType": "Furniture",
+        "ID": "WateringCanPlanter6",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x1.png:29",
+                "DisplaySize": { "X": 1, "Y": 2 }, 
+                "CollisionHeight": 1, 
+            }
+	]
+    },
+    {
+	// Bee Rug
+        "$ItemType": "Furniture",
+        "ID": "Rug1",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x3.png:0",
+                "DisplaySize": { "X": 3, "Y": 2 }, 
+                "CollisionHeight": 2, 
+            },
+            {
+                "Texture": "Assets/fairygardendecorations3x2.png:0",
+                "DisplaySize": { "X": 2, "Y": 3 }, 
+                "CollisionHeight": 3, 
+            },
+	]
+    },
+    {
+	// Mushroom Rug
+        "$ItemType": "Furniture",
+        "ID": "Rug2",
+        "Type": "Rug",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x3.png:1",
+                "DisplaySize": { "X": 3, "Y": 2 }, 
+                "CollisionHeight": 2, 
+            },
+            {
+                "Texture": "Assets/fairygardendecorations3x2.png:1",
+                "DisplaySize": { "X": 2, "Y": 3 }, 
+                "CollisionHeight": 3, 
+            },
+	]
+    },
+    {
+	// Fairy Offering Table
+        "$ItemType": "Furniture",
+        "ID": "FairyOfferingsTable",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x3.png:2",
+                "DisplaySize": { "X": 3, "Y": 2 }, 
+                "CollisionHeight": 2, 
+            }
+	]
+    },
+    {
+	// Fairy Statue #1
+        "$ItemType": "Furniture",
+        "ID": "Statue1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations3x2.png:2",
+                "DisplaySize": { "X": 2, "Y": 3 }, 
+                "CollisionHeight": 3, 
+            },
+	]
+    },
+    {
+	// Fairy Statue #2
+        "$ItemType": "Furniture",
+        "ID": "Statue2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations3x2.png:3",
+                "DisplaySize": { "X": 2, "Y": 3 }, 
+                "CollisionHeight": 3, 
+            },
+	]
+    },
+    {
+	// Fairy Statue #3
+        "$ItemType": "Furniture",
+        "ID": "Statue3",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations3x2.png:4",
+                "DisplaySize": { "X": 2, "Y": 3 }, 
+                "CollisionHeight": 3, 
+            },
+	]
+    },
+    {
+	// Fairy Statue #4
+        "$ItemType": "Furniture",
+        "ID": "Statue4",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations3x2.png:5",
+                "DisplaySize": { "X": 2, "Y": 3 }, 
+                "CollisionHeight": 3, 
+            },
+	]
+    },
+    {
+	// Fairy Double Bed
+        "$ItemType": "Furniture",
+        "ID": "Bed1",
+        "Type": "Bed",
+	"BedType": "Double",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations4x3.png:0",
+		"FrontTexture": "Assets/fairygardendecorations4x3.png:1",
+           	"DisplaySize": { "X": 3, "Y": 4 }, 
+                "CollisionHeight": 1, 
+            },
+	]
+    },
+    {
+	// Fairy Single Bed
+        "$ItemType": "Furniture",
+        "ID": "Bed2",
+        "Type": "Bed",
+	"BedType": "Single",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations4x2.png:0",
+		"FrontTexture": "Assets/fairygardendecorations4x2.png:1",
+           	"DisplaySize": { "X": 2, "Y": 4 }, 
+                "CollisionHeight": 4, 
+            },
+	]
+    },
+    {
+	// Tiny Fairy Village
+        "$ItemType": "Furniture",
+        "ID": "TinyFairyVillage",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations3x3.png:0@45, Assets/fairygardendecorations3x3.png:1@35, Assets/fairygardendecorations3x3.png:2@45",
+                "DisplaySize": { "X": 3, "Y": 3 }, 
+                "CollisionHeight": 3, 
+            }
+	]
+    },
+    {
+	// Purple Ivy Bench
+        "$ItemType": "Furniture",
+        "ID": "Bench1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations2x2.png:10",
+                "FrontTexture": "Assets/fairygardendecorations2x2.png:40",
+                "DisplaySize": { "X": 2, "Y": 2 }, 
+                "CollisionHeight": 1, 
+		"Flipped": false,
+		"Seats": [{"X": 1, "Y": 0}],
+		"SittingDirection": "Down",
+            },
+            {
+                "Texture": "Assets/fairygardendecorations3x1.png:0",
+                "FrontTexture": "Assets/fairygardendecorations2x2.png:40",
+                "DisplaySize": { "X": 1, "Y": 3 }, 
+                "CollisionHeight": 3, 
+		"Flipped": false,
+		"Seats": [{"X": 0, "Y": 1}],
+		"SittingDirection": "Right",
+            },
+            {
+                "Texture": "Assets/fairygardendecorations2x2.png:11",
+                "FrontTexture": "Assets/fairygardendecorations2x2.png:11",
+                "DisplaySize": { "X": 2, "Y": 2 }, 
+                "CollisionHeight": 1, 
+		"Flipped": false,
+		"Seats": [{"X": 1, "Y": 0}],
+		"SittingDirection": "Up",
+            },
+            {
+                "Texture": "Assets/fairygardendecorations3x1.png:0",
+                "FrontTexture": "Assets/fairygardendecorations2x2.png:40",
+                "DisplaySize": { "X": 1, "Y": 3 }, 
+                "CollisionHeight": 3, 
+		"Flipped": true,
+		"Seats": [{"X": 0, "Y": 1}],
+		"SittingDirection": "Left",
+            },
+	]
+    },
+    {
+	// Pink Broomstick
+        "$ItemType": "Furniture",
+        "ID": "Broomstick1",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations3x1.png:1",
+                "DisplaySize": { "X": 1, "Y": 3 }, 
+                "CollisionHeight": 3, 
+            }
+	]
+    },
+	{
+	// Overgrown Pink Broomstick
+        "$ItemType": "Furniture",
+        "ID": "Broomstick2",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations3x1.png:2",
+                "DisplaySize": { "X": 1, "Y": 3 }, 
+                "CollisionHeight": 3, 
+          }
+	]
+    },
+ {
+	// Lavender Broomstick
+        "$ItemType": "Furniture",
+        "ID": "Broomstick3",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations3x1.png:3",
+                "DisplaySize": { "X": 1, "Y": 3 }, 
+                "CollisionHeight": 3, 
+            }
+	]
+    },
+	{
+	// Overgrown Lavender Broomstick
+        "$ItemType": "Furniture",
+        "ID": "Broomstick4",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/fairygardendecorations3x1.png:4",
+                "DisplaySize": { "X": 1, "Y": 3 }, 
+                "CollisionHeight": 3, 
+          }
+	]
+    }
+]

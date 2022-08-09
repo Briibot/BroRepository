@@ -1,0 +1,17 @@
+[
+  // Sell items at Robin's
+  {
+    // Big Junimo
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.PumpkinJunimoPlushies/BigJunimo" },
+    "ShopId": "Carpenter",
+    "Cost": 1000,
+  },
+  {
+    // Small Junimo
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "rosedryad.DynamicGameAssets.PumpkinJunimoPlushies/SmallJunimo" },
+    "ShopId": "Carpenter",
+    "Cost": 100,
+  }
+]

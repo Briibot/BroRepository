@@ -116,5 +116,17 @@
     "MinimalNumberOfMeat": 1,
     "MaximumNumberOfMeat": 1
   },
-  "CustomAnimals": []
+  "CustomAnimals": [
+    {
+      "Name": "Crow",
+      "MinimalNumberOfMeat": 0,
+      "MaximumNumberOfMeat": 0,
+      "MinimumDaysBetweenTreats": 4,
+      "LikedTreats": [
+        78
+      ],
+      "MinimumDaysUtillBirth": null,
+      "CanUseDeluxeItemForPregnancy": false
+    }
+  ]
 }

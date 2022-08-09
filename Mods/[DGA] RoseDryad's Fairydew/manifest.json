@@ -1,0 +1,14 @@
+{
+  "Name": "RoseDryad's Fairydew Decorations", 
+  "Author": "RoseDryad", 
+  "Version": "1.2.0", 
+  "Description": "Adds fairy garden themed decorations and furniture for Dynamic Game Assets",
+  "UniqueID": "rosedryad.DynamicGameAssets.FairyGardenDecorations", 
+  "UpdateKeys": ["Nexus:10154"],
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.DynamicGameAssets", 
+    "MinimumVersion": "1.1.0" // Current version of DGA
+  },
+  "DGA.FormatVersion": 2, // Current default
+  "DGA.ConditionsFormatVersion": "1.23.0" // You need this to tell it which version of CP conditions to use
+}
