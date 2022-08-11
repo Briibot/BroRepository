@@ -1,0 +1,13 @@
+{
+  "Name": "[CP]Yellog's Furniture",
+  "Author": "Yellog",
+  "Version": "1.5.0",
+  "Description": "Do not distribute other sites and corrections without the original author's permission.",
+  "UniqueID": "Yellog.YWB13",
+  "MinimumApiVersion": "2.6",
+  "MinimumGameVersion": "1.3.27",
+  "ContentPackFor":{
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+  "UpdateKeys": [ "Nexus:6351" ]
+}

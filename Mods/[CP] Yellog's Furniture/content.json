@@ -1,0 +1,19 @@
+{
+	"Format": "1.5.0",
+	"Changes": [
+//furniture
+		{
+			"LogName": "furniture",
+			"Action": "Load",
+			"Target": "Tilesheets/Furniture, TileSheets/furniture.{{language}}",
+			"FromFile": "assets/furniture.png"
+		},
+		{
+			"LogName": "furniture",
+			"Action": "Load",
+			"Target": "TileSheets/furnitureFront",
+			"FromFile": "assets/furnitureFront.png"
+		}
+
+]
+}
