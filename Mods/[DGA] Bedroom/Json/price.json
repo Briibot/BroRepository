@@ -1,0 +1,628 @@
+[
+//Purple
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/PurpleTuftBed1" },
+      "ShopId": "Carpenter",
+      "Cost": 900,
+      "EnableConditions":{
+         "DayOfWeek": "Monday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/PurpleTuftBed2" },
+      "ShopId": "Carpenter",
+      "Cost": 1300,
+      "EnableConditions":{
+         "DayOfWeek": "Monday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/PurpleBench2" },
+      "ShopId": "Carpenter",
+      "Cost": 900,
+      "EnableConditions":{
+         "DayOfWeek": "Monday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/PurpleBench1" },
+      "ShopId": "Carpenter",
+      "Cost": 700,
+      "EnableConditions":{
+         "DayOfWeek": "Monday"
+      }
+   },
+//Red
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/RedTuftBed1" },
+      "ShopId": "Carpenter",
+      "Cost": 900,
+      "EnableConditions":{
+         "DayOfWeek": "Monday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/RedTuftBed2" },
+      "ShopId": "Carpenter",
+      "Cost": 1300,
+      "EnableConditions":{
+         "DayOfWeek": "Monday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/RedBench2" },
+      "ShopId": "Carpenter",
+      "Cost": 900,
+      "EnableConditions":{
+         "DayOfWeek": "Monday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/RedBench1" },
+      "ShopId": "Carpenter",
+      "Cost": 700,
+      "EnableConditions":{
+         "DayOfWeek": "Monday"
+      }
+   },
+//Absinthe
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/AbsintheTuftBed1" },
+      "ShopId": "Carpenter",
+      "Cost": 900,
+      "EnableConditions":{
+         "DayOfWeek": "Wednesday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/AbsintheTuftBed2" },
+      "ShopId": "Carpenter",
+      "Cost": 1300,
+      "EnableConditions":{
+         "DayOfWeek": "Wednesday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/AbsintheBench2" },
+      "ShopId": "Carpenter",
+      "Cost": 900,
+      "EnableConditions":{
+         "DayOfWeek": "Wednesday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/AbsintheBench1" },
+      "ShopId": "Carpenter",
+      "Cost": 700,
+      "EnableConditions":{
+         "DayOfWeek": "Wednesday"
+      }
+   },
+//Brown
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/BrownTuftBed1" },
+      "ShopId": "Carpenter",
+      "Cost": 900,
+      "EnableConditions":{
+         "DayOfWeek": "Wednesday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/BrownTuftBed2" },
+      "ShopId": "Carpenter",
+      "Cost": 1300,
+      "EnableConditions":{
+         "DayOfWeek": "Wednesday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/BrownBench2" },
+      "ShopId": "Carpenter",
+      "Cost": 900,
+      "EnableConditions":{
+         "DayOfWeek": "Wednesday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/BrownBench1" },
+      "ShopId": "Carpenter",
+      "Cost": 700,
+      "EnableConditions":{
+         "DayOfWeek": "Wednesday"
+      }
+   },
+//Bone
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/BoneTuftBed1" },
+      "ShopId": "Carpenter",
+      "Cost": 900,
+      "EnableConditions":{
+         "DayOfWeek": "Thursday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/BoneTuftBed2" },
+      "ShopId": "Carpenter",
+      "Cost": 1300,
+      "EnableConditions":{
+         "DayOfWeek": "Thursday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/BoneBench2" },
+      "ShopId": "Carpenter",
+      "Cost": 900,
+      "EnableConditions":{
+         "DayOfWeek": "Thursday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/BoneBench1" },
+      "ShopId": "Carpenter",
+      "Cost": 700,
+      "EnableConditions":{
+         "DayOfWeek": "Thursday"
+      }
+   },
+//Teal
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/TealTuftBed1" },
+      "ShopId": "Carpenter",
+      "Cost": 900,
+      "EnableConditions":{
+         "DayOfWeek": "Thursday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/TealTuftBed2" },
+      "ShopId": "Carpenter",
+      "Cost": 1300,
+      "EnableConditions":{
+         "DayOfWeek": "Thursday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/TealBench2" },
+      "ShopId": "Carpenter",
+      "Cost": 900,
+      "EnableConditions":{
+         "DayOfWeek": "Thursday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/TealBench1" },
+      "ShopId": "Carpenter",
+      "Cost": 700,
+      "EnableConditions":{
+         "DayOfWeek": "Thursday"
+      }
+   },
+//Lavender
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/LavenderTuftBed1" },
+      "ShopId": "Carpenter",
+      "Cost": 900,
+      "EnableConditions":{
+         "DayOfWeek": "Friday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/LavenderTuftBed2" },
+      "ShopId": "Carpenter",
+      "Cost": 1300,
+      "EnableConditions":{
+         "DayOfWeek": "Friday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/LavenderBench2" },
+      "ShopId": "Carpenter",
+      "Cost": 900,
+      "EnableConditions":{
+         "DayOfWeek": "Friday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/LavenderBench1" },
+      "ShopId": "Carpenter",
+      "Cost": 700,
+      "EnableConditions":{
+         "DayOfWeek": "Friday"
+      }
+   },
+//Blue
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/BlueTuftBed1" },
+      "ShopId": "Carpenter",
+      "Cost": 900,
+      "EnableConditions":{
+         "DayOfWeek": "Friday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/BlueTuftBed2" },
+      "ShopId": "Carpenter",
+      "Cost": 1300,
+      "EnableConditions":{
+         "DayOfWeek": "Friday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/BlueBench2" },
+      "ShopId": "Carpenter",
+      "Cost": 900,
+      "EnableConditions":{
+         "DayOfWeek": "Friday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/BlueBench1" },
+      "ShopId": "Carpenter",
+      "Cost": 700,
+      "EnableConditions":{
+         "DayOfWeek": "Friday"
+      }
+   },
+//Coral
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/CoralTuftBed1" },
+      "ShopId": "Carpenter",
+      "Cost": 900,
+      "EnableConditions":{
+         "DayOfWeek": "Saturday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/CoralTuftBed2" },
+      "ShopId": "Carpenter",
+      "Cost": 1300,
+      "EnableConditions":{
+         "DayOfWeek": "Saturday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/CoralBench2" },
+      "ShopId": "Carpenter",
+      "Cost": 900,
+      "EnableConditions":{
+         "DayOfWeek": "Saturday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/CoralBench1" },
+      "ShopId": "Carpenter",
+      "Cost": 700,
+      "EnableConditions":{
+         "DayOfWeek": "Saturday"
+      }
+   },
+//Mint
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/MintTuftBed1" },
+      "ShopId": "Carpenter",
+      "Cost": 900,
+      "EnableConditions":{
+         "DayOfWeek": "Saturday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/MintTuftBed2" },
+      "ShopId": "Carpenter",
+      "Cost": 1300,
+      "EnableConditions":{
+         "DayOfWeek": "Saturday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/MintBench2" },
+      "ShopId": "Carpenter",
+      "Cost": 900,
+      "EnableConditions":{
+         "DayOfWeek": "Saturday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/MintBench1" },
+      "ShopId": "Carpenter",
+      "Cost": 700,
+      "EnableConditions":{
+         "DayOfWeek": "Saturday"
+      }
+   },
+//Walnut
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/WalnutDresserS" },
+      "ShopId": "Carpenter",
+      "Cost": 500,
+      "EnableConditions":{
+         "DayOfWeek": "Monday, Wednesday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/WalnutDresserL" },
+      "ShopId": "Carpenter",
+      "Cost": 600,
+      "EnableConditions":{
+         "DayOfWeek": "Monday, Wednesday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/WalnutDesk" },
+      "ShopId": "Carpenter",
+      "Cost": 500,
+      "EnableConditions":{
+         "DayOfWeek": "Monday, Wednesday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/WalnutVanity" },
+      "ShopId": "Carpenter",
+      "Cost": 1000,
+      "EnableConditions":{
+         "DayOfWeek": "Monday, Wednesday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/WalnutVanityMirror" },
+      "ShopId": "Carpenter",
+      "Cost": 200,
+      "EnableConditions":{
+         "DayOfWeek": "Monday, Wednesday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/WalnutMirror" },
+      "ShopId": "Carpenter",
+      "Cost": 100,
+      "EnableConditions":{
+         "DayOfWeek": "Monday, Wednesday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/WalnutStand" },
+      "ShopId": "Carpenter",
+      "Cost": 400,
+      "EnableConditions":{
+         "DayOfWeek": "Monday, Wednesday"
+      }
+   },
+//Ebony
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/EbonyDresserS" },
+      "ShopId": "Carpenter",
+      "Cost": 500,
+      "EnableConditions":{
+         "DayOfWeek": "Thursday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/EbonyDresserL" },
+      "ShopId": "Carpenter",
+      "Cost": 600,
+      "EnableConditions":{
+         "DayOfWeek": "Thursday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/EbonyDesk" },
+      "ShopId": "Carpenter",
+      "Cost": 500,
+      "EnableConditions":{
+         "DayOfWeek": "Thursday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/EbonyVanity" },
+      "ShopId": "Carpenter",
+      "Cost": 1000,
+      "EnableConditions":{
+         "DayOfWeek": "Thursday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/EbonyVanityMirror" },
+      "ShopId": "Carpenter",
+      "Cost": 200,
+      "EnableConditions":{
+         "DayOfWeek": "Thursday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/EbonyMirror" },
+      "ShopId": "Carpenter",
+      "Cost": 100,
+      "EnableConditions":{
+         "DayOfWeek": "Thursday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/EbonyStand" },
+      "ShopId": "Carpenter",
+      "Cost": 400,
+      "EnableConditions":{
+         "DayOfWeek": "Thursday"
+      }
+   },
+//Pine
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/PineDresserS" },
+      "ShopId": "Carpenter",
+      "Cost": 500,
+      "EnableConditions":{
+         "DayOfWeek": "Saturday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/PineDresserL" },
+      "ShopId": "Carpenter",
+      "Cost": 600,
+      "EnableConditions":{
+         "DayOfWeek": "Saturday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/PineDesk" },
+      "ShopId": "Carpenter",
+      "Cost": 500,
+      "EnableConditions":{
+         "DayOfWeek": "Saturday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/PineVanity" },
+      "ShopId": "Carpenter",
+      "Cost": 1000,
+      "EnableConditions":{
+         "DayOfWeek": "Saturday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/PineVanityMirror" },
+      "ShopId": "Carpenter",
+      "Cost": 200,
+      "EnableConditions":{
+         "DayOfWeek": "Saturday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/PineMirror" },
+      "ShopId": "Carpenter",
+      "Cost": 100,
+      "EnableConditions":{
+         "DayOfWeek": "Saturday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/PineStand" },
+      "ShopId": "Carpenter",
+      "Cost": 400,
+      "EnableConditions":{
+         "DayOfWeek": "Saturday"
+      }
+   },
+//White
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/WhiteDresserS" },
+      "ShopId": "Carpenter",
+      "Cost": 500,
+      "EnableConditions":{
+         "DayOfWeek": "Friday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/WhiteDresserL" },
+      "ShopId": "Carpenter",
+      "Cost": 600,
+      "EnableConditions":{
+         "DayOfWeek": "Friday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/WhiteDesk" },
+      "ShopId": "Carpenter",
+      "Cost": 500,
+      "EnableConditions":{
+         "DayOfWeek": "Friday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/WhiteVanity" },
+      "ShopId": "Carpenter",
+      "Cost": 1000,
+      "EnableConditions":{
+         "DayOfWeek": "Friday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/WhiteVanityMirror" },
+      "ShopId": "Carpenter",
+      "Cost": 200,
+      "EnableConditions":{
+         "DayOfWeek": "Friday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/WhiteMirror" },
+      "ShopId": "Carpenter",
+      "Cost": 100,
+      "EnableConditions":{
+         "DayOfWeek": "Friday"
+      }
+   },
+   {
+      "$ItemType": "ShopEntry",
+      "Item": { "Value": "LynnNexus.DynamicGameAssets.Bedroom/WhiteStand" },
+      "ShopId": "Carpenter",
+      "Cost": 400,
+      "EnableConditions":{
+         "DayOfWeek": "Friday"
+      }
+   },
+]

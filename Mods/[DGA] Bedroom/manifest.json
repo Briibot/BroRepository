@@ -1,0 +1,12 @@
+{
+    "Name": "Bedroom",
+    "Author": "LynnNexus",
+    "Version": "1.0.0",
+    "Description": "Beds and benches",
+    "UniqueID": "LynnNexus.DynamicGameAssets.Bedroom",
+    "ContentPackFor": { "UniqueID": "spacechase0.DynamicGameAssets" },
+    "UpdateKeys": [12403],
+    "DGA.FormatVersion": 2,
+    "DGA.ConditionsFormatVersion": "1.23.0"
+  }
+  

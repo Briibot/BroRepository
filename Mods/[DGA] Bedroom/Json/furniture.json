@@ -1,0 +1,2020 @@
+[
+//Purple
+   {
+      "$ItemType": "Furniture",
+      "ID": "PurpleTuftBed1",
+      "Type": "Bed",
+      "BedType": "Single",
+      "Configurations": [
+         {
+            "Texture": "Assets/TuftBed1.png:0",
+            "FrontTexture": "Assets/TuftBed1.png:1",
+                "DisplaySize": { "X": 2, "Y": 4 },
+                "CollisionHeight": 3
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "PurpleTuftBed2",
+      "Type": "Bed",
+      "BedType": "Double",
+      "Configurations": [
+         {
+            "Texture": "Assets/TuftBed2.png:0",
+            "FrontTexture": "Assets/TuftBed2.png:1",
+                "DisplaySize": { "X": 3, "Y": 4 },
+                "CollisionHeight": 3
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "PurpleBench1",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "Assets/Bench1.png:0",
+            "FrontTexture": "Assets/Blank.png:0",
+            "DisplaySize": {"X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.55, "Y": 0 }
+            ],
+            "SittingDirection": "Down"
+         },
+         {
+            "Texture": "Assets/Bench1.png:6",
+            "FrontTexture": "Assets/Bench1.png:7",
+            "DisplaySize": {"X": 1, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.12, "Y": 0 }
+            ],
+            "SittingDirection": "Right"
+         },
+         {
+            "Texture": "Assets/Bench1.png:1",
+            "FrontTexture": "Assets/Bench1.png:2",
+            "DisplaySize": {"X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.5, "Y": 0.1 }
+            ],
+            "SittingDirection": "Up"
+         },
+         {
+            "Texture": "Assets/Bench1.png:6",
+            "FrontTexture": "Assets/Bench1.png:7",
+            "DisplaySize": {"X": 1, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": true,
+            "Seats": [
+               { "X": -0.12, "Y": 0 }
+            ],
+            "SittingDirection": "Left"
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "PurpleBench2",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "Assets/Bench2.png:2",
+            "FrontTexture": "Assets/Blank.png:0",
+            "DisplaySize": {"X": 3, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.6, "Y": 0 }, 
+               { "X": 1.5, "Y": 0 }
+            ],
+            "SittingDirection": "Down"
+         },
+         {
+            "Texture": "Assets/Bench2.png:6",
+            "FrontTexture": "Assets/Bench2.png:7",
+            "DisplaySize": {"X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.12, "Y": 0.2 },
+               { "X": 0.12, "Y": 0.5 },
+               { "X": 0.12, "Y": 0.9 }
+            ],
+            "SittingDirection": "Right"
+         },
+         {
+            "Texture": "Assets/Bench2.png:0",
+            "FrontTexture": "Assets/Bench2.png:1",
+            "DisplaySize": {"X": 3, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.63, "Y": 0.1 },
+               { "X": 1.39, "Y": 0.1 }
+            ],
+            "SittingDirection": "Up"
+         },
+         {
+            "Texture": "Assets/Bench2.png:6",
+            "FrontTexture": "Assets/Bench2.png:7",
+            "DisplaySize": {"X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": true,
+            "Seats": [
+               { "X": -0.12, "Y": 0.2 },
+               { "X": -0.12, "Y": 0.5 },
+               { "X": -0.12, "Y": 0.9 }
+            ],
+            "SittingDirection": "Left"
+         }
+      ]
+   },
+//Red
+   {
+      "$ItemType": "Furniture",
+      "ID": "RedTuftBed1",
+      "Type": "Bed",
+      "BedType": "Single",
+      "Configurations": [
+         {
+            "Texture": "Assets/TuftBed1.png:2",
+            "FrontTexture": "Assets/TuftBed1.png:3",
+                "DisplaySize": { "X": 2, "Y": 4 },
+                "CollisionHeight": 3
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "RedTuftBed2",
+      "Type": "Bed",
+      "BedType": "Double",
+      "Configurations": [
+         {
+            "Texture": "Assets/TuftBed2.png:2",
+            "FrontTexture": "Assets/TuftBed2.png:3",
+                "DisplaySize": { "X": 3, "Y": 4 },
+                "CollisionHeight": 3
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "RedBench1",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "Assets/Bench1.png:4",
+            "FrontTexture": "Assets/Blank.png:0",
+            "DisplaySize": {"X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.55, "Y": 0 }
+            ],
+            "SittingDirection": "Down"
+         },
+         {
+            "Texture": "Assets/Bench1.png:14",
+            "FrontTexture": "Assets/Bench1.png:15",
+            "DisplaySize": {"X": 1, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.12, "Y": 0 }
+            ],
+            "SittingDirection": "Right"
+         },
+         {
+            "Texture": "Assets/Bench1.png:5",
+            "FrontTexture": "Assets/Bench1.png:6",
+            "DisplaySize": {"X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.5, "Y": 0.1 }
+            ],
+            "SittingDirection": "Up"
+         },
+         {
+            "Texture": "Assets/Bench1.png:14",
+            "FrontTexture": "Assets/Bench1.png:15",
+            "DisplaySize": {"X": 1, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": true,
+            "Seats": [
+               { "X": -0.12, "Y": 0 }
+            ],
+            "SittingDirection": "Left"
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "RedBench2",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "Assets/Bench2.png:3",
+            "FrontTexture": "Assets/Blank.png:0",
+            "DisplaySize": {"X": 3, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.6, "Y": 0 }, 
+               { "X": 1.5, "Y": 0 }
+            ],
+            "SittingDirection": "Down"
+         },
+         {
+            "Texture": "Assets/Bench2.png:14",
+            "FrontTexture": "Assets/Bench2.png:15",
+            "DisplaySize": {"X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.12, "Y": 0.2 },
+               { "X": 0.12, "Y": 0.5 },
+               { "X": 0.12, "Y": 0.9 }
+            ],
+            "SittingDirection": "Right"
+         },
+         {
+            "Texture": "Assets/Bench2.png:4",
+            "FrontTexture": "Assets/Bench2.png:5",
+            "DisplaySize": {"X": 3, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.63, "Y": 0.1 },
+               { "X": 1.39, "Y": 0.1 }
+            ],
+            "SittingDirection": "Up"
+         },
+         {
+            "Texture": "Assets/Bench2.png:14",
+            "FrontTexture": "Assets/Bench2.png:15",
+            "DisplaySize": {"X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": true,
+            "Seats": [
+               { "X": -0.12, "Y": 0.2 },
+               { "X": -0.12, "Y": 0.5 },
+               { "X": -0.12, "Y": 0.9 }
+            ],
+            "SittingDirection": "Left"
+         }
+      ]
+   },
+//Absinthe
+   {
+      "$ItemType": "Furniture",
+      "ID": "AbsintheTuftBed1",
+      "Type": "Bed",
+      "BedType": "Single",
+      "Configurations": [
+         {
+            "Texture": "Assets/TuftBed1.png:4",
+            "FrontTexture": "Assets/TuftBed1.png:5",
+                "DisplaySize": { "X": 2, "Y": 4 },
+                "CollisionHeight": 3
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "AbsintheTuftBed2",
+      "Type": "Bed",
+      "BedType": "Double",
+      "Configurations": [
+         {
+            "Texture": "Assets/TuftBed2.png:4",
+            "FrontTexture": "Assets/TuftBed2.png:5",
+                "DisplaySize": { "X": 3, "Y": 4 },
+                "CollisionHeight": 3
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "AbsintheBench1",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "Assets/Bench1.png:8",
+            "FrontTexture": "Assets/Blank.png:0",
+            "DisplaySize": {"X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.55, "Y": 0 }
+            ],
+            "SittingDirection": "Down"
+         },
+         {
+            "Texture": "Assets/Bench1.png:22",
+            "FrontTexture": "Assets/Bench1.png:23",
+            "DisplaySize": {"X": 1, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.12, "Y": 0 }
+            ],
+            "SittingDirection": "Right"
+         },
+         {
+            "Texture": "Assets/Bench1.png:9",
+            "FrontTexture": "Assets/Bench1.png:10",
+            "DisplaySize": {"X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.5, "Y": 0.1 }
+            ],
+            "SittingDirection": "Up"
+         },
+         {
+            "Texture": "Assets/Bench1.png:22",
+            "FrontTexture": "Assets/Bench1.png:23",
+            "DisplaySize": {"X": 1, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": true,
+            "Seats": [
+               { "X": -0.12, "Y": 0 }
+            ],
+            "SittingDirection": "Left"
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "AbsintheBench2",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "Assets/Bench2.png:8",
+            "FrontTexture": "Assets/Blank.png:0",
+            "DisplaySize": {"X": 3, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.6, "Y": 0 }, 
+               { "X": 1.5, "Y": 0 }
+            ],
+            "SittingDirection": "Down"
+         },
+         {
+            "Texture": "Assets/Bench2.png:22",
+            "FrontTexture": "Assets/Bench2.png:23",
+            "DisplaySize": {"X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.12, "Y": 0.2 },
+               { "X": 0.12, "Y": 0.5 },
+               { "X": 0.12, "Y": 0.9 }
+            ],
+            "SittingDirection": "Right"
+         },
+         {
+            "Texture": "Assets/Bench2.png:6",
+            "FrontTexture": "Assets/Bench2.png:7",
+            "DisplaySize": {"X": 3, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.63, "Y": 0.1 },
+               { "X": 1.39, "Y": 0.1 }
+            ],
+            "SittingDirection": "Up"
+         },
+         {
+            "Texture": "Assets/Bench2.png:22",
+            "FrontTexture": "Assets/Bench2.png:23",
+            "DisplaySize": {"X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": true,
+            "Seats": [
+               { "X": -0.12, "Y": 0.2 },
+               { "X": -0.12, "Y": 0.5 },
+               { "X": -0.12, "Y": 0.9 }
+            ],
+            "SittingDirection": "Left"
+         }
+      ]
+   },
+//Brown
+   {
+      "$ItemType": "Furniture",
+      "ID": "BrownTuftBed1",
+      "Type": "Bed",
+      "BedType": "Single",
+      "Configurations": [
+         {
+            "Texture": "Assets/TuftBed1.png:6",
+            "FrontTexture": "Assets/TuftBed1.png:7",
+                "DisplaySize": { "X": 2, "Y": 4 },
+                "CollisionHeight": 3
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "BrownTuftBed2",
+      "Type": "Bed",
+      "BedType": "Double",
+      "Configurations": [
+         {
+            "Texture": "Assets/TuftBed2.png:6",
+            "FrontTexture": "Assets/TuftBed2.png:7",
+                "DisplaySize": { "X": 3, "Y": 4 },
+                "CollisionHeight": 3
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "BrownBench1",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "Assets/Bench1.png:12",
+            "FrontTexture": "Assets/Blank.png:0",
+            "DisplaySize": {"X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.55, "Y": 0 }
+            ],
+            "SittingDirection": "Down"
+         },
+         {
+            "Texture": "Assets/Bench1.png:30",
+            "FrontTexture": "Assets/Bench1.png:31",
+            "DisplaySize": {"X": 1, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.12, "Y": 0 }
+            ],
+            "SittingDirection": "Right"
+         },
+         {
+            "Texture": "Assets/Bench1.png:13",
+            "FrontTexture": "Assets/Bench1.png:14",
+            "DisplaySize": {"X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.5, "Y": 0.1 }
+            ],
+            "SittingDirection": "Up"
+         },
+         {
+            "Texture": "Assets/Bench1.png:30",
+            "FrontTexture": "Assets/Bench1.png:31",
+            "DisplaySize": {"X": 1, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": true,
+            "Seats": [
+               { "X": -0.12, "Y": 0 }
+            ],
+            "SittingDirection": "Left"
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "BrownBench2",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "Assets/Bench2.png:9",
+            "FrontTexture": "Assets/Blank.png:0",
+            "DisplaySize": {"X": 3, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.6, "Y": 0 }, 
+               { "X": 1.5, "Y": 0 }
+            ],
+            "SittingDirection": "Down"
+         },
+         {
+            "Texture": "Assets/Bench2.png:30",
+            "FrontTexture": "Assets/Bench2.png:31",
+            "DisplaySize": {"X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.12, "Y": 0.2 },
+               { "X": 0.12, "Y": 0.5 },
+               { "X": 0.12, "Y": 0.9 }
+            ],
+            "SittingDirection": "Right"
+         },
+         {
+            "Texture": "Assets/Bench2.png:10",
+            "FrontTexture": "Assets/Bench2.png:11",
+            "DisplaySize": {"X": 3, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.63, "Y": 0.1 },
+               { "X": 1.39, "Y": 0.1 }
+            ],
+            "SittingDirection": "Up"
+         },
+         {
+            "Texture": "Assets/Bench2.png:30",
+            "FrontTexture": "Assets/Bench2.png:31",
+            "DisplaySize": {"X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": true,
+            "Seats": [
+               { "X": -0.12, "Y": 0.2 },
+               { "X": -0.12, "Y": 0.5 },
+               { "X": -0.12, "Y": 0.9 }
+            ],
+            "SittingDirection": "Left"
+         }
+      ]
+   },
+//Bone
+   {
+      "$ItemType": "Furniture",
+      "ID": "BoneTuftBed1",
+      "Type": "Bed",
+      "BedType": "Single",
+      "Configurations": [
+         {
+            "Texture": "Assets/TuftBed1.png:8",
+            "FrontTexture": "Assets/TuftBed1.png:9",
+                "DisplaySize": { "X": 2, "Y": 4 },
+                "CollisionHeight": 3
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "BoneTuftBed2",
+      "Type": "Bed",
+      "BedType": "Double",
+      "Configurations": [
+         {
+            "Texture": "Assets/TuftBed2.png:8",
+            "FrontTexture": "Assets/TuftBed2.png:9",
+                "DisplaySize": { "X": 3, "Y": 4 },
+                "CollisionHeight": 3
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "BoneBench1",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "Assets/Bench1.png:16",
+            "FrontTexture": "Assets/Blank.png:0",
+            "DisplaySize": {"X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.55, "Y": 0 }
+            ],
+            "SittingDirection": "Down"
+         },
+         {
+            "Texture": "Assets/Bench1.png:38",
+            "FrontTexture": "Assets/Bench1.png:39",
+            "DisplaySize": {"X": 1, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.12, "Y": 0 }
+            ],
+            "SittingDirection": "Right"
+         },
+         {
+            "Texture": "Assets/Bench1.png:17",
+            "FrontTexture": "Assets/Bench1.png:18",
+            "DisplaySize": {"X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.5, "Y": 0.1 }
+            ],
+            "SittingDirection": "Up"
+         },
+         {
+            "Texture": "Assets/Bench1.png:38",
+            "FrontTexture": "Assets/Bench1.png:39",
+            "DisplaySize": {"X": 1, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": true,
+            "Seats": [
+               { "X": -0.12, "Y": 0 }
+            ],
+            "SittingDirection": "Left"
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "BoneBench2",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "Assets/Bench2.png:14",
+            "FrontTexture": "Assets/Blank.png:0",
+            "DisplaySize": {"X": 3, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.6, "Y": 0 }, 
+               { "X": 1.5, "Y": 0 }
+            ],
+            "SittingDirection": "Down"
+         },
+         {
+            "Texture": "Assets/Bench2.png:38",
+            "FrontTexture": "Assets/Bench2.png:39",
+            "DisplaySize": {"X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.12, "Y": 0.2 },
+               { "X": 0.12, "Y": 0.5 },
+               { "X": 0.12, "Y": 0.9 }
+            ],
+            "SittingDirection": "Right"
+         },
+         {
+            "Texture": "Assets/Bench2.png:12",
+            "FrontTexture": "Assets/Bench2.png:13",
+            "DisplaySize": {"X": 3, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.63, "Y": 0.1 },
+               { "X": 1.39, "Y": 0.1 }
+            ],
+            "SittingDirection": "Up"
+         },
+         {
+            "Texture": "Assets/Bench2.png:38",
+            "FrontTexture": "Assets/Bench2.png:39",
+            "DisplaySize": {"X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": true,
+            "Seats": [
+               { "X": -0.12, "Y": 0.2 },
+               { "X": -0.12, "Y": 0.5 },
+               { "X": -0.12, "Y": 0.9 }
+            ],
+            "SittingDirection": "Left"
+         }
+      ]
+   },
+//Teal
+   {
+      "$ItemType": "Furniture",
+      "ID": "TealTuftBed1",
+      "Type": "Bed",
+      "BedType": "Single",
+      "Configurations": [
+         {
+            "Texture": "Assets/TuftBed1.png:10",
+            "FrontTexture": "Assets/TuftBed1.png:11",
+            "DisplaySize": { "X": 2, "Y": 4 },
+            "CollisionHeight": 3
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "TealTuftBed2",
+      "Type": "Bed",
+      "BedType": "Double",
+      "Configurations": [
+         {
+            "Texture": "Assets/TuftBed2.png:10",
+            "FrontTexture": "Assets/TuftBed2.png:11",
+            "DisplaySize": { "X": 3, "Y": 4 },
+            "CollisionHeight": 3
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "TealBench1",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "Assets/Bench1.png:20",
+            "FrontTexture": "Assets/Blank.png:0",
+            "DisplaySize": {"X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.55, "Y": 0 }
+            ],
+            "SittingDirection": "Down"
+         },
+         {
+            "Texture": "Assets/Bench1.png:46",
+            "FrontTexture": "Assets/Bench1.png:47",
+            "DisplaySize": {"X": 1, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.12, "Y": 0 }
+            ],
+            "SittingDirection": "Right"
+         },
+         {
+            "Texture": "Assets/Bench1.png:21",
+            "FrontTexture": "Assets/Bench1.png:22",
+            "DisplaySize": {"X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.5, "Y": 0.1 }
+            ],
+            "SittingDirection": "Up"
+         },
+         {
+            "Texture": "Assets/Bench1.png:46",
+            "FrontTexture": "Assets/Bench1.png:47",
+            "DisplaySize": {"X": 1, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": true,
+            "Seats": [
+               { "X": -0.12, "Y": 0 }
+            ],
+            "SittingDirection": "Left"
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "TealBench2",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "Assets/Bench2.png:15",
+            "FrontTexture": "Assets/Blank.png:0",
+            "DisplaySize": {"X": 3, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.6, "Y": 0 }, 
+               { "X": 1.5, "Y": 0 }
+            ],
+            "SittingDirection": "Down"
+         },
+         {
+            "Texture": "Assets/Bench2.png:46",
+            "FrontTexture": "Assets/Bench2.png:47",
+            "DisplaySize": {"X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.12, "Y": 0.2 },
+               { "X": 0.12, "Y": 0.5 },
+               { "X": 0.12, "Y": 0.9 }
+            ],
+            "SittingDirection": "Right"
+         },
+         {
+            "Texture": "Assets/Bench2.png:16",
+            "FrontTexture": "Assets/Bench2.png:17",
+            "DisplaySize": {"X": 3, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.63, "Y": 0.1 },
+               { "X": 1.39, "Y": 0.1 }
+            ],
+            "SittingDirection": "Up"
+         },
+         {
+            "Texture": "Assets/Bench2.png:46",
+            "FrontTexture": "Assets/Bench2.png:7",
+            "DisplaySize": {"X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": true,
+            "Seats": [
+               { "X": -0.12, "Y": 0.2 },
+               { "X": -0.12, "Y": 0.5 },
+               { "X": -0.12, "Y": 0.9 }
+            ],
+            "SittingDirection": "Left"
+         }
+      ]
+   },
+//Lavender
+   {
+      "$ItemType": "Furniture",
+      "ID": "LavenderTuftBed1",
+      "Type": "Bed",
+      "BedType": "Single",
+      "Configurations": [
+         {
+            "Texture": "Assets/TuftBed1.png:12",
+            "FrontTexture": "Assets/TuftBed1.png:13",
+                "DisplaySize": { "X": 2, "Y": 4 },
+                "CollisionHeight": 3
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "LavenderTuftBed2",
+      "Type": "Bed",
+      "BedType": "Double",
+      "Configurations": [
+         {
+            "Texture": "Assets/TuftBed2.png:12",
+            "FrontTexture": "Assets/TuftBed2.png:13",
+                "DisplaySize": { "X": 3, "Y": 4 },
+                "CollisionHeight": 3
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "LavenderBench1",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "Assets/Bench1.png:24",
+            "FrontTexture": "Assets/Blank.png:0",
+            "DisplaySize": {"X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.55, "Y": 0 }
+            ],
+            "SittingDirection": "Down"
+         },
+         {
+            "Texture": "Assets/Bench1.png:54",
+            "FrontTexture": "Assets/Bench1.png:55",
+            "DisplaySize": {"X": 1, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.12, "Y": 0 }
+            ],
+            "SittingDirection": "Right"
+         },
+         {
+            "Texture": "Assets/Bench1.png:25",
+            "FrontTexture": "Assets/Bench1.png:26",
+            "DisplaySize": {"X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.5, "Y": 0.1 }
+            ],
+            "SittingDirection": "Up"
+         },
+         {
+            "Texture": "Assets/Bench1.png:54",
+            "FrontTexture": "Assets/Bench1.png:55",
+            "DisplaySize": {"X": 1, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": true,
+            "Seats": [
+               { "X": -0.12, "Y": 0 }
+            ],
+            "SittingDirection": "Left"
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "LavenderBench2",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "Assets/Bench2.png:20",
+            "FrontTexture": "Assets/Blank.png:0",
+            "DisplaySize": {"X": 3, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.6, "Y": 0 }, 
+               { "X": 1.5, "Y": 0 }
+            ],
+            "SittingDirection": "Down"
+         },
+         {
+            "Texture": "Assets/Bench2.png:54",
+            "FrontTexture": "Assets/Bench2.png:55",
+            "DisplaySize": {"X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.12, "Y": 0.2 },
+               { "X": 0.12, "Y": 0.5 },
+               { "X": 0.12, "Y": 0.9 }
+            ],
+            "SittingDirection": "Right"
+         },
+         {
+            "Texture": "Assets/Bench2.png:18",
+            "FrontTexture": "Assets/Bench2.png:19",
+            "DisplaySize": {"X": 3, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.63, "Y": 0.1 },
+               { "X": 1.39, "Y": 0.1 }
+            ],
+            "SittingDirection": "Up"
+         },
+         {
+            "Texture": "Assets/Bench2.png:54",
+            "FrontTexture": "Assets/Bench2.png:55",
+            "DisplaySize": {"X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": true,
+            "Seats": [
+               { "X": -0.12, "Y": 0.2 },
+               { "X": -0.12, "Y": 0.5 },
+               { "X": -0.12, "Y": 0.9 }
+            ],
+            "SittingDirection": "Left"
+         }
+      ]
+   },
+//Blue
+   {
+      "$ItemType": "Furniture",
+      "ID": "BlueTuftBed1",
+      "Type": "Bed",
+      "BedType": "Single",
+      "Configurations": [
+         {
+            "Texture": "Assets/TuftBed1.png:14",
+            "FrontTexture": "Assets/TuftBed1.png:15",
+                "DisplaySize": { "X": 2, "Y": 4 },
+                "CollisionHeight": 3
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "BlueTuftBed2",
+      "Type": "Bed",
+      "BedType": "Double",
+      "Configurations": [
+         {
+            "Texture": "Assets/TuftBed2.png:14",
+            "FrontTexture": "Assets/TuftBed2.png:15",
+                "DisplaySize": { "X": 3, "Y": 4 },
+                "CollisionHeight": 3
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "BlueBench1",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "Assets/Bench1.png:28",
+            "FrontTexture": "Assets/Blank.png:0",
+            "DisplaySize": {"X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.55, "Y": 0 }
+            ],
+            "SittingDirection": "Down"
+         },
+         {
+            "Texture": "Assets/Bench1.png:62",
+            "FrontTexture": "Assets/Bench1.png:63",
+            "DisplaySize": {"X": 1, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.12, "Y": 0 }
+            ],
+            "SittingDirection": "Right"
+         },
+         {
+            "Texture": "Assets/Bench1.png:29",
+            "FrontTexture": "Assets/Bench1.png:30",
+            "DisplaySize": {"X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.5, "Y": 0.1 }
+            ],
+            "SittingDirection": "Up"
+         },
+         {
+            "Texture": "Assets/Bench1.png:62",
+            "FrontTexture": "Assets/Bench1.png:63",
+            "DisplaySize": {"X": 1, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": true,
+            "Seats": [
+               { "X": -0.12, "Y": 0 }
+            ],
+            "SittingDirection": "Left"
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "BlueBench2",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "Assets/Bench2.png:21",
+            "FrontTexture": "Assets/Blank.png:0",
+            "DisplaySize": {"X": 3, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.6, "Y": 0 }, 
+               { "X": 1.5, "Y": 0 }
+            ],
+            "SittingDirection": "Down"
+         },
+         {
+            "Texture": "Assets/Bench2.png:62",
+            "FrontTexture": "Assets/Bench2.png:63",
+            "DisplaySize": {"X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.12, "Y": 0.2 },
+               { "X": 0.12, "Y": 0.5 },
+               { "X": 0.12, "Y": 0.9 }
+            ],
+            "SittingDirection": "Right"
+         },
+         {
+            "Texture": "Assets/Bench2.png:22",
+            "FrontTexture": "Assets/Bench2.png:23",
+            "DisplaySize": {"X": 3, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.63, "Y": 0.1 },
+               { "X": 1.39, "Y": 0.1 }
+            ],
+            "SittingDirection": "Up"
+         },
+         {
+            "Texture": "Assets/Bench2.png:62",
+            "FrontTexture": "Assets/Bench2.png:63",
+            "DisplaySize": {"X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": true,
+            "Seats": [
+               { "X": -0.12, "Y": 0.2 },
+               { "X": -0.12, "Y": 0.5 },
+               { "X": -0.12, "Y": 0.9 }
+            ],
+            "SittingDirection": "Left"
+         }
+      ]
+   },
+//Coral
+   {
+      "$ItemType": "Furniture",
+      "ID": "CoralTuftBed1",
+      "Type": "Bed",
+      "BedType": "Single",
+      "Configurations": [
+         {
+            "Texture": "Assets/TuftBed1.png:16",
+            "FrontTexture": "Assets/TuftBed1.png:17",
+                "DisplaySize": { "X": 2, "Y": 4 },
+                "CollisionHeight": 3
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "CoralTuftBed2",
+      "Type": "Bed",
+      "BedType": "Double",
+      "Configurations": [
+         {
+            "Texture": "Assets/TuftBed2.png:16",
+            "FrontTexture": "Assets/TuftBed2.png:17",
+                "DisplaySize": { "X": 3, "Y": 4 },
+                "CollisionHeight": 3
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "CoralBench1",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "Assets/Bench1.png:32",
+            "FrontTexture": "Assets/Blank.png:0",
+            "DisplaySize": {"X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.55, "Y": 0 }
+            ],
+            "SittingDirection": "Down"
+         },
+         {
+            "Texture": "Assets/Bench1.png:70",
+            "FrontTexture": "Assets/Bench1.png:71",
+            "DisplaySize": {"X": 1, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.12, "Y": 0 }
+            ],
+            "SittingDirection": "Right"
+         },
+         {
+            "Texture": "Assets/Bench1.png:33",
+            "FrontTexture": "Assets/Bench1.png:34",
+            "DisplaySize": {"X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.5, "Y": 0.1 }
+            ],
+            "SittingDirection": "Up"
+         },
+         {
+            "Texture": "Assets/Bench1.png:70",
+            "FrontTexture": "Assets/Bench1.png:71",
+            "DisplaySize": {"X": 1, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": true,
+            "Seats": [
+               { "X": -0.12, "Y": 0 }
+            ],
+            "SittingDirection": "Left"
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "CoralBench2",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "Assets/Bench2.png:26",
+            "FrontTexture": "Assets/Blank.png:0",
+            "DisplaySize": {"X": 3, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.6, "Y": 0 }, 
+               { "X": 1.5, "Y": 0 }
+            ],
+            "SittingDirection": "Down"
+         },
+         {
+            "Texture": "Assets/Bench2.png:70",
+            "FrontTexture": "Assets/Bench2.png:71",
+            "DisplaySize": {"X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.12, "Y": 0.2 },
+               { "X": 0.12, "Y": 0.5 },
+               { "X": 0.12, "Y": 0.9 }
+            ],
+            "SittingDirection": "Right"
+         },
+         {
+            "Texture": "Assets/Bench2.png:24",
+            "FrontTexture": "Assets/Bench2.png:25",
+            "DisplaySize": {"X": 3, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.63, "Y": 0.1 },
+               { "X": 1.39, "Y": 0.1 }
+            ],
+            "SittingDirection": "Up"
+         },
+         {
+            "Texture": "Assets/Bench2.png:70",
+            "FrontTexture": "Assets/Bench2.png:71",
+            "DisplaySize": {"X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": true,
+            "Seats": [
+               { "X": -0.12, "Y": 0.2 },
+               { "X": -0.12, "Y": 0.5 },
+               { "X": -0.12, "Y": 0.9 }
+            ],
+            "SittingDirection": "Left"
+         }
+      ]
+   },
+//Mint
+   {
+      "$ItemType": "Furniture",
+      "ID": "MintTuftBed1",
+      "Type": "Bed",
+      "BedType": "Single",
+      "Configurations": [
+         {
+            "Texture": "Assets/TuftBed1.png:18",
+            "FrontTexture": "Assets/TuftBed1.png:19",
+                "DisplaySize": { "X": 2, "Y": 4 },
+                "CollisionHeight": 3
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "MintTuftBed2",
+      "Type": "Bed",
+      "BedType": "Double",
+      "Configurations": [
+         {
+            "Texture": "Assets/TuftBed2.png:18",
+            "FrontTexture": "Assets/TuftBed2.png:19",
+                "DisplaySize": { "X": 3, "Y": 4 },
+                "CollisionHeight": 3
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "MintBench1",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "Assets/Bench1.png:36",
+            "FrontTexture": "Assets/Blank.png:0",
+            "DisplaySize": {"X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.55, "Y": 0 }
+            ],
+            "SittingDirection": "Down"
+         },
+         {
+            "Texture": "Assets/Bench1.png:78",
+            "FrontTexture": "Assets/Bench1.png:79",
+            "DisplaySize": {"X": 1, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.12, "Y": 0 }
+            ],
+            "SittingDirection": "Right"
+         },
+         {
+            "Texture": "Assets/Bench1.png:37",
+            "FrontTexture": "Assets/Bench1.png:38",
+            "DisplaySize": {"X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.5, "Y": 0.1 }
+            ],
+            "SittingDirection": "Up"
+         },
+         {
+            "Texture": "Assets/Bench1.png:78",
+            "FrontTexture": "Assets/Bench1.png:79",
+            "DisplaySize": {"X": 1, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": true,
+            "Seats": [
+               { "X": -0.12, "Y": 0 }
+            ],
+            "SittingDirection": "Left"
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "MintBench2",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "Assets/Bench2.png:27",
+            "FrontTexture": "Assets/Blank.png:0",
+            "DisplaySize": {"X": 3, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.6, "Y": 0 }, 
+               { "X": 1.5, "Y": 0 }
+            ],
+            "SittingDirection": "Down"
+         },
+         {
+            "Texture": "Assets/Bench2.png:78",
+            "FrontTexture": "Assets/Bench2.png:79",
+            "DisplaySize": {"X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.12, "Y": 0.2 },
+               { "X": 0.12, "Y": 0.5 },
+               { "X": 0.12, "Y": 0.9 }
+            ],
+            "SittingDirection": "Right"
+         },
+         {
+            "Texture": "Assets/Bench2.png:28",
+            "FrontTexture": "Assets/Bench2.png:29",
+            "DisplaySize": {"X": 3, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false,
+            "Seats": [
+               { "X": 0.63, "Y": 0.1 },
+               { "X": 1.39, "Y": 0.1 }
+            ],
+            "SittingDirection": "Up"
+         },
+         {
+            "Texture": "Assets/Bench2.png:78",
+            "FrontTexture": "Assets/Bench2.png:79",
+            "DisplaySize": {"X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": true,
+            "Seats": [
+               { "X": -0.12, "Y": 0.2 },
+               { "X": -0.12, "Y": 0.5 },
+               { "X": -0.12, "Y": 0.9 }
+            ],
+            "SittingDirection": "Left"
+         }
+      ]
+   },
+//Walnut
+   {
+      "$ItemType": "Furniture",
+      "ID": "WalnutStand",
+      "Type": "Table",
+      "Configurations": [
+         {
+            "Texture": "Assets/Walnut.png:0",
+            "DisplaySize": { "X": 1, "Y": 2 },
+            "CollisionHeight": 1
+         },
+         {
+            "Texture": "Assets/Walnut.png:1",
+            "DisplaySize": { "X": 1, "Y": 2 },
+            "CollisionHeight": 1
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "WalnutDresserS",
+      "Type": "Dresser",
+      "Configurations": [
+         {
+            "Texture": "Assets/Walnut.png:5",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Walnut.png:9",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Walnut.png:10",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Walnut.png:9",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": true
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "WalnutDresserL",
+      "Type": "Dresser",
+      "Configurations": [
+         {
+            "Texture": "Assets/Walnut.png:6",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1
+         },
+         {
+            "Texture": "Assets/Walnut.png:8",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2
+         },
+         {
+            "Texture": "Assets/Walnut.png:11",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1
+         },
+         {
+            "Texture": "Assets/Walnut.png:8",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "WalnutDesk",
+      "Type": "Table",
+      "Configurations": [
+         {
+            "Texture": "Assets/Walnut.png:7",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Walnut.png:18",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Walnut.png:12",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Walnut.png:18",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": true
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "WalnutVanity",
+      "Type": "Dresser",
+      "Configurations": [
+         {
+            "Texture": "Assets/Walnut.png:3",
+            "DisplaySize": { "X": 2, "Y": 3 },
+            "CollisionHeight": 1,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Walnut.png:19",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Walnut.png:8",
+            "DisplaySize": { "X": 2, "Y": 3 },
+            "CollisionHeight": 1,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Walnut.png:19",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": true
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "WalnutVanityMirror",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "Assets/Walnut.png:4",
+            "DisplaySize": { "X": 1, "Y": 2 },
+            "CollisionHeight": 1
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "WalnutMirror",
+      "Type": "Painting",
+      "Configurations": [
+         {
+            "Texture": "Assets/Walnut.png:1",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 2
+         }
+      ]
+   },
+//Ebony
+   {
+      "$ItemType": "Furniture",
+      "ID": "EbonyStand",
+      "Type": "Table",
+      "Configurations": [
+         {
+            "Texture": "Assets/Ebony.png:0",
+            "DisplaySize": { "X": 1, "Y": 2 },
+            "CollisionHeight": 1
+         },
+         {
+            "Texture": "Assets/Ebony.png:1",
+            "DisplaySize": { "X": 1, "Y": 2 },
+            "CollisionHeight": 1
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "EbonyDresserS",
+      "Type": "Dresser",
+      "Configurations": [
+         {
+            "Texture": "Assets/Ebony.png:5",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Ebony.png:9",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Ebony.png:10",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Ebony.png:9",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": true
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "EbonyDresserL",
+      "Type": "Dresser",
+      "Configurations": [
+         {
+            "Texture": "Assets/Ebony.png:6",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1
+         },
+         {
+            "Texture": "Assets/Ebony.png:8",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2
+         },
+         {
+            "Texture": "Assets/Ebony.png:11",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1
+         },
+         {
+            "Texture": "Assets/Ebony.png:8",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "EbonyDesk",
+      "Type": "Table",
+      "Configurations": [
+         {
+            "Texture": "Assets/Ebony.png:7",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Ebony.png:18",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Ebony.png:12",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Ebony.png:18",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": true
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "EbonyVanity",
+      "Type": "Dresser",
+      "Configurations": [
+         {
+            "Texture": "Assets/Ebony.png:3",
+            "DisplaySize": { "X": 2, "Y": 3 },
+            "CollisionHeight": 1,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Ebony.png:19",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Ebony.png:8",
+            "DisplaySize": { "X": 2, "Y": 3 },
+            "CollisionHeight": 1,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Ebony.png:19",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": true
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "EbonyVanityMirror",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "Assets/Ebony.png:4",
+            "DisplaySize": { "X": 1, "Y": 2 },
+            "CollisionHeight": 1
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "EbonyMirror",
+      "Type": "Painting",
+      "Configurations": [
+         {
+            "Texture": "Assets/Ebony.png:1",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 2
+         }
+      ]
+   },
+//Pine
+   {
+      "$ItemType": "Furniture",
+      "ID": "PineStand",
+      "Type": "Table",
+      "Configurations": [
+         {
+            "Texture": "Assets/Pine.png:0",
+            "DisplaySize": { "X": 1, "Y": 2 },
+            "CollisionHeight": 1
+         },
+         {
+            "Texture": "Assets/Pine.png:1",
+            "DisplaySize": { "X": 1, "Y": 2 },
+            "CollisionHeight": 1
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "PineDresserS",
+      "Type": "Dresser",
+      "Configurations": [
+         {
+            "Texture": "Assets/Pine.png:5",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Pine.png:9",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Pine.png:10",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Pine.png:9",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": true
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "PineDresserL",
+      "Type": "Dresser",
+      "Configurations": [
+         {
+            "Texture": "Assets/Pine.png:6",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1
+         },
+         {
+            "Texture": "Assets/Pine.png:8",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2
+         },
+         {
+            "Texture": "Assets/Pine.png:11",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1
+         },
+         {
+            "Texture": "Assets/Pine.png:8",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "PineDesk",
+      "Type": "Table",
+      "Configurations": [
+         {
+            "Texture": "Assets/Pine.png:7",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Pine.png:18",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Pine.png:12",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Pine.png:18",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": true
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "PineVanity",
+      "Type": "Dresser",
+      "Configurations": [
+         {
+            "Texture": "Assets/Pine.png:3",
+            "DisplaySize": { "X": 2, "Y": 3 },
+            "CollisionHeight": 1,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Pine.png:19",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Pine.png:8",
+            "DisplaySize": { "X": 2, "Y": 3 },
+            "CollisionHeight": 1,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/Pine.png:19",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": true
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "PineVanityMirror",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "Assets/Pine.png:4",
+            "DisplaySize": { "X": 1, "Y": 2 },
+            "CollisionHeight": 1
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "PineMirror",
+      "Type": "Painting",
+      "Configurations": [
+         {
+            "Texture": "Assets/Pine.png:1",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 2
+         }
+      ]
+   },
+//White
+   {
+      "$ItemType": "Furniture",
+      "ID": "WhiteStand",
+      "Type": "Table",
+      "Configurations": [
+         {
+            "Texture": "Assets/White.png:0",
+            "DisplaySize": { "X": 1, "Y": 2 },
+            "CollisionHeight": 1
+         },
+         {
+            "Texture": "Assets/White.png:1",
+            "DisplaySize": { "X": 1, "Y": 2 },
+            "CollisionHeight": 1
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "WhiteDresserS",
+      "Type": "Dresser",
+      "Configurations": [
+         {
+            "Texture": "Assets/White.png:5",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/White.png:9",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/White.png:10",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/White.png:9",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": true
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "WhiteDresserL",
+      "Type": "Dresser",
+      "Configurations": [
+         {
+            "Texture": "Assets/White.png:6",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1
+         },
+         {
+            "Texture": "Assets/White.png:8",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2
+         },
+         {
+            "Texture": "Assets/White.png:11",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1
+         },
+         {
+            "Texture": "Assets/White.png:8",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "WhiteDesk",
+      "Type": "Table",
+      "Configurations": [
+         {
+            "Texture": "Assets/White.png:7",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/White.png:18",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/White.png:12",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 1,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/White.png:18",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": true
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "WhiteVanity",
+      "Type": "Dresser",
+      "Configurations": [
+         {
+            "Texture": "Assets/White.png:3",
+            "DisplaySize": { "X": 2, "Y": 3 },
+            "CollisionHeight": 1,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/White.png:19",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/White.png:8",
+            "DisplaySize": { "X": 2, "Y": 3 },
+            "CollisionHeight": 1,
+            "Flipped": false
+         },
+         {
+            "Texture": "Assets/White.png:19",
+            "DisplaySize": { "X": 1, "Y": 3 },
+            "CollisionHeight": 2,
+            "Flipped": true
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "WhiteVanityMirror",
+      "Type": "Decoration",
+      "Configurations": [
+         {
+            "Texture": "Assets/White.png:4",
+            "DisplaySize": { "X": 1, "Y": 2 },
+            "CollisionHeight": 1
+         }
+      ]
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "WhiteMirror",
+      "Type": "Painting",
+      "Configurations": [
+         {
+            "Texture": "Assets/White.png:1",
+            "DisplaySize": { "X": 2, "Y": 2 },
+            "CollisionHeight": 2
+         }
+      ]
+   }
+]
