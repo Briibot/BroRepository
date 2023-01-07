@@ -1,0 +1,87 @@
+[
+	{
+		"$ItemType": "Furniture",
+		"ID": "Small Garden Bench",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/smallbench.png:0",
+				"FrontTexture": "Assets/smallbench.png:1",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1,
+				"Flipped": false,
+				"Seats": [
+               		{ "X": 0, "Y": 0 }
+            ],
+            "SittingDirection": "Down"
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 300,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Small Garden Bench"
+		}
+	},
+		{
+		"$ItemType": "Furniture",
+		"ID": "Medium Garden Bench",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/mediumbench.png:0",
+				"FrontTexture": "Assets/mediumbench.png:1",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1,
+				"Flipped": false,
+				 "Seats": [
+               { "X": 0.5, "Y": 0 }
+            ],
+            "SittingDirection": "Down"
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 500,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Medium Garden Bench"
+		}
+	},
+		{
+		"$ItemType": "Furniture",
+		"ID": "Large Garden Bench",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/largebench.png:0",
+				"FrontTexture": "Assets/largebench.png:1",
+				"DisplaySize": { "X": 3, "Y": 2 },
+				"CollisionHeight": 1,
+				"Flipped": false,
+				 "Seats": [
+               { "X": 0.5, "Y": 0 },
+               { "X": 1.5, "Y": 0 }
+            ],
+            "SittingDirection": "Down"
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 800,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Large Garden Bench"
+		}
+	},
+]

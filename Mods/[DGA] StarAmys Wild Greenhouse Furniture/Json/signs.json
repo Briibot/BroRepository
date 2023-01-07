@@ -1,0 +1,29 @@
+[
+	{
+		"$ItemType": "Furniture",
+		"ID": "Zoo Banner",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/signs.png:0",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/signs.png:1",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1
+			},
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 600,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Zoo Banner"
+		}
+	},
+]

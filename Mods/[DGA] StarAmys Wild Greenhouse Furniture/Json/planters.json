@@ -1,0 +1,59 @@
+[
+	{
+		"$ItemType": "Furniture",
+		"ID": "Large Planter",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/largeplanters.png:0",
+				"DisplaySize": { "X": 3, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/largeplanters.png:1",
+				"DisplaySize": { "X": 3, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/largeplanters.png:2",
+				"DisplaySize": { "X": 3, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/largeplanters.png:3",
+				"DisplaySize": { "X": 3, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/largeplanters.png:4",
+				"DisplaySize": { "X": 3, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/largeplanters.png:5",
+				"DisplaySize": { "X": 3, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/largeplanters.png:6",
+				"DisplaySize": { "X": 3, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/largeplanters.png:7",
+				"DisplaySize": { "X": 3, "Y": 2 },
+				"CollisionHeight": 1
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 300,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Large Planter"
+		}
+	},
+]

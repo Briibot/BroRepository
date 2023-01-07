@@ -1,0 +1,31 @@
+[
+	{
+		"$ItemType": "Furniture",
+		"ID": "Wild Window",
+		"Type": "Window",
+		"Configurations": [
+			{
+				"Texture": "assets/window.png:0",
+				"NightTexture": "assets/window.png:1",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/window.png:2",
+				"NightTexture": "assets/window.png:3",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 400,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Wild Window"
+		}
+	},
+]

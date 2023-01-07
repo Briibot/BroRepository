@@ -1,0 +1,49 @@
+[//decorative crates
+	{
+		"$ItemType": "Furniture",
+		"ID": "Stone Flooring Rug",
+		"Type": "Rug",
+		"Configurations": [
+			{
+				"Texture": "assets/stone_floor.png:0",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/stone_floor.png:1",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/stone_floor.png:2",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/stone_floor.png:3",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/stone_floor.png:4",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/stone_floor.png:5",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 40,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Stone Flooring Rug"
+		}
+	},
+]

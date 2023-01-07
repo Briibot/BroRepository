@@ -1,0 +1,13 @@
+{
+  "Name": "[CF] Casual Furniture",
+   "Author": "katestardew",
+   "Version": "1.0.0",
+   "Description": "Casual Furniture by katestardew in CF pack.",
+   "UniqueID": "katestardew.CF.casualfurniture",
+   "MinimumApiVersion": "2.5.2",
+   "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFurniture",
+    "MinimumVersion": "0.8.6"
+  }
+}

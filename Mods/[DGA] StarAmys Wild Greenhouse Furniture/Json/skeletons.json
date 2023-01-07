@@ -1,0 +1,187 @@
+[
+	//posters
+	{
+		"$ItemType": "Furniture",
+		"ID": "Small Skeleton on Stand",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/small_skeletons.png:0",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/small_skeletons.png:1",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/small_skeletons.png:2",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/small_skeletons.png:3",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/bat.png:0",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/small_skeletons.png:4",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/small_skeletons.png:5",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/small_skeletons.png:6",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/small_skeletons.png:7",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			},
+	
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 400,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Small Skeleton on Stand"
+		}
+	},
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 800,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Large Skeleton"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Large Skeleton",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/deer.png:0",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/Caribou.png:0",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/bison.png:0",
+				"DisplaySize": { "X": 3, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/deer.png:1",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/Caribou.png:1",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/bison.png:1",
+				"DisplaySize": { "X": 3, "Y": 2 },
+				"CollisionHeight": 1
+			},
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 1200,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Whale Skeleton on Stand"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Whale Skeleton on Stand",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/small_whale_stand.png:0",
+				"DisplaySize": { "X": 4, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/large_whale_stand.png:0",
+				"DisplaySize": { "X": 6, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/small_whale_stand.png:1",
+				"DisplaySize": { "X": 4, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/large_whale_stand.png:1",
+				"DisplaySize": { "X": 6, "Y": 3 },
+				"CollisionHeight": 1
+			},
+		]
+	},	
+	{
+		"$ItemType": "Furniture",
+		"ID": "Wall Mounted Whale Skeleton",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/small_whale_wall.png:0",
+				"DisplaySize": { "X": 4, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/large_whale_wall.png:0",
+				"DisplaySize": { "X": 6, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/small_whale_wall.png:1",
+				"DisplaySize": { "X": 4, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/large_whale_wall.png:1",
+				"DisplaySize": { "X": 6, "Y": 2 },
+				"CollisionHeight": 2
+			},
+		]
+	},
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 1200,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Wall Mounted Whale Skeleton"
+		}
+	},
+]

@@ -1,0 +1,140 @@
+[
+	{
+		"$ItemType": "Furniture",
+		"ID": "Large Oak Tree",
+		"Type": "Lamp",
+		"Configurations": [
+			{
+				"Texture": "assets/oak_tree.png:1",
+				"NightTexture": "assets/oak_tree.png:0",
+				"DisplaySize": { "X": 5, "Y": 7 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/oak_tree_birds.png:0@10, assets/oak_tree_birds.png:1@10, assets/oak_tree_birds.png:2@10, assets/oak_tree_birds.png:3@10, assets/oak_tree_birds.png:4@10, assets/oak_tree_birds.png:5@10, assets/oak_tree_birds.png:6@10",
+				"NightTexture": "assets/oak_tree_birds.png:7",
+				"DisplaySize": { "X": 5, "Y": 7 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/oak_tree_bats.png:0",
+				"NightTexture": "assets/oak_tree_bats.png:1@200, assets/oak_tree_bats.png:2@10, assets/oak_tree_bats.png:3@10, assets/oak_tree_bats.png:4@10, assets/oak_tree_bats.png:5@10, assets/oak_tree_bats.png:6@10, assets/oak_tree_bats.png:5@10, assets/oak_tree_bats.png:4@10, assets/oak_tree_bats.png:3@10, assets/oak_tree_bats.png:2@10",
+				"DisplaySize": { "X": 5, "Y": 7 },
+				"CollisionHeight": 1
+			},
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 2000,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Large Oak Tree"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Palm Tree",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/palm_tree.png",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 1
+			},
+		
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 600,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Palm Tree"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Japanese Maple Tree",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/red_maple.png:0",
+				"DisplaySize": { "X": 4, "Y": 4 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/red_maple.png:1",
+				"DisplaySize": { "X": 4, "Y": 4 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/orange_maple.png:0",
+				"DisplaySize": { "X": 4, "Y": 4 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/orange_maple.png:1",
+				"DisplaySize": { "X": 4, "Y": 4 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/green_maple.png:0",
+				"DisplaySize": { "X": 4, "Y": 4 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/green_maple.png:1",
+				"DisplaySize": { "X": 4, "Y": 4 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/coral_bark_maple.png:0",
+				"DisplaySize": { "X": 4, "Y": 4 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/coral_bark_maple.png:1",
+				"DisplaySize": { "X": 4, "Y": 4 },
+				"CollisionHeight": 1
+			},
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 1200,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Japanese Maple Tree"
+		}
+	},
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 800,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Dark Wood Windmill"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Dark Wood Windmill",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/windmill.png:0@10, assets/windmill.png:1@10, assets/windmill.png:2@10, assets/windmill.png:3@10, assets/windmill.png:4@10,assets/windmill.png:5@10",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+		
+		]
+	},	
+]

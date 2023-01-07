@@ -1,0 +1,357 @@
+
+[
+	{
+		"$ItemType": "Furniture",
+		"ID": "Fancy Bog Display",
+		"Type": "Lamp",
+		"Configurations": [
+			{
+				"Texture": "assets/bog.png:0@10, assets/bog.png:1@30, assets/bog.png:2@30, assets/bog.png:3@30, assets/bog.png:4@30, assets/bog.png:5@30",
+				"DisplaySize": { "X": 3, "Y": 3 },
+				"CollisionHeight": 1
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 1000,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Fancy Bog Display"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Firefly Display",
+		"Type": "Lamp",
+		"Configurations": [
+			{
+				"Texture": "assets/firefly_display.png:0@30, assets/firefly_display.png:1@30, assets/firefly_display.png:2@30, assets/firefly_display.png:3@30, assets/firefly_display.png:4@30, assets/firefly_display.png:5@30",
+				"DisplaySize": { "X": 3, "Y": 3 },
+				"CollisionHeight": 1
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 1000,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Firefly Display"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Orchid Display",
+		"Type": "Lamp",
+		"Configurations": [
+			{
+				"Texture": "assets/orchid_display.png:0@100, assets/orchid_display.png:1@40",
+				"DisplaySize": { "X": 3, "Y": 3 },
+				"CollisionHeight": 1
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 1000,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Orchid Display"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Dart Frog Display",
+		"Type": "Lamp",
+		"Configurations": [
+			{
+				"Texture": "assets/dart_frog_display.png:0@10, assets/dart_frog_display.png:1@10, assets/dart_frog_display.png:2@10, assets/dart_frog_display.png:3@10, assets/dart_frog_display.png:4@10, assets/dart_frog_display.png:5@10",
+				"DisplaySize": { "X": 3, "Y": 3 },
+				"CollisionHeight": 1
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 1000,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Dart Frog Display"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Anthill Display",
+		"Type": "Lamp",
+		"Configurations": [
+			{
+				"Texture": "assets/anthill_display.png:0@30, assets/anthill_display.png:1@30, assets/anthill_display.png:2@30, assets/anthill_display.png:3@30",
+				"DisplaySize": { "X": 3, "Y": 3 },
+				"CollisionHeight": 1
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 1000,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Anthill Display"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Brackish Display",
+		"Type": "Lamp",
+		"Configurations": [
+			{
+				"Texture": "assets/brackish_display.png:0@20, assets/brackish_display.png:1@20, assets/brackish_display.png:2@20, assets/brackish_display.png:3@20, assets/brackish_display.png:4@20, assets/brackish_display.png:5@20, assets/brackish_display.png:6@20, assets/brackish_display.png:7@20, assets/brackish_display.png:8@20, assets/brackish_display.png:9@20",
+				"DisplaySize": { "X": 3, "Y": 3 },
+				"CollisionHeight": 1
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 1000,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Brackish Display"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Anemone Display",
+		"Type": "Lamp",
+		"Configurations": [
+			{
+				"Texture": "assets/anemone_display.png:0@30, assets/anemone_display.png:1@30",
+				"DisplaySize": { "X": 3, "Y": 3 },
+				"CollisionHeight": 1
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 1000,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Anemone Display"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "False Insect Display",
+		"Type": "Lamp",
+		"Configurations": [
+			{
+				"Texture": "assets/false_insect_display.png:0@100, assets/false_insect_display.png:1@200",
+				"DisplaySize": { "X": 3, "Y": 3 },
+				"CollisionHeight": 1
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 1000,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/False Insect Display"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Lorikeet Wall Display",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/vertical_displays.png:0@100, assets/vertical_displays.png:1@10",
+				"NightTexture": "assets/vertical_displays.png:1",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 3
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 1000,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Lorikeet Wall Display"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Freshwater Wall Display",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/vertical_displays.png:2@20, assets/vertical_displays.png:3@20, assets/vertical_displays.png:4@20",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 3
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 1000,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Freshwater Wall Display"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Dart Frog Wall Display",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/vertical_displays.png:5@20, assets/vertical_displays.png:6@20, assets/vertical_displays.png:7@20",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 3
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 1000,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Dart Frog Wall Display"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Ferret Wall Display",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/vertical_displays.png:8@100, assets/vertical_displays.png:9@10",
+				"NightTexture": "assets/vertical_displays.png:10",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 3
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 1000,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Ferret Wall Display"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Saltwater Wall Display",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/vertical_displays.png:11@20, assets/vertical_displays.png:12@20, assets/vertical_displays.png:13@20",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 3
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 1000,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Saltwater Wall Display"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Plant Wall Display",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/vertical_displays.png:14",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 3
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 1000,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Plant Wall Display"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Brine Shrimp Hatchery",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/brine_shrimp.png:0@10, assets/brine_shrimp.png:1@10, assets/brine_shrimp.png:2@10, assets/brine_shrimp.png:3@10",
+				"DisplaySize": { "X": 3, "Y": 4 },
+				"CollisionHeight": 1
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 1000,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Brine Shrimp Hatchery"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Fish Hatchery",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/fish_hatchery.png:0@10, assets/fish_hatchery.png:1@10",
+				"DisplaySize": { "X": 3, "Y": 3 },
+				"CollisionHeight": 1
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 1000,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Fish Hatchery"
+		}
+	},
+]

@@ -1,0 +1,12 @@
+{
+   "Name": "Cuter Fatter Goat",
+   "Author": "IdentityPollution",
+   "Version": "1.0.0",
+   "Description": "IdentityPollution's cuter fatter goat",
+   "UniqueID": "CuteFat.Goat",
+   "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

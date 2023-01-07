@@ -1,0 +1,364 @@
+[
+	{
+		"$ItemType": "Furniture",
+		"ID": "Fish Mount",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/fish_mounts.png:0",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:1",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:2",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:3",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:4",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:5",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:6",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:7",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:8",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:9",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:10",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:11",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:12",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:13",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:14",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:15",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:16",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:17",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:18",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:19",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:20",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:21",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:22",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+						{
+				"Texture": "assets/fish_mounts.png:23",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:24",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:25",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:26",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:27",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:28",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:29",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:30",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:31",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:32",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:33",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:34",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:35",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:36",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:37",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:38",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:39",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:40",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:41",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/fish_mounts.png:42",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 160,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Fish Mount"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Angler Mount",
+		"Type": "Painting",
+		"ShowInCatalogue": false,
+		"Configurations": [
+			{
+				"Texture": "assets/fish_mounts.png:48",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+		]
+	},	
+	{
+		"$ItemType": "Furniture",
+		"ID": "Ms Angler Mount",
+		"Type": "Painting",
+		"ShowInCatalogue": false,
+		"Configurations": [
+			{
+				"Texture": "assets/fish_mounts.png:49",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+		]
+	},	
+	{
+		"$ItemType": "Furniture",
+		"ID": "Crimsonfish Mount",
+		"Type": "Painting",
+		"ShowInCatalogue": false,
+		"Configurations": [
+			{
+				"Texture": "assets/fish_mounts.png:50",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+		]
+	},	
+	{
+		"$ItemType": "Furniture",
+		"ID": "Son of Crimsonfish Mount",
+		"Type": "Painting",
+		"ShowInCatalogue": false,
+		"Configurations": [
+			{
+				"Texture": "assets/fish_mounts.png:51",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+		]
+	},	
+	{
+		"$ItemType": "Furniture",
+		"ID": "Mutant Carp Mount",
+		"Type": "Painting",
+		"ShowInCatalogue": false,
+		"Configurations": [
+			{
+				"Texture": "assets/fish_mounts.png:52",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+		]
+	},	
+	{
+		"$ItemType": "Furniture",
+		"ID": "Radioactive Carp Mount",
+		"Type": "Painting",
+		"ShowInCatalogue": false,
+		"Configurations": [
+			{
+				"Texture": "assets/fish_mounts.png:53",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+		]
+	},	
+	{
+		"$ItemType": "Furniture",
+		"ID": "Glacierfish Mount",
+		"Type": "Painting",
+		"ShowInCatalogue": false,
+		"Configurations": [
+			{
+				"Texture": "assets/fish_mounts.png:54",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+		]
+	},	
+	{
+		"$ItemType": "Furniture",
+		"ID": "Glacierfish Jr Mount",
+		"Type": "Painting",
+		"ShowInCatalogue": false,
+		"Configurations": [
+			{
+				"Texture": "assets/fish_mounts.png:55",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+		]
+	},	
+	{
+		"$ItemType": "Furniture",
+		"ID": "Legend Mount",
+		"Type": "Painting",
+		"ShowInCatalogue": false,
+		"Configurations": [
+			{
+				"Texture": "assets/fish_mounts.png:56",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+		]
+	},	
+	{
+		"$ItemType": "Furniture",
+		"ID": "Legend Two Mount",
+		"Type": "Painting",
+		"ShowInCatalogue": false,
+		"Configurations": [
+			{
+				"Texture": "assets/fish_mounts.png:57",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+		]
+	},	
+]

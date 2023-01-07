@@ -1,0 +1,16 @@
+{
+  "Format": "1.3",
+  "Changes": [
+
+       {
+          "Action": "Load",
+          "Target": "Animals/BabyGoat",
+          "FromFile": "assets/BabyGoat.xnb"
+       },
+       {
+          "Action": "Load",
+          "Target": "Animals/Goat",
+          "FromFile": "assets/Goat.xnb"
+       },
+    ]
+}

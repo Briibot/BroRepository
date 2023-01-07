@@ -1,0 +1,13 @@
+﻿{
+	"Name": "StarAmys Wild Greenhouse Furniture",
+	"Author": "StarAmy",
+	"Version": "1.2.1",
+	"Description": "Adds plant and animal themed furniture through DGA.",
+	"UniqueID": "staramy.furniture",
+	"MinimumApiVersion": "3.13.0",
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.DynamicGameAssets"
+	},
+	"DGA.FormatVersion": 2,
+	"DGA.ConditionsFormatVersion": "1.23.0"
+}

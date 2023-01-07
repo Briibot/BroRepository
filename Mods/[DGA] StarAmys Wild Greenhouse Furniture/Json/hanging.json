@@ -1,0 +1,309 @@
+[
+	{
+		"$ItemType": "Furniture",
+		"ID": "Hanging Peppers",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/redpeppers.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/greenpeppers.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/yellowpeppers.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 80,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Hanging Peppers"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Hanging Garlic",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/garlic.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 80,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Hanging Garlic"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Hanging Dried Flowers",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/lupine.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/dandelions.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/bellflowers.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/poppies.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/daisies.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/tulips.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/sunflowers.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/callalillies.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/sweetpeas.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/daffodils.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 80,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Hanging Dried Flowers"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Hanging Nepenthes",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/nepenthes.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 120,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Hanging Nepenthes"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Hanging Tool",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/hanging_shovel.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/hanging_pitchfork.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/hanging_scythe.png",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 2
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 120,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Hanging Tool"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Hanging Nectar Feeder",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/nectar_feeder.png:0@60, assets/nectar_feeder.png:1@10, assets/nectar_feeder.png:0@60, assets/nectar_feeder.png:1@10, assets/nectar_feeder.png:0@60, assets/nectar_feeder.png:1@10, assets/nectar_feeder.png:0@60, assets/nectar_feeder.png:2@10, assets/nectar_feeder.png:3@30, assets/nectar_feeder.png:2@10,",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 560,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Hanging Nectar Feeder"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Hummingbird Feeder",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/hummingbird.png:3@5, assets/hummingbird.png:1@5, assets/hummingbird.png:2@5, assets/hummingbird.png:1@5, assets/hummingbird.png:0@5, assets/hummingbird.png:1@5, assets/hummingbird.png:0@5, assets/hummingbird.png:1@5, assets/hummingbird.png:0@5, assets/hummingbird.png:1@5, assets/hummingbird.png:2@5, assets/hummingbird.png:1@5, assets/hummingbird.png:0@5, assets/hummingbird.png:3@5, assets/hummingbird.png:4@5, assets/hummingbird.png:5@5, assets/hummingbird.png:4@5",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 460,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Hummingbird Feeder"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Wall Plant",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/wall_plant_one.png",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/wall_plant_two.png",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/wall_plant_three.png",
+				"DisplaySize": { "X": 2, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/wall_plant_four.png",
+				"DisplaySize": { "X": 1, "Y": 3 },
+				"CollisionHeight": 2
+			},
+
+		]
+	},	
+	{
+	"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 200,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Wall Plant"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Jellyfish Mural",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/moon_jellies.png",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 3
+			},
+			{
+				"Texture": "assets/sea_nettles.png",
+				"DisplaySize": { "X": 2, "Y": 3 },
+				"CollisionHeight": 3
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 200,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Jellyfish Mural"
+		}
+	},
+	{
+		"$ItemType": "Furniture",
+		"ID": "Hanging Bat Box",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/bat_box.png:0",
+				"NightTexture": "assets/bat_box.png:1@10, assets/bat_box.png:2@10, assets/bat_box.png:3@10, assets/bat_box.png:4@20, assets/bat_box.png:5@20, assets/bat_box.png:4@20, assets/bat_box.png:5@40, assets/bat_box.png:4@20, assets/bat_box.png:3@10, assets/bat_box.png:2@10, assets/bat_box.png:1@10, assets/bat_box.png:0@600",
+				"DisplaySize": { "X": 1, "Y": 1 },
+				"CollisionHeight": 1
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 400,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Hanging Bat Box"
+		}
+	},
+]

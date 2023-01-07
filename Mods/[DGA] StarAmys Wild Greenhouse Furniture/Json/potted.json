@@ -1,0 +1,242 @@
+[
+	//potted
+	{
+		"$ItemType": "Furniture",
+		"ID": "Potted Plant",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/potted.png:0",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:1",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:2",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:3",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:4",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:5",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:6",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:7",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:8",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:9",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:10",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:11",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:12",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:13",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:14",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:15",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:16",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:17",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:18",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:19",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:20",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:21",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:22",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:23",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:24",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:25",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:26",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:27",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:28",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:29",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:30",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:31",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:32",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:33",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:34",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:35",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:36",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:37",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:38",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:39",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:40",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:41",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:42",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/potted.png:43",
+				"DisplaySize": { "X": 1, "Y": 2 },
+				"CollisionHeight": 1
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 160,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Potted Plant"
+		}
+	},
+
+
+]

@@ -1,0 +1,59 @@
+[
+	{
+		"$ItemType": "Furniture",
+		"ID": "Decorative Screen",
+		"Type": "Decoration",
+		"Configurations": [
+			{
+				"Texture": "assets/screen_dividers.png:0",
+				"DisplaySize": { "X": 3, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/screen_dividers.png:1",
+				"DisplaySize": { "X": 3, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/screen_dividers.png:2",
+				"DisplaySize": { "X": 3, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/screen_dividers.png:3",
+				"DisplaySize": { "X": 3, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/screen_dividers.png:4",
+				"DisplaySize": { "X": 3, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/screen_dividers.png:5",
+				"DisplaySize": { "X": 3, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/screen_dividers.png:6",
+				"DisplaySize": { "X": 3, "Y": 3 },
+				"CollisionHeight": 1
+			},
+			{
+				"Texture": "assets/screen_dividers.png:7",
+				"DisplaySize": { "X": 3, "Y": 3 },
+				"CollisionHeight": 1
+			},
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 400,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Decorative Screen"
+		}
+	}
+]

@@ -1,0 +1,80 @@
+[
+	//posters
+	{
+		"$ItemType": "Furniture",
+		"ID": "Nature Poster",
+		"Type": "Painting",
+		"Configurations": [
+			{
+				"Texture": "assets/batposter.png",
+				"DisplaySize": { "X": 3, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/mushroomposter.png",
+				"DisplaySize": { "X": 3, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/riverposter.png",
+				"DisplaySize": { "X": 3, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/reefposter.png",
+				"DisplaySize": { "X": 3, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/desertposter.png",
+				"DisplaySize": { "X": 3, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/bogposter.png",
+				"DisplaySize": { "X": 3, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/tropicalfrogposter.png",
+				"DisplaySize": { "X": 3, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/toucanposter.png",
+				"DisplaySize": { "X": 3, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/flowerposter.png",
+				"DisplaySize": { "X": 3, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/winterposter.png",
+				"DisplaySize": { "X": 3, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/butterflyposter.png",
+				"DisplaySize": { "X": 3, "Y": 2 },
+				"CollisionHeight": 2
+			},
+			{
+				"Texture": "assets/beachposter.png",
+				"DisplaySize": { "X": 3, "Y": 2 },
+				"CollisionHeight": 2
+			}
+		]
+	},	
+	{
+		"$ItemType": "ShopEntry",
+		"ShopId": "Carpenter",
+		"Cost": 400,
+		"Item":  
+		{
+			"Type": "DGAItem",
+			"Value": "staramy.furniture/Nature Poster"
+		}
+	},
+]
